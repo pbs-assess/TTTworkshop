@@ -138,7 +138,7 @@ If you cannot attend then please email me and your local TESA rep.
 | NL    | Luiz Mello |
 
 ### External participant
-| Region | Name | 
+| Institute | Name | 
 | ------ | -----|
 | Northwest Fisheries Science Center, NOAA, USA | Ian Taylor|
 
