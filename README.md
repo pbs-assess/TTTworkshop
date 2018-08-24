@@ -90,40 +90,48 @@ GitHub repositories to share code.
 
 (From Susan's 23rd July spreadsheet, Andy updated Pacific participants, then continually updating as necessary).
 
-
 | Region | Name | 
 | ------ | -----|
 | PAC	| Kendra Holt |
-| PAC	| Dana Haggarty |
+| PAC	| Carrie Holt |
 | PAC	| Brooke Davis |
+| PAC	| Jaclyn Cleary |
+| PAC   | Catarina Wor |
+| PAC   | Shannon Obradovich |
+| PAC   | Jackie King |
+| PAC   | Erika Anderson |
+| PAC   | Cameron Freshwater |
+| PAC   | Hai Nguyen |
+| C&A   | Ross Tallman |
+| C&A   | Kevin Hedges |
+| C&A   | Xinhua Zhu |
+| C&A   | Marianne Marcoux |
+| C&A   | Kim Howland |
+| QUE   | Daniel Duplisea |
+| QUE   | Mathieu Desgagnés |
+| QUE   | Hugues Benoit |
+| QUE   | Marie-Julie Roux |
+| GULF  | Daniel Ricard |
+| GULF  | David Fishman |
+| GULF  | Tobie Surette |
+| MAR   | TBC - 1 |
+| MAR   | TBC - 2 |
+| MAR   | TBC - 3 |
+| MAR   | TBC - 4 |
+| MAR   | TBC - 5 |
+| NL    | Mark Simpson |
+| NL    | Bob Rogers |
+| NL    | Laura Wheeland |
+| NL    | Karen Dwyer |
+| NL    | Luiz Mello |
 
+### Instructors
 
-PAC	Jaclyn Cleary
-PAC	Catarina Wor
-PAC	Shannon Obradovich
-PAC	Jackie King
-PAC	Erika Anderson
-C&A	Ross Tallman
-C&A	Kevin Hedges
-C&A	Xinhua Zhu
-C&A	Marianne Marcoux
-C&A	Kim Howland
-QUE	Daniel Duplisea
-QUE	Mathieu Desgagnés
-QUE	Hugues Benoit
-QUE	Marie-Julie Roux
-GULF	Daniel Ricard
-GULF	David Fishman
-GULF	Tobie Surette
-MAR	TBC - 1
-MAR	TBC - 2
-MAR	TBC - 3
-MAR	TBC - 4
-MAR	TBC - 5
-NL	Mark Simpson
-NL	Bob Rogers
-NL	Laura Wheeland
-NL	Karen Dwyer
-NL	Luiz Mello
-
+| Region | Name | 
+| ------ | -----|
+| PAC	| Andrew Edwards |
+| PAC	| Chris Grandin |
+| PAC	| Sean Anderson |
+| PAC	| Matt Grinnell |
+| PAC   | Elise Keppel |
 
