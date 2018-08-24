@@ -137,6 +137,11 @@ If you cannot attend then please email me and your local TESA rep.
 | NL    | Karen Dwyer |
 | NL    | Luiz Mello |
 
+### External
+| Region | Name | 
+| ------ | -----|
+| Northwest Fisheries Science Center, NOAA, USA | Ian Taylor|
+
 ### Instructors
 
 | Region | Name | 
