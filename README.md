@@ -29,8 +29,6 @@ assessment. This should lead to a greater transparency and reproducibility in th
 ### Chairs
 Andrew Edwards (PBS) & Daniel Duplisea (IML)
 
-
-
 ### Original schedule
 
 **This was our original rough idea but will be updated a lot since the workshop is four days not five and we may not use TMB much**
@@ -79,6 +77,10 @@ the aim is **not** to have all assessors using the exact same models, but to sta
 from a similar understanding, to share understanding in building stock
 assessment documents, and to generate efficiencies by easily sharing computer code.
 
+## Workshop dinner
+
+We will likely have a group dinner on the Thursday evening.
+
 ## Prerequisites
 Very proficient in R: know how to write functions, construct and tailor figures.
 
@@ -106,7 +108,6 @@ If you cannot attend then please email me and your local TESA rep.
 | ------ | -----|
 | PAC	| Kendra Holt |
 | PAC	| Carrie Holt |
-| PAC	| Brooke Davis |
 | PAC	| Jaclyn Cleary |
 | PAC   | Catarina Wor |
 | PAC   | Shannon Obradovich |
