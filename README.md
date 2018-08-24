@@ -13,6 +13,12 @@ Phone group code CBI-GFC18589 or just use the link [http://coa.st/yuk5](http://c
 
 Please book once you know your travel plans as they like to see some uptake of the rooms. In any case, any unbooked rooms will be released on **27th October**.
 
+**Flights**
+
+Fly into Nanaimo airport (YCD). Air Canada Rouge now has direct flights from Toronto but not every day, so may be worth looking into.
+
+Taxi is about $50 or there is a cheaper [https://nanaimoairporter.com/](shuttle bus). Good idea to book either one ahead (there aren't always too many taxis at the airport). Taxi info [http://www.nanaimoairport.com/air-guide/transportation](here). 
+
 ## Workshop outline (rough, subject to evolution)
 
 ### Purpose
@@ -80,6 +86,10 @@ Some TMB knowledge desirable (maybe).
 
 Knowledge of LaTeX desirable, though Rmarkdown and pandoc may be introduced also.
 
+## Computer programs to be installed
+
+To be determined.
+
 ## Products
 
 Proceedings (Can. Tech. Rep.), which can hopefully be collaboratively written during the workshop as an example of efficiently producing a document.
@@ -89,6 +99,8 @@ GitHub repositories to share code.
 ### Participants
 
 (From Susan's 23rd July spreadsheet, Andy updated Pacific participants, then continually updating as necessary).
+
+If you cannot attend then please email me and your local TESA rep.
 
 | Region | Name | 
 | ------ | -----|
