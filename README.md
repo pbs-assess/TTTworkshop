@@ -17,7 +17,7 @@ Please book once you know your travel plans as they like to see some uptake of t
 
 Fly into Nanaimo airport (YCD). Air Canada Rouge now has direct flights from Toronto but not every day, so may be worth looking into.
 
-Taxi is about $50 or there is a cheaper [https://nanaimoairporter.com/](shuttle bus). Good idea to book either one ahead (there aren't always too many taxis at the airport). Taxi info [http://www.nanaimoairport.com/air-guide/transportation](here). 
+Taxi is about $50 or there is a cheaper [shuttle bus](https://nanaimoairporter.com/). Good idea to book either one ahead (there aren't always too many taxis at the airport). Taxi info [here](http://www.nanaimoairport.com/air-guide/transportation). 
 
 ## Workshop outline (rough, subject to evolution)
 
