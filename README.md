@@ -127,11 +127,6 @@ If you cannot attend then please email me and your local TESA rep.
 | GULF  | Daniel Ricard |
 | GULF  | David Fishman |
 | GULF  | Tobie Surette |
-| MAR   | TBC - 1 |
-| MAR   | TBC - 2 |
-| MAR   | TBC - 3 |
-| MAR   | TBC - 4 |
-| MAR   | TBC - 5 |
 | NL    | Mark Simpson |
 | NL    | Bob Rogers |
 | NL    | Laura Wheeland |
@@ -153,4 +148,4 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Matt Grinnell |
 | PAC   | Elise Keppel |
 
-For email list: remove Brooke.
+For email list: remove Heather Bowlby (leave Brooke on).
