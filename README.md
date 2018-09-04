@@ -31,7 +31,7 @@ Andrew Edwards (PBS) & Daniel Duplisea (IML)
 
 ### Original schedule
 
-**This was our original rough idea but will be updated a lot since the workshop is four days not five and we may not use TMB much**
+**This was our original rough idea but will be updated a lot since the workshop is four days not five and also we have not yet used TMB much. We will clarify closer to the workshop.**
 
 #### Day 1
 
@@ -76,6 +76,12 @@ Note that
 the aim is **not** to have all assessors using the exact same models, but to start
 from a similar understanding, to share understanding in building stock
 assessment documents, and to generate efficiencies by easily sharing computer code.
+
+### To incorporate into schedule
+
+Building of R packages - this is fairly easy now.
+
+Dan R. to discuss experiences using GitLab enterprise.
 
 ## Workshop dinner
 
@@ -132,6 +138,7 @@ If you cannot attend then please email me and your local TESA rep.
 | NL    | Laura Wheeland |
 | NL    | Karen Dwyer |
 | NL    | Luiz Mello |
+| NCR   | Rob Kronlund |
 
 ### External participant
 | Institute | Name | 
@@ -148,4 +155,4 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Matt Grinnell |
 | PAC   | Elise Keppel |
 
-For email list: remove Heather Bowlby (leave Brooke on).
+For email list: remove Heather Bowlby, add Rob Kronlund (and leave Brooke on even though she can't make it).
