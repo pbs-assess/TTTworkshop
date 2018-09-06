@@ -121,6 +121,7 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC   | Erika Anderson |
 | PAC   | Cameron Freshwater |
 | PAC   | Hai Nguyen |
+| PAC   | Chris Rooper |
 | C&A   | Ross Tallman |
 | C&A   | Kevin Hedges |
 | C&A   | Xinhua Zhu |
@@ -155,4 +156,4 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Matt Grinnell |
 | PAC   | Elise Keppel |
 
-For email list: remove Heather Bowlby, add Rob Kronlund (and leave Brooke on even though she can't make it).
+For email list: remove Heather Bowlby, add Rob Kronlund and Chris Rooper (and leave Brooke on even though she can't make it).
