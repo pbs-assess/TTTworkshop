@@ -29,9 +29,11 @@ assessment. This should lead to a greater transparency and reproducibility in th
 ### Chairs
 Andrew Edwards (PBS) & Daniel Duplisea (IML)
 
-### Original schedule
+### Updated schedule (still subject to change as we get closer)
 
-**This was our original rough idea but will be updated a lot since the workshop is four days not five and also we have not yet used TMB much. We will clarify closer to the workshop.**
+**Note:** The original idea for the workshop mentioned TMB (Template Model Builder) a fair bit as many people had taken the TESA TMB course in January 2018. However, we will focus more on building assessment documents based on the output of models, rather than running the models themselves. So whether the assessment model is run using TMB or something else is not so important for this workshop.
+
+If anyone does have TMB code that they using operationally (we do have some but have not used it for real assessments yet) they can hopefully integrate it into the workshop. But knowledge of TMB is not necessary for everyone.
 
 #### Day 1
 
@@ -41,19 +43,20 @@ Introduction to git and GitHub for easily sharing code and collaborating (Edward
 
 #### Day 2
 
-Running of a catch-at-age model in TMB (Template Model Builder) and
-importing some results into a knitr/LaTeX format to automatically
+Importing results from an assessment model into a knitr/LaTeX/Rmarkdown format to automatically
 generate figures and tables. The structure for setting up such a system
-will be explained, based on our experiences with annual Pacific Hake and
-Pacific Herring assessments. If the model changes then the whole document
+will be explained, based on our experiences with annual Pacific Hake,
+Pacific Herring and Pacific Cod assessments. Code is easily shared between authors via GitHub so that they can continually build the updated document.
+
+If the model changes and is re-run then the whole document
 is automatically updated, including figures, tables and values in the
 text. This is especially valuable for assessments conducted annually.
 Led by Edwards, Grandin, Anderson, Grinnell, ... 
  
-#### Days 3-5
+#### Days 3-4 (rough ideas)
 
- Participants to improve the existing TMB, figure and table code. They
- would extend code in a way that is generalizable, understandable and
+ Participants to improve the existing code for documentation, producing figures and tables. They
+ would extend code in a way that is generalisable, understandable and
  usable by others (e.g. R functions that are documented with options),
  while satisfying their local needs. Simpler surplus-production and
  delay-difference model examples could also be built. Participants can use
@@ -64,16 +67,16 @@ Led by Edwards, Grandin, Anderson, Grinnell, ...
  Precautionary-Approach diagram. We could agree on one standardised
  (but still customisable) version across DFO.
 
-The workshop is very timely as it builds on the recent TESA "Introduction to TMB
+**Original motivation** The workshop is very timely as it builds on the recent TESA "Introduction to TMB
 workshop" that DFO participants attended and gave very favourable reviews.
 If DFO stock assessment scientists are going to convert their existing models
 into TMB then it makes sense to at least start from some common methdology. This
 will also make it easier to incorporate ecosystem effects into such models,
 since TMB code is relatively short, and common starting point will allow
-assessors in different regions to build upon each others' experiences. 
+assessors in different regions to build upon each others' experiences. **Current thinking** TMB will **not** be a major part of the workshop, but if people do move towards TMB in the future then this workshop will help that, and if they don't plan on using TMB then the workshop is still completely appropriate for building assessment documents.
 
 Note that
-the aim is **not** to have all assessors using the exact same models, but to start
+the aim is **not** to have all assessors using the exact same models (or to build something like Stock Synthesis), but to start
 from a similar understanding, to share understanding in building stock
 assessment documents, and to generate efficiencies by easily sharing computer code.
 
@@ -90,13 +93,13 @@ We will likely have a group dinner on the Thursday evening.
 ## Prerequisites
 Very proficient in R: know how to write functions, construct and tailor figures.
 
-Some TMB knowledge desirable (maybe).
+Knowledge of LaTeX desirable but not essential, since Rmarkdown and pandoc may also be introduced.
 
-Knowledge of LaTeX desirable, though Rmarkdown and pandoc may be introduced also.
+Some TMB knowledge may be desirable - if you have a TMB model that you use then please share it (we do not have any operational models yet in Pacific Region).
 
 ## Computer programs to be installed
 
-To be determined.
+To be determined. May need admin privileges.
 
 ## Products
 
