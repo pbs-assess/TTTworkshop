@@ -88,7 +88,7 @@ Dan R. to discuss experiences using GitLab enterprise.
 
 ## Workshop dinner
 
-We will likely have a group dinner on the Thursday evening.
+We will have a group dinner for those interested -Thursday 6:30pm at the [Firehouse Grill](http://www.firehousegrillnanaimo.com/).
 
 ## Prerequisites
 Very proficient in R: know how to write functions, construct and tailor figures.
