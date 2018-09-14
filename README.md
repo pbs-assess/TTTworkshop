@@ -123,7 +123,7 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC   | Jackie King |
 | PAC   | Erika Anderson |
 | PAC   | Cameron Freshwater |
-| PAC   | Hai Nguyen |
+| PAC   | Brendan Connors |
 | PAC   | Chris Rooper |
 | C&A   | Ross Tallman |
 | C&A   | Kevin Hedges |
@@ -159,4 +159,4 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Matt Grinnell |
 | PAC   | Elise Keppel |
 
-For email list: remove Heather Bowlby, add Rob Kronlund and Chris Rooper (and leave Brooke on even though she can't make it).
+For email list: remove Heather Bowlby and Hai Nguyen, add Rob Kronlund, Brendan Connors and Chris Rooper (and leave Brooke on even though she can't make it).
