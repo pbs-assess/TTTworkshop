@@ -115,16 +115,6 @@ If you cannot attend then please email me and your local TESA rep.
 
 | Region | Name | 
 | ------ | -----|
-| PAC	| Kendra Holt |
-| PAC	| Carrie Holt |
-| PAC	| Jaclyn Cleary |
-| PAC   | Catarina Wor |
-| PAC   | Shannon Obradovich |
-| PAC   | Jackie King |
-| PAC   | Erika Anderson |
-| PAC   | Cameron Freshwater |
-| PAC   | Brendan Connors |
-| PAC   | Chris Rooper |
 | C&A   | Ross Tallman |
 | C&A   | Kevin Hedges |
 | C&A   | Xinhua Zhu |
@@ -142,6 +132,17 @@ If you cannot attend then please email me and your local TESA rep.
 | NL    | Laura Wheeland |
 | NL    | Karen Dwyer |
 | NL    | Luiz Mello |
+| PAC	| Kendra Holt |
+| PAC	| Carrie Holt |
+| PAC	| Jaclyn Cleary |
+| PAC   | Catarina Wor |
+| PAC   | Shannon Obradovich |
+| PAC   | Jackie King |
+| PAC   | Erika Anderson |
+| PAC   | Cameron Freshwater |
+| PAC   | Brendan Connors |
+| PAC   | Chris Rooper |
+| PAC   | Michael Folkes |
 | NCR   | Rob Kronlund |
 
 ### External participant
@@ -159,4 +160,4 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Matt Grinnell |
 | PAC   | Elise Keppel |
 
-For email list: remove Heather Bowlby and Hai Nguyen, add Rob Kronlund, Brendan Connors and Chris Rooper (and leave Brooke on even though she can't make it).
+For email list: remove Heather Bowlby and Hai Nguyen, add Rob Kronlund, Brendan Connors, Michael Folkes and Chris Rooper (and leave Brooke on even though she can't make it).
