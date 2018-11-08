@@ -143,6 +143,7 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC   | Brendan Connors |
 | PAC   | Chris Rooper |
 | PAC   | Michael Folkes |
+| PAC   | Lingbo Li |
 | NCR   | Rob Kronlund |
 
 ### External participant
@@ -160,4 +161,4 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Matt Grinnell |
 | PAC   | Elise Keppel |
 
-For email list: remove Heather Bowlby and Hai Nguyen, add Rob Kronlund, Brendan Connors, Michael Folkes and Chris Rooper (and leave Brooke on even though she can't make it).
+For email list: remove Heather Bowlby, Ian Taylor and Hai Nguyen, add Rob Kronlund, Brendan Connors, Michael Folkes, Chris Rooper (and leave Brooke on even though she can't make it) and Lingbo Li. 
