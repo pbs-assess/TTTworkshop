@@ -130,7 +130,7 @@ If you cannot attend then please email me and your local TESA rep.
 | NL    | Mark Simpson |
 | NL    | Bob Rogers |
 | NL    | Laura Wheeland |
-| NL    | Karen Dwyer |
+| NL    | Krista Baker |
 | NL    | Luiz Mello |
 | PAC	| Kendra Holt |
 | PAC	| Carrie Holt |
@@ -161,4 +161,4 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Matt Grinnell |
 | PAC   | Elise Keppel |
 
-For email list: remove Heather Bowlby, Ian Taylor and Hai Nguyen, add Rob Kronlund, Brendan Connors, Michael Folkes, Chris Rooper (and leave Brooke on even though she can't make it) and Lingbo Li. 
+For email list: remove Heather Bowlby, Ian Taylor, Karen Dwyer and Hai Nguyen, add Rob Kronlund, Brendan Connors, Michael Folkes, Chris Rooper (and leave Brooke on even though she can't make it), Krista Baker and Lingbo Li. 
