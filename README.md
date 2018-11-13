@@ -35,25 +35,54 @@ Andrew Edwards (PBS) & Daniel Duplisea (IML)
 
 If anyone does have TMB code that they using operationally (we do have some but have not used it for real assessments yet) they can hopefully integrate it into the workshop. But knowledge of TMB is not necessary for everyone.
 
-#### Day 1
+#### Tuesday
 
 Motivation for workshop (Duplisea and Edwards).
 
 Introduction to git and GitHub for easily sharing code and collaborating (Edwards and Grandin).
 
-#### Day 2
+#### Wednesday
 
-Importing results from an assessment model into a knitr/LaTeX/Rmarkdown format to automatically
-generate figures and tables. The structure for setting up such a system
-will be explained, based on our experiences with annual Pacific Hake,
-Pacific Herring and Pacific Cod assessments. Code is easily shared between authors via GitHub so that they can continually build the updated document.
+Quick recap of Tuesday.
 
-If the model changes and is re-run then the whole document
-is automatically updated, including figures, tables and values in the
-text. This is especially valuable for assessments conducted annually.
-Led by Edwards, Grandin, Anderson, Grinnell, ... 
+Simple knitr example and exercises using Rmarkdown, to show automatic (re)generation of figures and tables into a report (Edwards).
+
+Minimal Working Example of building a Res Doc using [csasdown](https://github.com/pbs-assess/csasdown); just use Sean's built-in example (Anderson?).
+
+Simplified version of Pacific Cod assessment, with some exercises for participants (Grandin). If the model changes and is re-run then the whole document
+is automatically updated, including figures, tables and values in the text. This is especially valuable for assessments conducted annually.
+
+Technical Report example, including ongoing building of Proceedings for this meeting (Grinnell).
+
+Maybe: further general tricks, tips and lessons learnt through our ongoing experiences with annual Pacific Hake, Pacific Herring and Pacific Cod assessments, and with the Groundfish synopsis report. We are gradually working out the best workflow for such projects.
  
-#### Days 3-4 (rough ideas)
+#### Thursday
+
+Quick recap of Wednesday.
+
+Thursday morning - Rpackages introduction (Anderson?). Originally we were not going to include this, but having everything in packages does make life easier. And it helps to understand how packages are structured (when you want to delve into them). A short intro will help participants be able to read Hadley Wickham's [free Rpackages book](http://r-pkgs.had.co.nz/).
+
+
+**Translation (the fourth T?)** This is becoming more of an issue with people being asked to shorten their assessment documents to save on translation costs. And it is creating delays in getting Res Docs published (which is particularly problematic for annual assessments). 
+
+Thursday, 1:15pm. Ann Mariscak from our local CSAS office will talk about the translation rules and what is working for getting Res Docs (in particular) translated.
+
+We could look at Rowan Haigh's `linguaFranca()` R function, line 1007 [here](https://github.com/pbs-software/pbs-tools/blob/master/PBStools/R/M01_Utility.r). And maybe share code from participants from other regions.
+
+#### Friday
+
+To be determined by participants' desires. We should practice collaborating by making further examples. The best way to get the idea of these tools is by using them, and it helps to do this *not* during the busy process of actually doing an assessment. And in having a roomful of people to help you.
+
+Short talk on experiences using GitLab enterprise (Ricard).
+
+Form some working groups to, for example, generalise some code? 
+
+Wrap up (Duplisea and Edwards).
+
+----
+
+
+**Other further ideas, keeping here for now**
 
  Participants to improve the existing code for documentation, producing figures and tables. They
  would extend code in a way that is generalisable, understandable and
@@ -80,26 +109,23 @@ the aim is **not** to have all assessors using the exact same models (or to buil
 from a similar understanding, to share understanding in building stock
 assessment documents, and to generate efficiencies by easily sharing computer code.
 
-### To incorporate into schedule
 
-Building of R packages - this is fairly easy now.
-
-Dan R. to discuss experiences using GitLab enterprise.
 
 ## Workshop dinner
 
 We will have a group dinner for those interested -Thursday 6:30pm at the [Firehouse Grill](http://www.firehousegrillnanaimo.com/).
 
 ## Prerequisites
+
 Very proficient in R: know how to write functions, construct and tailor figures.
 
-Knowledge of LaTeX desirable but not essential, since Rmarkdown and pandoc may also be introduced.
+Knowledge of LaTeX desirable but not essential, since Rmarkdown and pandoc will also be introduced.
 
 Some TMB knowledge may be desirable - if you have a TMB model that you use then please share it (we do not have any operational models yet in Pacific Region).
 
 ## Computer programs to be installed
 
-To be determined. May need admin privileges.
+To be determined. We will send out an email the week of 12th November. You will very likely need admin privileges.
 
 ## Products
 
