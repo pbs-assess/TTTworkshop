@@ -23,7 +23,8 @@ Taxi is about $50 or there is a cheaper [shuttle bus](https://nanaimoairporter.c
 
 ### Purpose
 A workshop to foster a common understanding of modern methods and tools
-in DFO that enables an exchange of knowledge, data and methods for stock
+in DFO that enables an exchange of knowledge, data and 
+ methods for stock
 assessment. This should lead to a greater transparency and reproducibility in the assessment process in DFO.
 
 ### Chairs
@@ -33,11 +34,24 @@ Andrew Edwards (PBS) & Daniel Duplisea (IML)
 
 **Note:** The original idea for the workshop mentioned TMB (Template Model Builder) a fair bit as many people had taken the TESA TMB course in January 2018. However, we will focus more on building assessment documents based on the output of models, rather than running the models themselves. So whether the assessment model is run using TMB or something else is not so important for this workshop.
 
-If anyone does have TMB code that they using operationally (we do have some but have not used it for real assessments yet) they can hopefully integrate it into the workshop. But knowledge of TMB is not necessary for everyone.
+If anyone does have TMB code that they using operationally (we do have some but have not used it for real assessments yet) they can hopefully integrate it into the workshop. But knowledge of TMB is not necessary for everyone, and we may end up not mentioning it all unless someone has a working example.
 
 #### Tuesday
 
-Motivation for workshop (Duplisea and Edwards).
+| Time |  |
+|  ---- |  - |
+| 9:00 | Introductions |
+| 9:15 | Motivation for workshop (Duplisea and Edwards) |
+| 9:45 | Some motivation for using Git (Edwards) |
+| 10:15 | An interactive introduction to Git (Edwards and Grandin) | 
+| 10:30 | Break |
+| 10:45 | Introduction to Git ctd. (including exercises) |
+| 12:00 | Lunch |
+| 13:15 | Introduction to Git ctd. (including exercises) |
+| 14:45 | Break |
+| 15:00 | Introduction to Git ctd. (including exercises) |
+| 16:20 | Overview of the day and plan for tomorrow |
+
 
 Introduction to git and GitHub for easily sharing code and collaborating (Edwards and Grandin).
 
@@ -149,7 +163,6 @@ If you cannot attend then please email me and your local TESA rep.
 | QUE   | Daniel Duplisea |
 | QUE   | Mathieu Desgagnés |
 | QUE   | Hugues Benoit |
-| QUE   | Marie-Julie Roux |
 | GULF  | Daniel Ricard |
 | GULF  | David Fishman |
 | GULF  | Tobie Surette |
@@ -187,4 +200,4 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Matt Grinnell |
 | PAC   | Elise Keppel |
 
-For email list: remove Heather Bowlby, Ian Taylor, Karen Dwyer and Hai Nguyen, add Rob Kronlund, Brendan Connors, Michael Folkes, Chris Rooper (and leave Brooke on even though she can't make it), Krista Baker and Lingbo Li. 
+For email list: remove Heather Bowlby, Ian Taylor, Karen Dwyer, Hai Nguyen, Marie-Julie Roux, add Rob Kronlund, Brendan Connors, Michael Folkes, Chris Rooper (and leave Brooke on even though she can't make it), Krista Baker and Lingbo Li. 
