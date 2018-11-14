@@ -30,6 +30,20 @@ assessment. This should lead to a greater transparency and reproducibility in th
 ### Chairs
 Andrew Edwards (PBS) & Daniel Duplisea (IML)
 
+### Overview of tools to be introduced
+
+We will introduce and demonstrate a number of tools that, when used together, give a very efficient workflow for working on large complex collaborative documents (and other projects).
+
+A quick overview of some of the tools is:
+
+Git and GitHub - a version control system for keeping track of changes to files and for collaborating with other users. 
+
+knitr - combines R code and write-up of results, such that reports can be automatically generated, and easily updated when, say, an assessment model is updated.
+
+Rmarkdown - a simplified way to use knitr with very simple formatting commands 
+
+csasdown - an R package to format a Res Doc in the CSAS style 
+
 ### Updated schedule (still subject to change as we get closer)
 
 **Note:** The original idea for the workshop mentioned TMB (Template Model Builder) a fair bit as many people had taken the TESA TMB course in January 2018. However, we will focus more on building assessment documents based on the output of models, rather than running the models themselves. So whether the assessment model is run using TMB or something else is not so important for this workshop.
@@ -45,15 +59,13 @@ If anyone does have TMB code that they using operationally (we do have some but 
 | 9:45 | Some motivation for using Git (Edwards) |
 | 10:15 | An interactive introduction to Git (Edwards and Grandin) | 
 | 10:30 | Break |
-| 10:45 | Introduction to Git ctd. (including exercises) |
+| 10:45 | Introduction to Git (including exercises) |
 | 12:00 | Lunch |
-| 13:15 | Introduction to Git ctd. (including exercises) |
+| 13:15 | Introduction to Git (including exercises) |
 | 14:45 | Break |
-| 15:00 | Introduction to Git ctd. (including exercises) |
+| 15:00 | Introduction to Git (including exercises) |
 | 16:20 | Overview of the day and plan for tomorrow |
 
-
-Introduction to git and GitHub for easily sharing code and collaborating (Edwards and Grandin).
 
 #### Wednesday
 
