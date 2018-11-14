@@ -197,11 +197,6 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC   | Lingbo Li |
 | NCR   | Rob Kronlund |
 
-### External participant
-| Institute | Name | 
-| ------ | -----|
-| Northwest Fisheries Science Center, NOAA, USA | Ian Taylor|
-
 ### Instructors
 
 | Region | Name | 
