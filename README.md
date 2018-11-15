@@ -194,6 +194,7 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC   | Chris Rooper |
 | PAC   | Michael Folkes |
 | PAC   | Lingbo Li |
+| PAC   | Philina English |
 | NCR   | Rob Kronlund |
 
 ### Instructors
@@ -206,4 +207,4 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Matt Grinnell |
 | PAC   | Elise Keppel |
 
-For email list: Leave Brooke and Marianne on even though they can't make it.
+For email list: Add Philina. Leave Brooke and Marianne on even though they can't make it.
