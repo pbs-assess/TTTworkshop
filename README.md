@@ -170,7 +170,6 @@ If you cannot attend then please email me and your local TESA rep.
 | C&A   | Ross Tallman |
 | C&A   | Kevin Hedges |
 | C&A   | Xinhua Zhu |
-| C&A   | Marianne Marcoux |
 | C&A   | Kim Howland |
 | QUE   | Daniel Duplisea |
 | QUE   | Mathieu Desgagnés |
@@ -207,4 +206,4 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Matt Grinnell |
 | PAC   | Elise Keppel |
 
-For email list: remove Heather Bowlby, Ian Taylor, Karen Dwyer, Hai Nguyen, Marie-Julie Roux, add Rob Kronlund, Brendan Connors, Michael Folkes, Chris Rooper (and leave Brooke on even though she can't make it), Krista Baker and Lingbo Li. 
+For email list: Leave Brooke and Marianne on even though they can't make it.
