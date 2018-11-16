@@ -1,0 +1,223 @@
+---
+title: Simple knitr Rmarkdown example -- automatic write-up of simulated data
+author: "Ned Stark"
+output: pdf_document
+fontsize: 12pt
+header-includes:
+  - \usepackage{mathptmx}
+  - \usepackage[table]{xcolor}
+  - \usepackage{colortbl}
+  - \usepackage{booktabs}
+  
+---
+
+
+We wish to generate some data and create a summary of the statistics. 
+First generate the data in R:
+
+```{r}
+n = 50                       # sample size
+x = 1:n               
+y = 10*x + rnorm(n, 0, 10)   # straight line plus some noise
+n
+```
+
+So that runs the R code, prints it plus any output.
+
+We can also embed results from R within a sentence: 
+
+We have a sample size of `r n`.
+
+The maximum value of $y$ is `r max(y)`.
+
+Or round it to two decimal places: the maximum value of $y$ is `r round(max(y),2)`.
+
+## Not show the R code
+
+We can choose *not* echo the R code:
+
+```{r, echo=FALSE}
+library(kableExtra)
+library(dplyr)
+library(xtable)
+```
+
+## Show some data
+
+Show some values:
+
+```{r}
+data = tbl_df(cbind(x, y))
+data
+```
+
+(only the first 10 rows get printed here thanks to dplyr).
+
+To have a proper table:
+```{r}
+kable(data[1:10,],
+      caption = "The first rows of my data.") %>%
+    kable_styling(latex_options = "h")    
+```
+
+<!-- This is a comment, done using the HTML syntax for comments -->
+
+<!-- The option "h" above is just to force the table to appear 'here' in the
+output, over-riding the default to put it somewhere more sensible (top, or next
+page). 
+--> 
+
+
+\clearpage
+
+The default is a little ugly, but we can tweak some settings:
+```{r}
+kable(data[1:10,],
+      caption = "The first rows of my data, with better formatting.",
+      booktabs = TRUE) %>%
+    kable_styling(latex_options = c("striped", "h"))
+```
+
+But we won't get into that now (just so you know that pretty much everything is 
+tweakable).
+
+\clearpage
+
+## Plot the data
+
+Now we want to plot the data:
+
+```{r}
+plot(x, y)
+```
+
+## Now to fit a linear regression
+
+Can print the summary regression output from R:
+
+```{R}
+fit = lm(y~x)
+print(summary(fit))
+``` 
+
+Can produce a simple table of output and the regression fit:
+
+```{R}
+kable(coefficients(summary(fit)),
+      caption = "Linear regression fit.",
+      booktabs = TRUE) %>%
+    kable_styling(latex_options = "h")    
+```
+
+
+\clearpage
+
+<<echo=FALSE, results=hide>>=
+fig.name = "regfit"
+postscript(paste(fig.name, ".eps", sep=""), horizontal=FALSE, paper="special", height = 6, width = 6)
+plot(x, y)
+abline(fit, col="red")
+dev.off()
+@
+
+
+<!--
+
+
+<<table, results=tex, echo=FALSE>>=
+print(xtable(matrix(y, ncol=5, byrow=TRUE), digits = 2, caption="Generated values of $y$.", label=paste("tab:data")))
+
+print(xtable(cbind(x[1:20],y[1:20]), caption="First 20 generated values of $x$ and $y$.", label=paste("tab:first20")))
+@ 
+
+\clearpage
+
+So what about the maximum value of $y$?
+<<max, echo=TRUE>>=
+max(y)
+@ 
+
+But a neater way is to embed it in the text:
+
+The maximum value of $y$ is \Sexpr{round(max(y), 2)} to 2 decimal places.
+
+The maximum is \Sexpr{if(max(y)>50) paste("greater than") else paste("less than or equal to")} 50.
+
+<<echo=FALSE, results=hide>>=
+fig.name = "data"
+postscript(paste(fig.name, ".eps", sep=""), horizontal=FALSE, paper="special", height = 6, width = 6)
+plot(x, y)dev.off()
+@
+
+\simplefig{\Sexpr{fig.name}}{Plot of the data.}
+
+\clearpage
+
+\section{Now to fit a linear regression}
+
+Can print the summary regression output from R:
+
+<<regression, echo=FALSE>>=
+fit = lm(y~x)
+
+print(summary(fit))
+@ 
+
+Can produce a simple table of output in Table \ref{tab:fit}, and the regression fit is shown in Figure \ref{fig:regfit}.
+
+<<fit.table, results=tex, echo=FALSE>>=
+print(xtable(fit, caption="Linear regression fit.", label=paste("tab:fit")))
+@ 
+\clearpage
+
+<<echo=FALSE, results=hide>>=
+fig.name = "regfit"
+postscript(paste(fig.name, ".eps", sep=""), horizontal=FALSE, paper="special", height = 6, width = 6)
+plot(x, y)
+abline(fit, col="red")
+dev.off()
+@
+
+\simplefig{\Sexpr{fig.name}}{Plot of the data with the fitted regression.}
+
+<<save, echo=FALSE>>=
+save.image(file=paste("sweaveExample.RData", sep=""))
+@ 
+
+\end{document}
+
+% To stop before the end, need (uncommented):
+% \end{document}
+% <<>>=
+% stop()
+% @ 
+
+-->
+
+
+<!--
+Maybe useful options, adapted from gfsynopsis:
+
+```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  warning = FALSE,
+  message = FALSE,
+  comment = "#>",
+  fig.path = "knitr-figs/",
+  cache.path = if (knitr:::is_latex_output()) "knitr-cache-tex/" else "knitr-cache-docx/",
+  fig.asp = 0.618,
+  fig.width = 9,
+  out.width = "6in",
+  echo = FALSE,
+  autodep = TRUE,
+  cache = TRUE,
+  cache.comments = FALSE,
+  dev = if (knitr:::is_latex_output()) "png" else "png",
+  dpi = 200,
+  fig.align = "center",
+  fig.pos = "htb"
+)
+```
+
+-->
