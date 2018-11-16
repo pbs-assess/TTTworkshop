@@ -1,3 +1,7 @@
 *~
 .Rhistory
 .RData
+*.pdf
+*.html
+*.Rnw
+*.Snw
