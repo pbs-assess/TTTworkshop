@@ -1,6 +1,6 @@
 ---
 title: Simple knitr Rmarkdown example -- automatic write-up of simulated data
-author: "Ned Stark"
+author: "Author name goes here"
 output: pdf_document
 fontsize: 12pt
 header-includes:
@@ -11,14 +11,21 @@ header-includes:
   
 ---
 
+The point of this is to introdue the idea of *dynamically generated
+reports*. There'll be some formatting syntax to pretty it up, but don't worry
+about that too much.
+
+## Generate data
 
 We wish to generate some data and create a summary of the statistics. 
 First generate the data in R:
 
 ```{r}
+set.seed(42)
 n = 50                       # sample size
 x = 1:n               
-y = 10*x + rnorm(n, 0, 10)   # straight line plus some noise
+y = 10*x + rnorm(n, 0, 10)
+# y = 10*x^1.5 + rnorm(n, 0, 10)
 n
 ```
 
@@ -91,9 +98,11 @@ Now we want to plot the data:
 plot(x, y)
 ```
 
+\clearpage
+
 ## Now to fit a linear regression
 
-Can print the summary regression output from R:
+Can fit and then print the summary regression output from R:
 
 ```{R}
 fit = lm(y~x)
@@ -109,16 +118,53 @@ kable(coefficients(summary(fit)),
     kable_styling(latex_options = "h")    
 ```
 
-
-\clearpage
-
-<<echo=FALSE, results=hide>>=
-fig.name = "regfit"
-postscript(paste(fig.name, ".eps", sep=""), horizontal=FALSE, paper="special", height = 6, width = 6)
+And create a plot:
+```{R}
 plot(x, y)
 abline(fit, col="red")
-dev.off()
-@
+```
+
+## Summarise the results
+
+So the maximum value of $y$ is `r round(max(y),2)`, which is 
+`r ifelse(max(y)>400, paste("greater than"), paste("less than"))` 
+the special value of 400.
+
+So you can actually somewhat automate the text (just be careful and think about
+other possibilities -- what if $y=399.9$ in the above example?).
+
+So you can automate a sentence such as "the stock is in the healthy zone". 
+
+## Now, let's go back and change the data
+
+The *big* feature of dynamically generating reports is when you go back and 
+change or update the input data.
+
+Let's go back and change replace the definition of $y$ with
+```{r, eval=FALSE}
+y = 10*x^1.5 + rnorm(n, 0, 10)
+```
+
+[I'll do this manually].
+
+Look at the `.Rmd` code here and note the ues of `eval=FALSE`.
+
+Exercises:
+
+1. Get the code running.
+
+2. Change `n` to 30, and re-run.
+
+3. Hide the output in the first chunk of the 'Now to fit a linear regression' 
+section. (In a report you wouldn't show such results, though it's very useful
+when exploring data -- I show the output all the time when looking at large data
+frames).
+
+4. ME - use cache=TRUE (that's why it's a bit slow I think...). Add chunk names.
+
+
+
+
 
 
 <!--
