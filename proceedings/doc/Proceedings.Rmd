@@ -2,11 +2,11 @@
 output: pdf_document
 fontsize: 12pt
 header-includes:
-  - \usepackage{../../TechnicalReport/Document/TechReport}
+  - \usepackage{../../../TechnicalReport/Document/TechReport}
 ---
 
 <!-- File path to resources (style file etc) -->
-\newcommand{\locRes}{../../TechnicalReport/Document}
+\newcommand{\locRes}{../../../TechnicalReport/Document}
 
 <!-- Title, year, report number -->
 \newcommand{\trTitle}{Proceedings of the {TESA} workshop on tools for transparent, traceable, and transferable assessments, 27 to 30 November 2018}
