@@ -2,7 +2,7 @@
 output: pdf_document
 fontsize: 12pt
 header-includes:
-  \usepackage{../../../TechnicalReport/Document/TechReport}
+  - \usepackage{../../../TechnicalReport/Document/TechReport}
 ---
 
 <!-- File path to resources (e.g., style file, logos) -->
@@ -35,7 +35,7 @@ Et en fran\c{c}ais...}
 <!-- Make the first few pages -->
 \frontmatter
 
-<!-- Basic set up  -->
+<!-- Basic set up -->
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 # Require packages
 library(tidyverse)
