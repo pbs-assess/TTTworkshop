@@ -1,12 +1,14 @@
 # INTRODUCTION
 
+The workshop materials can be accessed on the [GitHub repository](https://github.com/pbs-assess/TTTworkshop).
+
 ## Participants
 
 Workshop participants are listed in \autoref{tabParticipants}.
 
 \begin{table}
 \centering
-\caption[Participants]{Participants in the {TESA} workshop on tools for transparent, traceable, and transferable assessments.}
+\caption[Workshop participants]{Participants in the {TESA} workshop on tools for transparent, traceable, and transferable assessments.}
 ```{r echo=FALSE, results='asis'}
 # Import participants and format for latex
 participants <- read_csv( file="../tables/Participants.csv", col_names=TRUE,
