@@ -6,6 +6,7 @@ header-includes:
 ---
 
 <!-- File path to resources (style file etc) -->
+<!-- https://github.com/grinnellm/TechnicalReport -->
 \newcommand{\locRes}{../../../TechnicalReport/Document}
 
 <!-- Title, year, report number -->
