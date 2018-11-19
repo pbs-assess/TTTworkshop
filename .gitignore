@@ -3,6 +3,7 @@
 .RData
 *.pdf
 *.html
+*.docx
 *.Rnw
 *.Snw
 .Rproj.user
