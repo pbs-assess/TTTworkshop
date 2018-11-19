@@ -3,6 +3,7 @@ del Proceedings.aux
 del Proceedings.bbl
 del Proceedings.blg
 del Proceedings.fff
+del Proceedings.html
 del Proceedings.lof
 del Proceedings.log
 del Proceedings.lot
