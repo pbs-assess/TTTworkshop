@@ -2,7 +2,7 @@
 
 The workshop materials can be accessed on the [GitHub repository](https://github.com/pbs-assess/TTTworkshop).
 
-## Participants
+## PARTICIPANTS
 
 Workshop participants are listed in \autoref{tabParticipants}.
 
