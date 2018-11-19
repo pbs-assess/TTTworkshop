@@ -2,6 +2,7 @@
 del Proceedings.aux
 del Proceedings.bbl
 del Proceedings.blg
+del Proceedings.docx
 del Proceedings.fff
 del Proceedings.html
 del Proceedings.lof
