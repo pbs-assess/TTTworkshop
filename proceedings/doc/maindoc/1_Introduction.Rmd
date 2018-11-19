@@ -1,3 +1,18 @@
 # INTRODUCTION
 
-This is the introduction.
+Workshop participants are listed in \autoref{tabParticipants}.
+
+\begin{table}
+\centering
+\caption[Participants]{Participants in the {TESA} workshop on tools for transparent, traceable, and transferable assessments.}
+```{r echo=FALSE, results='asis'}
+# Import participants and format for latex
+participants <- read_csv( file="../tables/Participants.csv", col_names=TRUE,
+  col_types=cols() ) %>%
+  # arrange( Region, Name ) %>%
+  xtable( align=c("l", "l", "l") ) %>%
+  print( booktabs=TRUE, floating=FALSE, include.rownames=FALSE,
+    sanitize.colnames.function=Bold2, sanitize.text.function=identity )
+```
+\label{tabParticipants}
+\end{table}
