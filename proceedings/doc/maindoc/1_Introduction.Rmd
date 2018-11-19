@@ -1,5 +1,7 @@
 # INTRODUCTION
 
+## Participants
+
 Workshop participants are listed in \autoref{tabParticipants}.
 
 \begin{table}
