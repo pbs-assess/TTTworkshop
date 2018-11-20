@@ -1,8 +1,10 @@
 ---
-output: pdf_document
+output:
+  bookdown::pdf_book:
+    toc: no
 fontsize: 12pt
 header-includes:
-  - \usepackage{../../../TechnicalReport/Document/TechReport}
+  \usepackage{../../../TechnicalReport/Document/TechReport}
 ---
 
 <!-- File path to resources (e.g., style file, logos) -->
@@ -41,6 +43,7 @@ Et en fran\c{c}ais...}
 library( tidyverse )
 library( knitr )
 library( kableExtra )
+library( bookdown )
 ```
 
 <!-- Introduction -->
