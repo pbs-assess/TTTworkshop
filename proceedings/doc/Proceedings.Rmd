@@ -38,10 +38,9 @@ Et en fran\c{c}ais...}
 <!-- Basic set up -->
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
 # Require packages
-library(tidyverse)
-library(xtable)
-# Bold and latex symbols (xtables)
-Bold2 <- function(x) {paste('\\textbf{',sanitize(x, type="latex"),'}', sep ='')}
+library( tidyverse )
+library( knitr )
+library( kableExtra )
 ```
 
 <!-- Introduction -->
