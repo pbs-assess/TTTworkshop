@@ -187,7 +187,6 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Jaclyn Cleary |
 | PAC   | Catarina Wor |
 | PAC   | Shannon Obradovich |
-| PAC   | Jackie King |
 | PAC   | Erika Anderson |
 | PAC   | Cameron Freshwater |
 | PAC   | Brendan Connors |
