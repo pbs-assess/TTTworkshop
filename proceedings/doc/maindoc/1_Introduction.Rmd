@@ -4,24 +4,22 @@ Workshop materials are on the [GitHub repository](https://github.com/pbs-assess/
 
 ## PARTICIPANTS
 
-Workshop participants are listed in \autoref{tabParticipants}.
+Workshop participants are listed in Table \@ref(tab:participants).
 
-\begin{table}
-\centering
-\caption[Workshop participants]{Participants in the {TESA} workshop on tools for transparent, traceable, and transferable assessments.
-Legend: chair, C; and instructor, I.}
-```{r echo=FALSE, results='asis'}
+<!-- Load participants table -->
+```{r participants, echo=FALSE, results='asis'}
+# Caption
+kCap <- "Participants in the {TESA} workshop on tools for transparent, traceable, and transferable assessments. Legend: chair, C; and instructor, I."
+kCapShort <- "Workshop participants"
 # Import participant table
 participants <- read_csv( file="../tables/Participants.csv", col_names=TRUE,
   col_types=cols(), na=" " ) %>%
   # arrange( Region, Name ) %>%  # -- why can't this be included?
-  # Prepare the table for latex
   kable( booktabs=TRUE, linesep="", format="latex", escape=FALSE,
-    align=c("l", "l", "c", "c", "c", "c") ) %>%
-  # kable_styling( latex_options=c("striped") ) %>%
+    align=c("l", "l", "c", "c", "c", "c"), caption=kCap, 
+    caption.short=kCapShort) %>%
+  kable_styling( latex_options=c("striped") ) %>%
   row_spec( 0, bold=TRUE ) %>%
   add_header_above( c(" ", " ", "Day"=4), bold=TRUE ) %>%
   print( )
 ```
-\label{tabParticipants}
-\end{table}
