@@ -1,6 +1,6 @@
 # INTRODUCTION
 
-Workshop materials can be accessed on the [GitHub repository](https://github.com/pbs-assess/TTTworkshop).
+Workshop materials are on the [GitHub repository](https://github.com/pbs-assess/TTTworkshop).
 
 ## PARTICIPANTS
 
@@ -9,15 +9,16 @@ Workshop participants are listed in \autoref{tabParticipants}.
 \begin{table}
 \centering
 \caption[Workshop participants]{Participants in the {TESA} workshop on tools for transparent, traceable, and transferable assessments.
-Legend: Central and Arctic, C\&A; Newfoundland and Labrador, NFLD; and National Captial, NC.}
+Legend: chair, C; and instructor, I}
 ```{r echo=FALSE, results='asis'}
-# Import participants and format for latex
+# Import participant table and format for latex
 participants <- read_csv( file="../tables/Participants.csv", col_names=TRUE,
-  col_types=cols() ) %>%
-  # arrange( Region, Name ) %>%
-  xtable( align=c("l", "l", "l", "c", "c", "c", "c") ) %>%
-  print( booktabs=TRUE, floating=FALSE, include.rownames=FALSE,
-    sanitize.colnames.function=Bold2, sanitize.text.function=identity )
+  col_types=cols(), na=" " ) #%>%
+# arrange( Region, Name ) %>%
+kable( participants, booktabs=TRUE, linesep="", format="latex", escape=FALSE,
+  align=c("l", "l", "c", "c", "c", "c") ) %>%
+  row_spec( 0, bold=TRUE ) %>%
+  add_header_above( c(" ", " ", "Day"=4), bold=TRUE )
 ```
 \label{tabParticipants}
 \end{table}
