@@ -9,16 +9,19 @@ Workshop participants are listed in \autoref{tabParticipants}.
 \begin{table}
 \centering
 \caption[Workshop participants]{Participants in the {TESA} workshop on tools for transparent, traceable, and transferable assessments.
-Legend: chair, C; and instructor, I}
+Legend: chair, C; and instructor, I.}
 ```{r echo=FALSE, results='asis'}
-# Import participant table and format for latex
+# Import participant table
 participants <- read_csv( file="../tables/Participants.csv", col_names=TRUE,
-  col_types=cols(), na=" " ) #%>%
-# arrange( Region, Name ) %>%
-kable( participants, booktabs=TRUE, linesep="", format="latex", escape=FALSE,
-  align=c("l", "l", "c", "c", "c", "c") ) %>%
+  col_types=cols(), na=" " ) %>%
+  # arrange( Region, Name ) %>%  # -- why can't this be included?
+  # Prepare the table for latex
+  kable( booktabs=TRUE, linesep="", format="latex", escape=FALSE,
+    align=c("l", "l", "c", "c", "c", "c") ) %>%
+  # kable_styling( latex_options=c("striped") ) %>%
   row_spec( 0, bold=TRUE ) %>%
-  add_header_above( c(" ", " ", "Day"=4), bold=TRUE )
+  add_header_above( c(" ", " ", "Day"=4), bold=TRUE ) %>%
+  print( )
 ```
 \label{tabParticipants}
 \end{table}
