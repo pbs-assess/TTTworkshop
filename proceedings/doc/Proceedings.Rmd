@@ -1,0 +1,52 @@
+---
+output:
+  bookdown::pdf_book:
+    toc: no
+fontsize: 12pt
+header-includes:
+  \usepackage{../../../TechnicalReport/Document/TechReport}
+---
+
+<!-- File path to resources (e.g., style file, logos) -->
+<!-- https://github.com/grinnellm/TechnicalReport -->
+\newcommand{\locRes}{../../../TechnicalReport/Document}
+
+<!-- Title, year, report number -->
+\newcommand{\trTitle}{Proceedings of the {TESA} workshop on tools for transparent, traceable, and transferable assessments}
+\newcommand{\trYear}{YYYY}
+\newcommand{\trReportNum}{NNNN}
+
+<!-- Contact info (optional) -->
+\newcommand{\trAuthFootA}{\footnote{E-mail: \texttt{First.Author@dfo-mpo.gc.ca} $|$ telephone: (250)~756.ZZZZ}}
+
+<!-- Authors -->
+\newcommand{\trAuthsLong}{First A. Author,\trAuthFootA{} Second B. Author}
+\newcommand{\trAuthsBack}{Author, F.A., and Author, S.B.}
+
+<!-- Address: full, and reversed-->
+\newcommand{\trAddy}{Fisheries and Oceans Canada\\Science Branch, Pacific Region\\Pacific Biological Station\\3190 Hammond Bay Road\\Nanaimo, BC \enskip V9T 6N7}
+
+<!-- Abstract -->
+\newcommand{\trAbstract}{
+\trTitle, 27 to 30 {November} 2018 in Nanaimo, BC.}
+
+<!-- Resume (i.e., French abstract) -->
+\newcommand{\trResume}{
+Et en fran\c{c}ais...}
+
+<!-- Make the first few pages -->
+\frontmatter
+
+<!-- Basic set up -->
+```{r echo=FALSE, warning=FALSE, message=FALSE}
+# Require packages
+library( tidyverse )
+library( knitr )
+library( kableExtra )
+library( bookdown )
+library( bindrcpp )
+```
+
+<!-- Introduction -->
+```{r child='maindoc/1_Introduction.Rmd'}
+```
