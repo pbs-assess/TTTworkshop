@@ -9,7 +9,7 @@ Workshop participants are listed in Table \@ref(tab:participants).
 <!-- Load participants table -->
 ```{r participants, echo=FALSE, results='asis'}
 # Caption
-kCap <- "Participants in the {TESA} workshop on tools for transparent, traceable, and transferable assessments. Legend: chair, C; and instructor, I."
+kCap <- "Participants in the {TESA} workshop on tools for transparent, traceable, and transferable assessments."
 kCapShort <- "Workshop participants"
 # Import participant table
 participants <- read_csv( file="../tables/Participants.csv", col_names=TRUE,
