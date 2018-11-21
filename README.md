@@ -207,3 +207,5 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC   | Elise Keppel |
 
 For email list: Add Philina and Robyn. Leave Brooke, Jackie and Marianne on emails even though they can't make it. First day - no Catarina, Michael.
+
+[If we want breakout room, Dunsmuir is available Wed-Fri, $250 per day].
