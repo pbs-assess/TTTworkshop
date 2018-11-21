@@ -50,7 +50,7 @@ csasdown - an R package to format a Res Doc in the CSAS style
 
 If anyone does have TMB code that they using operationally (we do have some but have not used it for real assessments yet) they can hopefully integrate it into the workshop. But knowledge of TMB is not necessary for everyone, and we may end up not mentioning it all unless someone has a working example.
 
-#### Tuesday
+#### Tuesday (Benson Room)
 
 | Time |  |
 |  ---- |  - |
@@ -67,7 +67,7 @@ If anyone does have TMB code that they using operationally (we do have some but 
 | 16:20 | Overview of the day and plan for tomorrow |
 
 
-#### Wednesday
+#### Wednesday (Malaspina Room)
 
 Quick recap of Tuesday.
 
@@ -82,7 +82,7 @@ Technical Report example, including ongoing building of Proceedings for this mee
 
 Maybe: further general tricks, tips and lessons learnt through our ongoing experiences with annual Pacific Hake, Pacific Herring and Pacific Cod assessments, and with the Groundfish synopsis report. We are gradually working out the best workflow for such projects.
  
-#### Thursday
+#### Thursday (Malaspina Room)
 
 Quick recap of Wednesday.
 
@@ -95,7 +95,7 @@ Thursday, 1:15pm. Ann Mariscak from our local CSAS office will talk about the tr
 
 We could look at Rowan Haigh's `linguaFranca()` R function, line 1007 [here](https://github.com/pbs-software/pbs-tools/blob/master/PBStools/R/M01_Utility.r). And maybe share code from participants from other regions.
 
-#### Friday
+#### Friday (Malaspina Room)
 
 To be determined by participants' desires. We should practice collaborating by making further examples. The best way to get the idea of these tools is by using them, and it helps to do this *not* during the busy process of actually doing an assessment. And in having a roomful of people to help you.
 
@@ -206,4 +206,4 @@ If you cannot attend then please email me and your local TESA rep.
 | PAC	| Matt Grinnell |
 | PAC   | Elise Keppel |
 
-For email list: Add Philina and Robyn. Leave Brooke and Marianne on even though they can't make it.
+For email list: Add Philina and Robyn. Leave Brooke, Jackie and Marianne on emails even though they can't make it. First day - no Catarina, Michael.
