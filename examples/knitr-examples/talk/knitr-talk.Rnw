@@ -1,0 +1,320 @@
+% Using a few previous talks as a quick template, so likely don't need everything here.
+%\documentclass[handout,xcolor=pdftex,dvipsnames,table]{beamer}
+%\documentclass[draft]{beamer}
+%\documentclass[notesonly]{beamer}
+%\documentclass[notes]{beamer}
+\documentclass[aspectratio=169, xcolor=table]{beamer}  % xcolor to avoid conflict
+                                                       %  with beamer
+\mode<presentation>
+% https://hartwork.org/beamer-theme-matrix/
+\usetheme{Singapore} %Berkeley, Palo Alto, Singapore, Warsaw
+\usecolortheme{seahorse}  %Beaver, dolphin, dove, lily, orchid, seagull, seahorse
+\renewcommand{\insertnavigation}[1]{}    % to remove contents bar:
+           % https://tex.stackexchange.com/questions/33767/remove-section-header-from-a-beamer-theme-singapore
+
+%\usefonttheme{serif}
+% font themes: default, professionalfonts, serif, structurebold, structureitalicserif, structuresmallcapsserif
+
+\usepackage{graphicx}
+\usepackage{pgf}
+\usepackage{array}
+\usepackage{tabularx}
+%\usepackage{booktabs}          %% Used in risk tables [hake]
+%\usepackage{multirow}          %% Used in decision tables [hake]
+%\usepackage{beamerarticle}
+%\usepackage{enumitem}
+%\usepackage{beamerthemesplit}
+\usepackage[T1]{fontenc}  %to use < or > in tables
+% \usepackage{xcolor}            %% for kable
+% \usepackage[table]{xcolor}            %% for kable
+
+% From kableExtra documentation, commenting out some:
+\usepackage{longtable}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{booktabs}          %% Used in risk tables [hake]
+\usepackage{multirow}          %% Used in decision tables [hake]
+
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+
+\usepackage[export]{adjustbox}     % for left and right in \includegraphics
+\usepackage[absolute,overlay]{textpos}  % for overlaying text
+
+\newcolumntype{Y}{>{\centering\arraybackslash}X}
+%% syntax is \mlc{first line\\secondline}
+\newcommand{\mlc}[2][c]{\begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\newcommand{\subscr}[1]{$_{\text{#1}}$}\newcommand{\Fforty}{F_{\text{SPR}=40\%}}       % Needs to be done as $\Fforty$
+\newcommand{\Bforty}{B_{\text{SPR}=40\%}}
+
+% pdf is displayed in full screen mode automatically
+%\hypersetup{pdfpagemode=FullScreen}
+
+%\setbeamersize{sidebar width left=0.05in}
+\setbeamersize{text margin left=5mm}
+\setbeamersize{text margin right=5mm}
+
+\setbeamertemplate{title page}
+{
+% Looks like for hake we didn't use the defaults and played with the spacing
+% \vskip0pt plus 1filll
+\begin{center}
+\vskip6pt
+{\usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle}\\
+\vskip22pt
+\insertauthor
+\vskip22pt
+\insertinstitute
+% \insertdate
+\end{center}
+% \vskip30pt
+\vfill
+\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle % \par
+% \vskip0pt plus 1filll
+\hfill
+\includegraphics[width=4.8cm]{images/DFO_Logo.png}   % from Wikipedia (for hake we
+                                        % had an older one)
+\vskip10pt
+}
+
+\definecolor{pageCol}{rgb}{0.5,0.5,1.0}
+
+\setbeamertemplate{footline}
+{
+\begin{beamercolorbox}[wd=.05\paperwidth,ht=0ex,dp=0ex,left]{framenumber in head/foot}%
+\insertframenumber/\inserttotalframenumber
+\end{beamercolorbox}%
+}
+%% \setbeamercolor{footline}{fg=pageCol}
+
+\newcounter{saveenumi}
+
+\newcommand{\bc}{\begin{center}}
+\newcommand{\ec}{\end{center}}
+\newcommand{\bn}{\begin{enumerate}}
+\newcommand{\en}{\end{enumerate}}
+\newcommand{\bi}{\begin{itemize}}
+\newcommand{\ei}{\end{itemize}}
+\newcommand{\Bmsy}{B_{\mbox{\tiny{MSY}}}}
+%% <<echo=TRUE,  message=TRUE, results='show', warning=TRUE>>=
+%% opts_chunk$set(dev='cairo_ps',fig.path='knitr-cache/', fig.dpi=96, fig.width=7.5,
+%%                fig.height=4, echo=TRUE, results=TRUE, message=TRUE, warning=TRUE,
+%%                results='show', cache=TRUE, cache.path='knitr-cache/')
+<<load-everything, echo=FALSE,  message=FALSE, results='hide', warning=FALSE>>=
+opts_chunk$set(dev = 'cairo_ps',
+               fig.path = 'knitr-cache/',
+               fig.dpi = 96,
+               fig.width = 7.5,
+               fig.height = 4,
+               echo = FALSE,
+               results = FALSE,
+               message = FALSE,
+               warning = FALSE,
+               results = 'hide',
+               cache = TRUE,
+               cache.path = 'knitr-cache/')
+library(dplyr)
+library(xtable)
+library(kableExtra)
+library(here)
+# library(Hmisc)
+assess.yr = 2018
+last.assess.yr = assess.yr - 1
+survey.end.yr = 2017
+ss.version = 999 # to get working here
+admb.version = 999
+@
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title[knitr]{~\\ Introduction to dynamic report generation with knitr}
+\author{Andrew Edwards, TTT workshop\\
+  ~\\
+  \textcolor{blue}{Pacific Biological Station, Nanaimo, BC}}
+% \institute{{\textcolor{blue}{Pacific Biological Station, Nanaimo, BC}\\
+%  ~\\
+% \institute{\includegraphics[height=3cm]{images/pbs.png}}
+% \titlegraphic{\includegraphics[height=3.3cm]{images/pbs.png}}
+% \titlegraphic{images/pbs.png}
+% \date{{\footnotesize SRG meeting -- \Sexpr{assess.yr}}}
+\subtitle{\small TTT workshop, Nanaimo\\
+Wednesday 28th November, 2018}
+
+\begin{document}
+
+\beamertemplatenavigationsymbolsempty   % bottom navigation panel
+% \setbeamertemplate{headline}{}
+% \setbeamertemplate{mini frames}{}
+
+%\begin[plain]{frame}
+\frame[plain]{
+\titlepage
+}
+%----------------------------------------------------------
+
+\frame{\frametitle{Background}
+
+For first assessment (Pacific Ocean Perch, 2010) I was involved in:
+\bi
+  \item Co-author insisted on using Word
+  \item Catch-age model uses Awatea software, which had clunky Excel input format
+  \item Co-author spotted an error a few days before submission. 
+  \item Thus, we had to re-run everything...
+  \pause
+  \item ...AND re-write some text...
+  \item ...AND manually put the updated figures and tables back into Word. 
+    \textcolor{red}{TEDIOUS!!!}
+\ei
+\pause
+For next assessment (Yellowmouth Rockfish)
+\bi
+  \item Rowan created way of running Awatea from R
+  \item I created \textcolor{blue}{Sweave} approach to automating the production of figures for simulations, and their final input into the stock assessment document.
+  \pause
+  \item Again, co-author found a minor error. 
+  \item Thus we had to re-run everything (easier then before)...
+  \item AND re-write some text (same as before, but nothing really changed)...
+  \item AND redo all the 50 pages or so of figures and tables. \textcolor{red}{EASY!!!} 
+\ei
+}
+
+%----------------------------------------------------------
+
+\frame{\frametitle{During CSAS review meeting}
+
+\bi
+\item In the review meeting a lengthy `discussion' was ensuing about a survey series that we hadn't used.
+
+\item During this discussion, I re-ran the model with the survey included, and then presented the results, automatically produced as a single .pdf file.
+
+\item Flicking through the .pdf file demonstrated the survey made little difference, and so the discussion became moot.
+
+\item Unlikely possible without automation.
+
+\ei
+}
+
+%----------------------------------------------------------
+
+\frame{\frametitle{Sweave uses \LaTeX\ -- what are these?}
+
+\bi
+\item \LaTeX\ is a high-quality typesetting system
+
+\item It includes features designed for the production of technical and scientific documentation. 
+
+\item \LaTeX\ is the de facto standard for the communication and publication of scientific documents. www.latex-project.org
+
+\item Basically, rather than wysiwyg, the formatting and content are kept somewhat separate (meaning you can focus on each separately).
+
+\item In Word you don't know where an inserted figure has come from (is the work \textcolor{red}{traceable}?). 
+\ei
+}
+
+%----------------------------------------------------------
+
+\frame{\frametitle{\LaTeX\ v Word}
+\includegraphics[width=7cm, center]{images/latex-v-evil.png}
+Figure by Marco Pinteric
+}
+
+%----------------------------------------------------------
+
+\frame{\frametitle{And what is Sweave?}
+
+\bi
+\item Basically, have \LaTeX\ and R code embedded in a single
+  file.
+  
+\item Name comes from S-weave (S being the precursor to R) -- weave the S code
+  with your \LaTeX.
+  
+\item Results (figures, tables and text) get automatically 
+ updated when the analysis (or input data) changes.
+
+\item Work is fully reproducible.
+
+\item Code is evaluated in R using the Sweave(...) function.
+
+\item It produces a \LaTeX\ .tex file that is then run in \LaTeX\ to
+ produce a .pdf file.
+\ei
+}
+
+%----------------------------------------------------------
+
+\frame{\frametitle{So ...}
+
+\bi
+\item We gradually moved more and more to using \LaTeX\ for assessments.
+
+\item Ran up against quite a few roadblocks with CSAS (picky style issues involving  undoing sensible \LaTeX\ defaults, web accessibility, ...)
+  
+\pause
+\item But, mostly fixed (once and for all for several things).
+  
+\item Less work for local CSAS office (who often spend time reformatting Word documents).
+
+% \item Some biologists seem to shy away from \LaTeX.
+\ei
+}
+
+%----------------------------------------------------------
+
+\frame{\frametitle{Now ...}
+
+\bi
+\item Sweave is now superceded by knitr.
+
+\item knitr is `a transparent engine for dynamic report generation with R, solving some long-standing problems in Sweave'
+  
+\pause
+\item knitr `allows any input languages (e.g. R, Python and awk) and any output markup languages (e.g. \LaTeX, HTML, Markdown, AsciiDoc, and reStructuredText)'.
+  
+\item Allows caching of results, so does not rerun a `chunk' of R code if the
+  code has not changed -- fast! 
+\ei
+}
+
+%----------------------------------------------------------
+
+\frame{\frametitle{Good news}
+
+\bi
+\item There is now Rmarkdown.
+
+\item Simplified formatting commands. Very easy to use.
+  
+\item Can generate Word also.
+  
+\item Can still use \LaTeX\ commands, especially for doing math.
+\ei
+}
+
+%----------------------------------------------------------
+
+\frame{\frametitle{Even better news}
+
+\bi
+\item We have templates for building properly-formatted:
+  \bi
+  \item CSAS Research Document
+  \item CSAS Science Response
+  \item DFO Technical Report
+  \ei
+\item These are built into csasdown R package.
+\item Will show that later. 
+\item First showing simple knitr example with exercises
+  to understand the idea of dynamic report generation.
+\ei
+}
+
+\end{document}  
+
