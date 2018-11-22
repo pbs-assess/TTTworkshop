@@ -7,3 +7,12 @@
 *.Rnw
 *.Snw
 .Rproj.user
+*.aux
+*.log
+*.nav
+*.out
+*.nav
+*.snm
+*.tex
+*.toc
+*.ppt
