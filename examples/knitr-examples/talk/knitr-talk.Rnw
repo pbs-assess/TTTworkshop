@@ -220,6 +220,31 @@ For next assessment (Yellowmouth Rockfish)
 
 %----------------------------------------------------------
 
+\frame{\frametitle{Example \LaTeX\ code}
+\verbatim{
+  \\begin{table}[t] 
+  \\caption{Summary of how the four Series {\\bf A}, {\\bf B}, {\\bf C} and {\\bf D}
+    are constructed. Numbers in parentheses indicate the number of years for which
+    data for each Series are available.}
+  \\label{tab:seriesSumm}
+  \\begin{tabular}{rcc}
+  \\hline
+     & Only north of WCVI & Full coast \\ \\
+  \\hline
+  First 20 hooks from each skate & {\\bf A}(21) & {\\bf D}(18)\\ \\
+  All hooks from each skate & {\\bf B}(16) & {\\bf C}(14)\\
+  \\hline
+  ~\\ \\    % to add some whitespace before text carries on
+  \\end{tabular}
+  \\end{table}
+To address issues 1, 2 and 4 we therefore construct four time series (whose structure is summarised in Table~\\ref{tab:seriesSumm}) for each species:
+
+\\textbf{Series A} -- 1997-2017 stations north of WCVI, with catch rates based on first 20~hooks only (which is all we have for 1997-2002 and 2013).
+}
+}
+
+% -------------------------------------------------------
+
 \frame{\frametitle{\LaTeX\ v Word}
 \includegraphics[width=7cm, center]{images/latex-v-evil.png}
 Figure by Marco Pinteric

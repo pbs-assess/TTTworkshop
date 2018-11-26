@@ -1,14 +1,26 @@
 ---
+# rmarkdown::render("knitr-example.Rmd")
 title: Simple knitr Rmarkdown example -- automatic write-up of simulated data
 author: "Author name goes here"
 output: pdf_document
 fontsize: 12pt
 header-includes:
-  - \usepackage{mathptmx}
+  - \usepackage{mathptmx}      # Better font
+  # Need these packages for kableExtra - if hard to download 
+  #  then use knitr-example-2.Rmd for simpler version of this file
   - \usepackage[table]{xcolor}
   - \usepackage{colortbl}
   - \usepackage{booktabs}
-  
+  - \usepackage{wrapfig}
+  - \usepackage{float}
+  - \usepackage{colortbl}
+  - \usepackage{pdflscape}
+  - \usepackage{tabu}
+  - \usepackage{threeparttable}
+  - \usepackage{threeparttablex}
+  - \usepackage[normalem]{ulem}
+  - \usepackage{makecell}
+
 ---
 
 The point of this is to introdue the idea of *dynamically generated

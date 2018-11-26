@@ -16,4 +16,4 @@
 *.tex
 *.toc
 *.ppt
-*knitr-cache*
+*knitr-cache
