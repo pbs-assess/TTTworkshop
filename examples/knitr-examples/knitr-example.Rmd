@@ -188,7 +188,7 @@ y = 10*x^1.5 + rnorm(n, 0, 10)
 
 Look at the `.Rmd` code here and note the ues of `eval=FALSE`.
 
-Exercises:
+# Exercises:
 
 1. Get the code running.
 
@@ -198,8 +198,6 @@ Exercises:
 section. (In a report you wouldn't show such results, though it's very useful
 when exploring data -- I show the output all the time when looking at large data
 frames).
-
-4. ME - use cache=TRUE (that's why it's a bit slow I think...). Add chunk names.
 
 \clearpage
 
