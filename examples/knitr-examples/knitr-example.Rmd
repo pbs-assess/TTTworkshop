@@ -49,6 +49,7 @@ knitr::opts_chunk$set(
   fig.align = "center",
   fig.pos = "htb"
 )
+rm(list=ls())
 ```
 
 
@@ -61,7 +62,7 @@ about that too much. If you get errors then just try running `knitr-example-simp
 We wish to generate some data and create a summary of the statistics. 
 First generate the data in R:
 
-```{r}
+```{r generate}
 set.seed(42)
 n = 50                       # sample size
 x = 1:n               
@@ -82,9 +83,9 @@ Or round it to two decimal places: the maximum value of $y$ is `r round(max(y),2
 
 ## Not show the R code
 
-We can choose *not* echo the R code:
+We can choose *not* echo to the R code:
 
-```{r, echo=FALSE}
+```{r notecho, echo=FALSE}
 library(kableExtra)
 library(dplyr)
 library(xtable)
@@ -95,7 +96,7 @@ z = 37
 
 Show some values:
 
-```{r}
+```{r showdata}
 data = tbl_df(cbind(x, y))
 data
 ```
@@ -103,24 +104,20 @@ data
 (only the first 10 rows get printed here thanks to dplyr).
 
 To have a proper table:
-```{r}
+```{r kable}
 kable(data[1:10,],
       caption = "The first rows of my data.") %>%
     kable_styling(latex_options = "h")    
 ```
-
-<!-- This is a comment, done using the HTML syntax for comments -->
-
 <!-- The option "h" above is just to force the table to appear 'here' in the
 output, over-riding the default to put it somewhere more sensible (top, or next
 page). 
 --> 
 
-
-\clearpage
+\clearpage <!-- This starts a new page in Latex, I don't know the Rmd command --> 
 
 The default is a little ugly, but we can tweak some settings:
-```{r}
+```{r tweak}
 kable(data[1:10,],
       caption = "The first rows of my data, with better formatting.",
       booktabs = TRUE) %>%
@@ -136,7 +133,7 @@ tweakable).
 
 Now we want to plot the data:
 
-```{r}
+```{r plot}
 plot(x, y)
 ```
 
@@ -146,14 +143,14 @@ plot(x, y)
 
 Can fit and then print the summary regression output from R:
 
-```{R}
+```{r regression}
 fit = lm(y~x)
 print(summary(fit))
 ``` 
 
 Can produce a simple table of output and the regression fit:
 
-```{R}
+```{r fit}
 kable(coefficients(summary(fit)),
       caption = "Linear regression fit.",
       booktabs = TRUE) %>%
@@ -161,7 +158,7 @@ kable(coefficients(summary(fit)),
 ```
 
 And create a plot:
-```{R}
+```{r plotfit}
 plot(x, y)
 abline(fit, col="red")
 ```
@@ -183,7 +180,7 @@ The *big* feature of dynamically generating reports is when you go back and
 change or update the input data.
 
 Let's go back and change replace the definition of $y$ with
-```{r, eval=FALSE}
+```{r changey, eval=FALSE}
 y = 10*x^1.5 + rnorm(n, 0, 10)
 ```
 
@@ -203,3 +200,29 @@ when exploring data -- I show the output all the time when looking at large data
 frames).
 
 4. ME - use cache=TRUE (that's why it's a bit slow I think...). Add chunk names.
+
+\clearpage
+
+## Explain cache
+
+1. Look at `knitr-cache-tex/` folder, order files by 'Date modified'.
+
+2. Re-run this file. Look at the times of those files.
+
+3. Change $n$ back to 50.
+
+4. Re-run this file. Again look at the times of the files in `knitr-cache-tex/`.
+
+So `knitr` caches results of each chunk, but then re-runs those that have
+changed (or those that depend on something that has change).
+
+Very efficient -- if you just update some text you don't need all the
+calculations redone.
+
+Beware - if you read in, say, a `.csv` file and the contents of the file change,
+`knitr` will still use the cached read-in of that file, because it won't know
+that the file has changed. 
+
+If you're not sure then it's safest to delete the `knitr-cache-tex/` directory 
+to re-run all calculations (including loading in of data).
+
