@@ -23,7 +23,7 @@ header-includes:
 
 ---
 
-The point of this is to introdue the idea of *dynamically generated
+The point of this is to introduce the idea of *dynamically generated
 reports*. There'll be some formatting syntax to pretty it up, but don't worry
 about that too much.
 
