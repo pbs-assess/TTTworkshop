@@ -17,3 +17,5 @@
 *.toc
 *.ppt
 *knitr-cache
+*knitr-cache-tex
+*knitr-figs
