@@ -25,7 +25,7 @@ header-includes:
 
 The point of this is to introduce the idea of *dynamically generated
 reports*. There'll be some formatting syntax to pretty it up, but don't worry
-about that too much.
+about that too much. If you get errors then just try running `knitr-example-simpler.Rmd`.
 
 ## Generate data
 
@@ -43,7 +43,7 @@ n
 
 So that runs the R code, prints it plus any output.
 
-We can also embed results from R within a sentence: 
+We can also embed results from R within sentences: 
 
 We have a sample size of `r n`.
 
@@ -59,6 +59,7 @@ We can choose *not* echo the R code:
 library(kableExtra)
 library(dplyr)
 library(xtable)
+z = 37 
 ```
 
 ## Show some data
