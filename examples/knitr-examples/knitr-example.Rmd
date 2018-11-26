@@ -1,4 +1,5 @@
 ---
+# This part is YAML (Yet Another Markup Language). To run this file do:
 # rmarkdown::render("knitr-example.Rmd")
 title: Simple knitr Rmarkdown example -- automatic write-up of simulated data
 author: "Author name goes here"
@@ -22,6 +23,34 @@ header-includes:
   - \usepackage{makecell}
 
 ---
+
+<!-- This is a comment 
+     The following code alternates betwen R and the write-up of text
+-->
+
+<!-- knitr options, adapted from gfsynopsis: -->
+```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  # warning = FALSE,
+  # message = FALSE,
+  comment = "#>",
+  fig.path = "knitr-figs/",
+  cache.path = if (knitr:::is_latex_output()) "knitr-cache-tex/" else "knitr-cache-docx/",
+  fig.asp = 0.618,
+  fig.width = 9,
+  out.width = "6in",
+  echo = TRUE,
+  autodep = TRUE,
+  cache = TRUE,
+  # cache.comments = FALSE,
+  dev = if (knitr:::is_latex_output()) "png" else "png",
+  dpi = 200,
+  fig.align = "center",
+  fig.pos = "htb"
+)
+```
+
 
 The point of this is to introduce the idea of *dynamically generated
 reports*. There'll be some formatting syntax to pretty it up, but don't worry
@@ -254,29 +283,3 @@ save.image(file=paste("sweaveExample.RData", sep=""))
 -->
 
 
-<!--
-Maybe useful options, adapted from gfsynopsis:
-
-```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  warning = FALSE,
-  message = FALSE,
-  comment = "#>",
-  fig.path = "knitr-figs/",
-  cache.path = if (knitr:::is_latex_output()) "knitr-cache-tex/" else "knitr-cache-docx/",
-  fig.asp = 0.618,
-  fig.width = 9,
-  out.width = "6in",
-  echo = FALSE,
-  autodep = TRUE,
-  cache = TRUE,
-  cache.comments = FALSE,
-  dev = if (knitr:::is_latex_output()) "png" else "png",
-  dpi = 200,
-  fig.align = "center",
-  fig.pos = "htb"
-)
-```
-
--->
