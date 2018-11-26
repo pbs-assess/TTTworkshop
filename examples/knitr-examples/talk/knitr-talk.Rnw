@@ -1,4 +1,5 @@
 % Using a few previous talks as a quick template, so likely don't need everything here.
+% knit("knitr-talk.Rnw");  shell("pdflatex knitr-talk")
 %\documentclass[handout,xcolor=pdftex,dvipsnames,table]{beamer}
 %\documentclass[draft]{beamer}
 %\documentclass[notesonly]{beamer}
@@ -157,7 +158,19 @@ Wednesday 28th November, 2018}
 \frame[plain]{
 \titlepage
 }
+
 %----------------------------------------------------------
+
+\frame{\frametitle{Evolution of how we got to where we are}
+\bi
+  \item Show Pacific Hake and gfsynopsis .pdf's
+  \item In 2010 starting using Sweave
+  \item Superceded by knitr
+  \item Can now use Rmarkdown
+  \item Build Research Documents using csasdown, don't even have to learn \LaTeX.
+\ei  
+}  
+% ----------------------------------------------------------
 
 \frame{\frametitle{Background}
 
@@ -192,7 +205,9 @@ For next assessment (Yellowmouth Rockfish)
 \bi
 \item In the review meeting a lengthy `discussion' was ensuing about a survey series that we hadn't used.
 
-\item During this discussion, I re-ran the model with the survey included, and then presented the results, automatically produced as a single .pdf file.
+\item During this discussion, I re-ran the model with the survey included, and
+  then presented the results, automatically produced as a single .pdf file, e.g.
+  MCMC.29.01.pdf.
 
 \item Flicking through the .pdf file demonstrated the survey made little difference, and so the discussion became moot.
 
@@ -283,6 +298,8 @@ Figure by Marco Pinteric
   
 \item Allows caching of results, so does not rerun a `chunk' of R code if the
   code has not changed -- fast! 
+  
+\item I do most of my work (especially exploratory) using knitr -- e.g. functionalised.pdf.
 \ei
 }
 
