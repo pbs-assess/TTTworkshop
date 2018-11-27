@@ -1,7 +1,8 @@
 ---
 # This part is YAML (Yet Another Markup Language). To run this file do:
 # rmarkdown::render("knitr-example-simpler.Rmd")
-title: Simple knitr Rmarkdown example -- automatic write-up of simulated data
+# or click "Knit" in RStudio
+title: Simple knitr Rmarkdown example --- automatic write-up of simulated data
 author: "Author name goes here"
 output: pdf_document
 fontsize: 12pt
@@ -166,10 +167,10 @@ frames).
 So `knitr` caches results of each chunk, but then re-runs those that have
 changed (or those that depend on something that has change).
 
-Very efficient -- if you just update some text you don't need all the
+Very efficient --- if you just update some text you don't need all the
 calculations redone.
 
-Beware - if you read in, say, a `.csv` file and the contents of the file change,
+Beware --- if you read in, say, a `.csv` file and the contents of the file change,
 `knitr` will still use the cached read-in of that file, because it won't know
 that the file has changed. 
 
