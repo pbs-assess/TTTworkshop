@@ -12,7 +12,7 @@ Workshop participants are listed in Table \@ref(tab:participants).
 kCap <- "Participants in the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments."
 kCapShort <- "Workshop participants"
 # Import participant table
-participants <- read_csv( file="../tables/Participants.csv", col_names=TRUE,
+participants <- read_csv( file="../tables/Participants.txt", col_names=TRUE,
   col_types=cols(), na=" " ) %>%
   arrange( Region, Name ) %>%
   kable( booktabs=TRUE, linesep="", format="latex", escape=FALSE,
