@@ -6,7 +6,7 @@ author: "Author name goes here"
 output: pdf_document
 fontsize: 12pt
 header-includes:
-  - \usepackage{mathptmx}      # Better font
+  - \usepackage{mathptmx}      # Times font
 ---
 
 <!-- This is a comment 
@@ -88,7 +88,8 @@ data
 
 (only the first 10 rows get printed here thanks to dplyr).
 
-\clearpage <!-- This starts a new page in Latex, I don't know the Rmd command --> 
+<!-- This forces all floating tables and figures to appear and starts a new page in Latex. Only applies to PDF output.-->
+\clearpage 
 
 ## Plot the data
 
