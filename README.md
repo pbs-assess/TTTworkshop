@@ -60,7 +60,7 @@ If anyone does have TMB code that they using operationally (we do have some but 
 | 10:15 | An interactive introduction to Git (Edwards and Grandin) | 
 | 10:30 | Break |
 | 10:45 | Introduction to Git (including exercises) |
-| 12:00 | Lunch |
+| 12:00 | Do head count for Thursday dinner, lunch |
 | 13:15 | Introduction to Git (including exercises) |
 | 14:45 | Break |
 | 15:00 | Introduction to Git (including exercises) |
@@ -75,10 +75,14 @@ Simple knitr example and exercises using Rmarkdown, to show automatic (re)genera
 
 Minimal Working Example of building a Res Doc using [csasdown](https://github.com/pbs-assess/csasdown); just use Sean's built-in example (Anderson?).
 
-Simplified version of Pacific Cod assessment, with some exercises for participants (Grandin). If the model changes and is re-run then the whole document
-is automatically updated, including figures, tables and values in the text. This is especially valuable for assessments conducted annually.
+**Guest speaker, 1:15pm** Bruce Patten (PBS) - A data manager's perspective (10-15 mins)
 
 Technical Report example, including ongoing building of Proceedings for this meeting (Grinnell).
+
+Overview of the day and plan for tomorrow |
+
+Probably not needed now (since all covered in the csasdown example): Simplified version of Pacific Cod assessment, with some exercises for participants (Grandin). If the model changes and is re-run then the whole document
+is automatically updated, including figures, tables and values in the text. This is especially valuable for assessments conducted annually.
 
 Maybe: further general tricks, tips and lessons learnt through our ongoing experiences with annual Pacific Hake, Pacific Herring and Pacific Cod assessments, and with the Groundfish synopsis report. We are gradually working out the best workflow for such projects.
  
@@ -91,7 +95,7 @@ Thursday morning - Rpackages introduction (Anderson?). Originally we were not go
 
 **Translation (the fourth T?)** This is becoming more of an issue with people being asked to shorten their assessment documents to save on translation costs. And it is creating delays in getting Res Docs published (which is particularly problematic for annual assessments). 
 
-Thursday, 1:15pm. Ann Mariscak from our local CSAS office will talk about the translation rules and what is working for getting Res Docs (in particular) translated.
+**Guest speaker, 1:15pm**. Ann Mariscak from our local CSAS office will talk about the translation rules and what is working for getting Res Docs (in particular) translated.
 
 We could look at Rowan Haigh's `linguaFranca()` R function, line 1007 [here](https://github.com/pbs-software/pbs-tools/blob/master/PBStools/R/M01_Utility.r). And maybe share code from participants from other regions.
 
