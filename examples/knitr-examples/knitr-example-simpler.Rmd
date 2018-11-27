@@ -1,0 +1,178 @@
+---
+# This part is YAML (Yet Another Markup Language). To run this file do:
+# rmarkdown::render("knitr-example-simpler.Rmd")
+title: Simple knitr Rmarkdown example -- automatic write-up of simulated data
+author: "Author name goes here"
+output: pdf_document
+fontsize: 12pt
+header-includes:
+  - \usepackage{mathptmx}      # Better font
+---
+
+<!-- This is a comment 
+     The following code alternates betwen R and the write-up of text
+-->
+
+<!-- knitr options, adapted from gfsynopsis: -->
+```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  # warning = FALSE,
+  # message = FALSE,
+  comment = "#>",
+  fig.path = "knitr-figs/",
+  cache.path = if (knitr:::is_latex_output()) "knitr-cache-tex/" else "knitr-cache-docx/",
+  fig.asp = 0.618,
+  fig.width = 9,
+  out.width = "6in",
+  echo = TRUE,
+  autodep = TRUE,
+  cache = TRUE,
+  # cache.comments = FALSE,
+  dev = if (knitr:::is_latex_output()) "png" else "png",
+  dpi = 200,
+  fig.align = "center",
+  fig.pos = "htb"
+)
+rm(list=ls())
+```
+
+
+The point of this is to introduce the idea of *dynamically generated
+reports*. There'll be some formatting syntax to pretty it up, but don't worry
+about that too much. If you get errors then just try running `knitr-example-simpler.Rmd`.
+
+## Generate data
+
+We wish to generate some data and create a summary of the statistics. 
+First generate the data in R:
+
+```{r generate}
+set.seed(42)
+n = 50                       # sample size
+x = 1:n               
+y = 10*x + rnorm(n, 0, 10)
+# y = 10*x^1.5 + rnorm(n, 0, 10)
+n
+```
+
+So that runs the R code, prints it plus any output.
+
+We can also embed results from R within sentences: 
+
+We have a sample size of `r n`.
+
+The maximum value of $y$ is `r max(y)`.
+
+Or round it to two decimal places: the maximum value of $y$ is `r round(max(y),2)`.
+
+## Not show the R code
+
+We can choose *not* echo to the R code:
+
+```{r notecho, echo=FALSE}
+# library(kableExtra)
+library(dplyr)
+library(xtable)
+z = 37 
+```
+
+## Show some data
+
+Show some values:
+
+```{r showdata}
+data = tbl_df(cbind(x, y))
+data
+```
+
+(only the first 10 rows get printed here thanks to dplyr).
+
+\clearpage <!-- This starts a new page in Latex, I don't know the Rmd command --> 
+
+## Plot the data
+
+Now we want to plot the data:
+
+```{r plot}
+plot(x, y)
+```
+
+\clearpage
+
+## Now to fit a linear regression
+
+Can fit and then print the summary regression output from R:
+
+```{r regression}
+fit = lm(y~x)
+print(summary(fit))
+``` 
+
+And create a plot:
+```{r plotfit}
+plot(x, y)
+abline(fit, col="red")
+```
+
+## Summarise the results
+
+So the maximum value of $y$ is `r round(max(y),2)`, which is 
+`r ifelse(max(y)>400, paste("greater than"), paste("less than"))` 
+the special value of 400.
+
+So you can actually somewhat automate the text (just be careful and think about
+other possibilities -- what if $y=399.9$ in the above example?).
+
+So you can automate a sentence such as "the stock is in the healthy zone". 
+
+## Now, let's go back and change the data
+
+The *big* feature of dynamically generating reports is when you go back and 
+change or update the input data.
+
+Let's go back and change replace the definition of $y$ with
+```{r changey, eval=FALSE}
+y = 10*x^1.5 + rnorm(n, 0, 10)
+```
+
+[I'll do this manually].
+
+Look at the `.Rmd` code here and note the ues of `eval=FALSE`.
+
+# Exercises:
+
+1. Get the code running.
+
+2. Change `n` to 30, and re-run.
+
+3. Hide the output in the first chunk of the 'Now to fit a linear regression' 
+section. (In a report you wouldn't show such results, though it's very useful
+when exploring data -- I show the output all the time when looking at large data
+frames).
+
+\clearpage
+
+## Explain cache
+
+1. Look at `knitr-cache-tex/` folder, order files by 'Date modified'.
+
+2. Re-run this file. Look at the times of those files.
+
+3. Change $n$ back to 50.
+
+4. Re-run this file. Again look at the times of the files in `knitr-cache-tex/`.
+
+So `knitr` caches results of each chunk, but then re-runs those that have
+changed (or those that depend on something that has change).
+
+Very efficient -- if you just update some text you don't need all the
+calculations redone.
+
+Beware - if you read in, say, a `.csv` file and the contents of the file change,
+`knitr` will still use the cached read-in of that file, because it won't know
+that the file has changed. 
+
+If you're not sure then it's safest to delete the `knitr-cache-tex/` directory 
+to re-run all calculations (including loading in of data).
+
