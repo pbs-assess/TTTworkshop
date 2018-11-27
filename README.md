@@ -155,7 +155,19 @@ Some TMB knowledge may be desirable - if you have a TMB model that you use then 
 
 ## Computer programs to be installed
 
-To be determined. We will send out an email the week of 12th November. You will very likely need admin privileges.
+We will need some R packages: 
+```
+install.packages("dplyr",
+                        "kableExtra",
+                        "xtable",
+                        "devtools")
+```
+
+and then to get csasdown:
+
+```
+devtools::install_github("pbs-assess/csasdown")
+```
 
 ## Products
 
