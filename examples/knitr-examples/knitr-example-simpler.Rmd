@@ -36,7 +36,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-
 The point of this is to introduce the idea of *dynamically generated
 reports*. There'll be some formatting syntax to pretty it up, but don't worry
 about that too much.
@@ -48,9 +47,9 @@ First generate the data in R:
 
 ```{r generate}
 set.seed(42)
-n = 50                       # sample size
-x = 1:n               
-y = 10*x + rnorm(n, 0, 10)
+n <- 50 # sample size
+x <- 1:n
+y <- 10 * x + rnorm(n, 0, 10)
 # y = 10*x^1.5 + rnorm(n, 0, 10)
 n
 ```
@@ -73,7 +72,7 @@ We can choose *not* echo to the R code:
 # library(kableExtra)
 library(dplyr)
 library(xtable)
-z = 37 
+z <- 37
 ```
 
 ## Show some data
@@ -81,7 +80,7 @@ z = 37
 Show some values:
 
 ```{r showdata}
-data = tbl_df(cbind(x, y))
+data <- tbl_df(cbind(x, y))
 data
 ```
 
@@ -105,14 +104,15 @@ plot(x, y)
 Can fit and then print the summary regression output from R:
 
 ```{r regression}
-fit = lm(y~x)
+fit <- lm(y ~ x)
 print(summary(fit))
 ``` 
 
 And create a plot:
+
 ```{r plotfit}
 plot(x, y)
-abline(fit, col="red")
+abline(fit, col = "red")
 ```
 
 ## Summarise the results
@@ -133,7 +133,7 @@ change or update the input data.
 
 Let's go back and change replace the definition of $y$ with
 ```{r changey, eval=FALSE}
-y = 10*x^1.5 + rnorm(n, 0, 10)
+y <- 10 * x^1.5 + rnorm(n, 0, 10)
 ```
 
 [I'll do this manually].
@@ -175,4 +175,5 @@ that the file has changed.
 
 If you're not sure then it's safest to delete the `knitr-cache-tex/` directory 
 to re-run all calculations (including loading in of data).
+
 
