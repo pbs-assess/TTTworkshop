@@ -6,7 +6,6 @@ title: Simple knitr Rmarkdown example --- automatic write-up of simulated data
 author: "Author name goes here"
 output: pdf_document
 fontsize: 12pt
-
 ---
 
 <!-- This is a comment 
