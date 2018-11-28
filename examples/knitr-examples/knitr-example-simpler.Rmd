@@ -66,7 +66,7 @@ Or round it to two decimal places: the maximum value of $y$ is `r round(max(y),2
 
 ## Not show the R code
 
-We can choose *not* echo to the R code:
+We can choose *not* to echo the R code:
 
 ```{r notecho, echo=FALSE}
 # library(kableExtra)
