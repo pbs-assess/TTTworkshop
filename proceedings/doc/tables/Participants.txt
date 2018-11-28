@@ -30,5 +30,5 @@ National Capital,Rob Kronlund,,,,
 Pacific,"Andrew Edwards (chair, instructor)",X,X,,
 Pacific,Chris Grandin (instructor),X,X,,
 Pacific,Sean Anderson (instructor),X,X,,
-Pacific,Matthew Grinnell (instructor),X,X,,
+Pacific,Matthew Grinnell (instructor),X,X,X,X
 Pacific,Elise Keppel (instructor),X,X,,
