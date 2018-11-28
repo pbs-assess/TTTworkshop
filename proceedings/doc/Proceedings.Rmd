@@ -50,3 +50,23 @@ library( bindrcpp )
 <!-- Introduction -->
 ```{r child='maindoc/1_Introduction.Rmd'}
 ```
+
+<!-- Day 1 -->
+```{r child='maindoc/2_Day1.Rmd'}
+```
+
+<!-- Day 2 -->
+```{r child='maindoc/3_Day2.Rmd'}
+```
+
+<!-- Day 3 -->
+```{r child='maindoc/4_Day3.Rmd'}
+```
+
+<!-- Day 4 -->
+```{r child='maindoc/5_Day4.Rmd'}
+```
+
+<!-- Conclusions -->
+```{r child='maindoc/6_Conclusions.Rmd'}
+```

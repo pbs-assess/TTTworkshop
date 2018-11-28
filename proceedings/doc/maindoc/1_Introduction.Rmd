@@ -18,7 +18,7 @@ participants <- read_csv( file="../tables/Participants.txt", col_names=TRUE,
   kable( booktabs=TRUE, linesep="", format="latex", escape=FALSE,
     align=c("l", "l", "c", "c", "c", "c"), caption=kCap, 
     caption.short=kCapShort) %>%
-  kable_styling( latex_options=c("striped") ) %>%
+  kable_styling( latex_options=c("striped","hold_position") ) %>%
   row_spec( row=0, bold=TRUE ) %>%
   add_header_above( header=c(" ", " ", "Day"=4), bold=TRUE ) %>%
   print( )
