@@ -7,6 +7,35 @@ Some recommendations included naming our code chunks using unique and useful des
 
 ## INTRODUCTION TO **csasdown** (ANDERSON)
 
+
+
+
+
+
+
+
+
+
+
 ## OPEN DATA PROTOCOLS (BRUCE PATTEN)
 
+
+
+
+
+
+
+
+
+
 ## DEFENSIBLE SCIENCE ADVICE (KRONLUND)
+
+
+
+
+
+
+
+
+
+
