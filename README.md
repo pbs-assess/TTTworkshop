@@ -77,7 +77,7 @@ Minimal Working Example of building a Res Doc using [csasdown](https://github.co
 
 **Guest speaker, 1:15pm** Bruce Patten (PBS) - A data manager's perspective (10-15 mins)
 
-Technical Report example, including ongoing building of Proceedings for this meeting (Grinnell).
+**Short talk** Rob Kronlund (NCR) -- Defensible Science Advice
 
 Overview of the day and plan for tomorrow |
 
@@ -92,12 +92,17 @@ Quick recap of Wednesday.
 
 Thursday morning - Rpackages introduction (Anderson?). Originally we were not going to include this, but having everything in packages does make life easier. And it helps to understand how packages are structured (when you want to delve into them). A short intro will help participants be able to read Hadley Wickham's [free Rpackages book](http://r-pkgs.had.co.nz/).
 
+Technical Report example, including ongoing building of Proceedings for this meeting (Grinnell).
 
 **Translation (the fourth T?)** This is becoming more of an issue with people being asked to shorten their assessment documents to save on translation costs. And it is creating delays in getting Res Docs published (which is particularly problematic for annual assessments). 
 
 **Guest speaker, 1:15pm**. Ann Mariscak from our local CSAS office will talk about the translation rules and what is working for getting Res Docs (in particular) translated.
 
 We could look at Rowan Haigh's `linguaFranca()` R function, line 1007 [here](https://github.com/pbs-software/pbs-tools/blob/master/PBStools/R/M01_Utility.r). And maybe share code from participants from other regions.
+
+Brainstorming regarding best way of creating figures in both languages. 
+
+Breakout groups? One to start a plotting package, or at least file of common translations of technical terms (that people can then use themselves). Another to work on Proceedings - will be good practice for collaborating on a common document.
 
 #### Friday (Malaspina Room)
 
