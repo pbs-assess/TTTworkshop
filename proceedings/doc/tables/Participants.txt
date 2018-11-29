@@ -1,5 +1,5 @@
 Region,Name,1,2,3,4
-Central and Arctic,Ross Tallman,,,,
+Central and Arctic,Ross Tallman,x,x,x,x
 Central and Arctic,Kevin Hedges,,,,
 Central and Arctic,Xinhua Zhu,,,,
 Central and Arctic,Kim Howland,,,,
