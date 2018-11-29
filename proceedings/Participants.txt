@@ -1,6 +1,6 @@
 Region,Name,1,2,3,4
 Central and Arctic,Ross Tallman,X,X,X,X
-Central and Arctic,Kevin Hedges,,,,
+Central and Arctic,Kevin Hedges,x,x,x,x
 Central and Arctic,Xinhua Zhu,,,,
 Central and Arctic,Kim Howland,,,,
 Qu\'{e}bec,Daniel Duplisea (chair),,,,
