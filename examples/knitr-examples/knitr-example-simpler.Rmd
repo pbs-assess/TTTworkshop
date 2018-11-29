@@ -6,8 +6,6 @@ title: Simple knitr Rmarkdown example --- automatic write-up of simulated data
 author: "Author name goes here"
 output: pdf_document
 fontsize: 12pt
-header-includes:
-  - \usepackage{mathptmx}      # Times font
 ---
 
 <!-- This is a comment 
@@ -67,7 +65,7 @@ Or round it to two decimal places: the maximum value of $y$ is `r round(max(y),2
 
 ## Not show the R code
 
-We can choose *not* echo to the R code:
+We can choose *not* to echo the R code:
 
 ```{r notecho, echo=FALSE}
 # library(kableExtra)
@@ -118,7 +116,7 @@ abline(fit, col = "red")
 
 ## Summarise the results
 
-So the maximum value of $y$ is `r round(max(y),2)`, which is 
+So the maximum value of $y$ is `r round(max(y),0)`, which is 
 `r ifelse(max(y)>400, paste("greater than"), paste("less than"))` 
 the special value of 400.
 
@@ -176,5 +174,4 @@ that the file has changed.
 
 If you're not sure then it's safest to delete the `knitr-cache-tex/` directory 
 to re-run all calculations (including loading in of data).
-
 
