@@ -1,7 +1,16 @@
 # DAY 3
+The third day of the TTT workshop started with a presentation by Sean Anderson on R package development. Sean used materials from presentations by Harley Wickam (senior scientist at RStudio) to get participants started with developing R packages. The development of R packages is greatly simplified by using an RStudio's project and taking advantage of its many available tools related to package development. For example, one can create a project in RStudio and define it as an R package, and the software will create the necessary backbone of an R package. Sean covered the development of an R package, the generation of its documentation using ROxygen, unit testing of the package, and package testing. 
 
 Resources from Hadley Wickham were presented such as "Advanced R" (Wickham 2016), "R Packages" (Wickham 2017) and "R for Data Science" (Wickham 2018).  
 
 ## GENERATING ENGLISH AND FRENCH FIGURES (GRINNELL)
 
+Did this actually happen?
+
 ## TRANSLATING CSAS DOCUMENTS (ANN MARISCAK)
+
+### Editing vs. Translation
+There was a suggestion that documents can be translated to French using Doogle Docs and subsequentially sent for editing instead of translation. If there was a significant price difference between the two different services (i.e., translation vs. editing), this could be an interesting option. However, if pursued, authors would have to take it upon themselves to ensure the integrity of the text was maintained through the translation process.
+
+### Use of translation databases
+There are at least two options within the government of Canada to search for translations of technical terminology. First is [Termimum Plus](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng)
