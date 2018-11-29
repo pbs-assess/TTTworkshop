@@ -165,7 +165,7 @@ abline(fit, col="red")
 
 ## Summarise the results
 
-So the maximum value of $y$ is `r round(max(y),2)`, which is 
+So the maximum value of $y$ is `r round(max(y),0)`, which is 
 `r ifelse(max(y)>400, paste("greater than"), paste("less than"))` 
 the special value of 400.
 
