@@ -7,6 +7,14 @@ Some recommendations included naming our code chunks using unique and useful des
 
 ## INTRODUCTION TO **csasdown** (ANDERSON)
 
+Pacific region has written an R package called csasdown to help authors write research documents formatted for Canadian Science Advisory Secretariat.  
+
+After loading csasdown a template document can be produced using the following R code:
+
+```{r create-draft-csas-doc, eval=FALSE, echo=TRUE}
+library(csasdown)
+rmarkdown::draft("index.Rmd", template = "resdoc", package = "csasdown", create_dir = FALSE, edit = FALSE)
+```
 
 
 
