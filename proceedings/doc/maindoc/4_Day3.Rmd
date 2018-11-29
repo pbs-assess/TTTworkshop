@@ -1,5 +1,7 @@
 # DAY 3
 
+Resources from Hadley Wickham were presented such as "Advanced R" (Wickham 2016), "R Packages" (Wickham 2017) and "R for Data Science" (Wickham 2018).  
+
 ## GENERATING ENGLISH AND FRENCH FIGURES (GRINNELL)
 
 ## TRANSLATING CSAS DOCUMENTS (ANN MARISCAK)
