@@ -1,6 +1,9 @@
 # DAY 2
 
-## INTRODUCTION TO \LaTeX (EDWARDS)
+## INTRODUCTION TO R MARKDOWN (EDWARDS)
+
+Edwards presented an intro to the basics of R markdown. R markdown allows us to interspace text, R code, and R output. This is then elegantly converted into html, pdf, or word formats using the knitr package and pandoc (a universal document converter). Markdown is compatible with latex, but is a much simpler to learn markup language. Basic formatting options were presented.
+Some recommendations included naming our code chunks using unique and useful descriptions (aids in using caches and finding errors) and that caches are useful when working with large datasets.
 
 ## INTRODUCTION TO **csasdown** (ANDERSON)
 
