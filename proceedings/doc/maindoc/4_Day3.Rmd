@@ -3,4 +3,9 @@ The third day of the TTT workshop started with a presentation by Sean Anderson o
 
 ## GENERATING ENGLISH AND FRENCH FIGURES (GRINNELL)
 
+Did this actually happen? 
+
 ## TRANSLATING CSAS DOCUMENTS (ANN MARISCAK)
+
+### Editing vs. Translation
+There was a suggestion that documents can be translated to French using Doogle Docs and then sent for editing instead of tranlation. If there was a significant price difference between the two different services (i.e., translation vs. editing), this could be an interesting option. However, if this were to be done authors would have to take it upon themselves to ensure the integrity of the text was maintained through the translation process. 
