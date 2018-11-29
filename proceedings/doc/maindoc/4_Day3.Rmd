@@ -9,6 +9,8 @@ Did this actually happen?
 
 ## TRANSLATING CSAS DOCUMENTS (ANN MARISCAK)
 
+A presentation was made regarding the new policies for outputing CSAS documents.  As a legal requirement, the Department must ensure that all CSAS documents are written into both official languages.  As well, it is required that the documents be accessible for persons with disabilities and be compatible with tools such as screen readers.  It was noted that translation of text will slow the final output of documents and increase their cost.  Tools such as LatTex and CSASDown may be able to assist in translation and thereby shortern the time and reduce the cost to produce fully translated documents.  Another problem will be translation of figures into the other offical language.  It was suggested that it might be possible for an automated translation of frequently used words such as "Age" or "Fork Length".  
+
 ### Editing vs. Translation
 There was a suggestion that documents can be translated to French using Doogle Docs and subsequentially sent for editing instead of translation. If there was a significant price difference between the two different services (i.e., translation vs. editing), this could be an interesting option. However, if pursued, authors would have to take it upon themselves to ensure the integrity of the text was maintained through the translation process.
 
