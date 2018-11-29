@@ -14,7 +14,7 @@ Newfoundland and Labrador,Bob Rogers,,,,
 Newfoundland and Labrador,Laura Wheeland,,,,
 Newfoundland and Labrador,Krista Baker,,,,
 Newfoundland and Labrador,Luiz Mello,,,,
-Pacific,Kendra Holt,,,,
+Pacific,Kendra Holt,X,X,X,X
 Pacific,Carrie Holt,,,,
 Pacific,Jaclyn Cleary,,,,
 Pacific,Catarina Wor,,,,
