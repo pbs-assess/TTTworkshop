@@ -42,9 +42,10 @@ Daniel Ricard made mention of another translation database native to DFO called 
 
 Workshop participants separated out into five break-out groups.  Workshops participants were able to self-select which group they went to, which worked well.
 
-The first of these groups worked on an applied example, in which they worked together to compose a trip report for a the Newfounland and Labradour Region using R markdown.
+The first of these groups worked on an applied example, in which they worked together to compose a trip report for a the Newfounland and Labradour Region using *Rmarkdown*.
 
-The second of these groups ... focussed on a brainstorming session about .. the development of tools to automate language translation of CSAS research documents ???
+The second of these groups focussed on a brainstorming session about the development of tools to automate language translation of figures in CSAS documents.
+This resulted in the creation of a new **R** package [rosettafish](https://github.com/pbs-assess/rosettafish), which translates common figure annotations between English, French, and Inuktitut.
 
 The remaining three groups worked on collaboratively writing text for this workshop proceedings document using GitHub, with each group tasked with summarizing one day of the workshop.
 A proceedings template document that met the format requirements of the Canadian Techncial Report was compiled ahead of time.
