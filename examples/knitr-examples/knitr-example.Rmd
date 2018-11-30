@@ -2,8 +2,8 @@
 # This part is YAML (Yet Another Markup Language). To run this file do:
 # rmarkdown::render("knitr-example.Rmd")
 title: Simple knitr Rmarkdown example -- automatic write-up of simulated data
-author: "Shannon G. Obradovich"
-output: #pdf_document
+author: "Author name goes here"
+output: pdf_document
 fontsize: 12pt
 header-includes:
   - \usepackage{mathptmx}      # Better font
@@ -223,4 +223,3 @@ that the file has changed.
 
 If you're not sure then it's safest to delete the `knitr-cache-tex/` directory 
 to re-run all calculations (including loading in of data).
-
