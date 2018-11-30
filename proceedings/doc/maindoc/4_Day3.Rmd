@@ -1,5 +1,7 @@
 # DAY 3
+
 ## WRITING **R** PACKAGES (ANDERSON)
+
 The third day of the TTT workshop started with a presentation by Sean Anderson on R package development.
 Sean used materials from presentations by Harley Wickam (senior scientist at RStudio) to get participants started with developing R packages.
 The development of R packages is greatly simplified by using an RStudio's project and taking advantage of its many available tools related to package development.
@@ -13,7 +15,6 @@ Tips were provided on how to edit the users R profile to load key packages.
 Resources from Hadley Wickham were presented such as "Advanced R" (Wickham 2016), "R Packages" (Wickham 2015) and "R for Data Science" (Wickham 2016).
 These resources are available on line as well as in print form.
 
-
 ## TRANSLATING CSAS DOCUMENTS (ANN MARISCAK)
 
 A presentation was made regarding the new policies for outputing CSAS documents.
@@ -25,11 +26,13 @@ Another problem will be translation of figures into the other offical language.
 It was suggested that it might be possible for an automated translation of frequently used words such as "Age" or "Fork Length".
 
 ### Editing vs. Translation
+
 There was a suggestion that documents can be translated to French using Google Docs and subsequentially sent for editing as opposed to translation.
 If editing is less a less expensive service than translation, this could be an option worth considering in some situations.
 Authors choosing to do this would have to ensure the integrity of the text was correctly maintained through the translation process.
 
 ### Translation Databases
+
 Ann mentioned the existance of a Government of Canada database called [Termimum Plus](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng).
 Termimum Plus is an invaluable tool used for the translation of technical terminology.
 The quality of the translation are perteptually being improved through expert-user feedback and contribution.
@@ -46,8 +49,3 @@ The second of these groups ... focussed on a brainstorming session about .. the 
 The remaining three groups worked on collaboratively writing text for this workshop proceedings document using GitHub, with each group tasked with summarizing one day of the workshop.
 A proceedings template document that met the format requirements of the Canadian Techncial Report was compiled ahead of time.
 The three report-writing groups were able to clone the relevant repository and make changes to the template.
-
-## GENERATING ENGLISH AND FRENCH FIGURES (GRINNELL)
-
-`Did this actually happen?`
-
