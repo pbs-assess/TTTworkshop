@@ -49,3 +49,22 @@ The second of these groups ... focussed on a brainstorming session about .. the 
 The remaining three groups worked on collaboratively writing text for this workshop proceedings document using GitHub, with each group tasked with summarizing one day of the workshop.
 A proceedings template document that met the format requirements of the Canadian Techncial Report was compiled ahead of time.
 The three report-writing groups were able to clone the relevant repository and make changes to the template.
+
+**Multi-species survey automated report break-out group**
+
+A breakout group (Krista Baker, Brendan Connors, Kevin Hedges, Bob Roger, Mark
+Simpson and Laura Wheeland) was formed to work on an applied example of all of
+the workshop topics.  The group created a Github repository, R project and
+Markdown document to standardize and automate the creation of RV survey trip
+reports. The group used Newfoundland and Labrador Region multispecies surveys as
+a test case and tailored the project to handling the particular data structure
+from those surveys, but the project could easily be adapted for other trip types
+(e.g. Shellfish surveys). Work was divided among group members and coordinated
+through GitHub. Individual tasks included creating the GitHub repository,
+creating the R project, drafting separate Markdown files that provide a trip
+summary, survey map and catch summary and creating a bookdown file to combine
+the separate Markdown files into a single PDF report. The Markdown files
+combined standard text and dynamic calculations in R to automatically generate
+survey details and summary results. By the end of the workshop the report
+project was completed and automated survey reports had been successfully
+generated.
