@@ -175,4 +175,3 @@ that the file has changed.
 If you're not sure then it's safest to delete the `knitr-cache-tex/` directory 
 to re-run all calculations (including loading in of data).
 
-
