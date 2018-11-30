@@ -21,7 +21,7 @@ There are at least two options within the government of Canada to search for tra
 
 ## BREAK-OUT GROUPS
 
-Workshop participants seperated out into five break-out groups.  Workshops participants were able to self-select which group they went to, which worked well.
+Workshop participants separated out into five break-out groups.  Workshops participants were able to self-select which group they went to, which worked well.
 
 The first of these groups worked on an applied example, in which they worked together to compose a trip report for a the Newfounland and Labradour Region using R markdown.
 
