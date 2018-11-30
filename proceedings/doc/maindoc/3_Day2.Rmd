@@ -16,7 +16,8 @@ After loading csasdown a template document can be produced using the following R
 
 ```{r create-draft-csas-doc, eval=FALSE, echo=TRUE}
 library(csasdown)
-rmarkdown::draft("index.Rmd", template = "resdoc", package = "csasdown", create_dir = FALSE, edit = FALSE)
+rmarkdown::draft("index.Rmd", template = "resdoc", package = "csasdown", 
+  create_dir = FALSE, edit = FALSE)
 ```
 
 
