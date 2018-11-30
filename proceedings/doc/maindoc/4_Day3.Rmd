@@ -17,7 +17,7 @@ A presentation was made regarding the new policies for outputing CSAS documents.
 There was a suggestion that documents can be translated to French using Google Docs and subsequentially sent for editing as opposed to translation. If editing is less a less expensive service than translation, this could be an option worth considering in some situations. Authors choosing to do this would have to ensure the integrity of the text was correctly maintained through the translation process.
 
 ### Translation Databases
-Ann mentioned the existance of a Government of Canada database called [Termimum Plus](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng). Termimum Plus is an invaluable tool used for the translation of technical terminology. The quality of the translation are perteptually being improved through expert-user feedback and contribution. Daniel Ricard made mention of another translation database native to [DFO called the DFO Bilingual Lexicon](http://address-needed.com).
+Ann mentioned the existance of a Government of Canada database called [Termimum Plus](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng). Termimum Plus is an invaluable tool used for the translation of technical terminology. The quality of the translation are perteptually being improved through expert-user feedback and contribution. Daniel Ricard made mention of another translation database native to DFO called the [DFO Bilingual Lexicon](http://address-needed.com).
 
 ## BREAK-OUT GROUPS
 
