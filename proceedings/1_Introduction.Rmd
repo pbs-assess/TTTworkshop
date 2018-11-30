@@ -1,11 +1,11 @@
 # INTRODUCTION
 
-The workshop took place in Nanaimo, BC (Figure \ref{fig:classroom}).
+The workshop took place in Nanaimo, BC in an interactive classroom setting (Figure \ref{fig:classroom}).
 Workshop materials are on the [GitHub repository](https://github.com/pbs-assess/TTTworkshop).
 
 \begin{figure}
-\includegraphics[width=\linewidth]{Classroom1.jpg}
-\caption[Classroom setting]{Classroom setting for the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments.}
+\fbox{\includegraphics[width=\linewidth]{Classroom1.jpg}}
+\caption[Interactive classroom setting]{Interactive classroom setting for the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments.}
 \label{fig:classroom}
 \end{figure}
 
