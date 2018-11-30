@@ -10,9 +10,12 @@ Emailing individual files does not preserve folder structure, which is important
 Github is more efficient and less prone to errors by preserving folder struture and allows analysts to work on code simultaneously.
 
 Github tracks changes in a document and keeps all previous changes, so that previous versions are never lost. 
-By using branches, individual developers can simultaneously work on the same project without worrying about overwriting other individual's work. It merges versions of document edtied by different users, and highlights lines with conflicts that need to be resolved. It also tracks who made which changes, which can be viewed using the blame button. 
+By using branches, individual developers can simultaneously work on the same project without worrying about overwriting other individual's work.
+It merges versions of document edtied by different users, and highlights lines with conflicts that need to be resolved.
+It also tracks who made which changes, which can be viewed using the blame button. 
 During development (or post-development), Git also allows analysts to easily reference pieces of code and/or changes in code easily when posing questions or issues, using remote repositories.
-Issues can be easily tracked on the GitHub site and used as a continuously updated to-do list, with a permanently recorded history. Individual issues that need to be addressed can also be assigned to specific analysts within a working group.
+Issues can be easily tracked on the GitHub site and used as a continuously updated to-do list, with a permanently recorded history.
+Individual issues that need to be addressed can also be assigned to specific analysts within a working group.
 
 ## INTERACTIVE INTRODUCTION TO **Git** (EDWARDS AND GRANDIN)
 
