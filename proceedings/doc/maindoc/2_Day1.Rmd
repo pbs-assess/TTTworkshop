@@ -2,6 +2,24 @@
 
 ## MOTIVATION FOR THE WORKSHOP (EDWARDS AND DUPLISEA)
 
+Assessment staff work collaboratively and previous methods for collaboration (e.g., email)  are inefficient and prone to errors.
+
 ## MOTIVATION FOR USING **Git** (EDWARDS)
 
+Emailing individual files does not preserved folder structure, which is important for code functionality.
+Github is more efficient and less prone to errors by preserving folder struture and allows analysts to work on code simultaneously.
+Github tracks changes in a document and keeps all previous changes, so that previous versions are never lost.
+It also tracks who made which changes which can be viewed using the blame button. It merges versions of document edtied by different users, and highlights lines with conflicts that need to be resolved.
+It allows analysts to refernce pieces of code and/or changes in code easily when posing questions or issues.
+Issues can be easily tracked on the GitHub site, which can be assigned to other analysts.
+
 ## INTERACTIVE INTRODUCTION TO **Git** (EDWARDS AND GRANDIN)
+Andy led the group though the steps for: 
+
+- creating a repository
+- cloning the repository to the local hard drive
+- adding a file to the repository
+- commiting the addtions
+- making changes to files
+- commiting those changes
+- pushing to the local drive.

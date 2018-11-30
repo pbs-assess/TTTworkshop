@@ -1,10 +1,10 @@
 ---
-# This part is YAML (Yet Another Markup Language). To run this file do:
-# rmarkdown::render("knitr-example-simpler.Rmd")
-# or click "Knit" in RStudio
-title: Simple knitr Rmarkdown example --- automatic write-up of simulated data
+title: "Simple knitr Rmarkdown example --- automatic write-up of simulated data"
 author: "Author name goes here"
-output: pdf_document
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
 fontsize: 12pt
 ---
 
@@ -12,28 +12,28 @@ fontsize: 12pt
      The following code alternates betwen R and the write-up of text
 -->
 
-<!-- knitr options, adapted from gfsynopsis: -->
-```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  # warning = FALSE,
-  # message = FALSE,
-  comment = "#>",
-  fig.path = "knitr-figs/",
-  cache.path = if (knitr:::is_latex_output()) "knitr-cache-tex/" else "knitr-cache-docx/",
-  fig.asp = 0.618,
-  fig.width = 9,
-  out.width = "6in",
-  echo = TRUE,
-  autodep = TRUE,
-  cache = TRUE,
-  # cache.comments = FALSE,
-  dev = if (knitr:::is_latex_output()) "pdf" else "png",
-  dpi = 200,
-  fig.align = "center",
-  fig.pos = "htb"
-)
-```
+<!-- <!-- knitr options, adapted from gfsynopsis: --> -->
+<!-- ```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE} -->
+<!-- knitr::opts_chunk$set( -->
+<!--   collapse = TRUE, -->
+<!--   # warning = FALSE, -->
+<!--   # message = FALSE, -->
+<!--   comment = "#>", -->
+<!--   fig.path = "knitr-figs/", -->
+<!--   cache.path = if (knitr:::is_latex_output()) "knitr-cache-tex/" else "knitr-cache-docx/", -->
+<!--   fig.asp = 0.618, -->
+<!--   fig.width = 9, -->
+<!--   out.width = "6in", -->
+<!--   echo = TRUE, -->
+<!--   autodep = TRUE, -->
+<!--   cache = TRUE, -->
+<!--   # cache.comments = FALSE, -->
+<!--   dev = if (knitr:::is_latex_output()) "pdf" else "png", -->
+<!--   dpi = 200, -->
+<!--   fig.align = "center", -->
+<!--   fig.pos = "htb" -->
+<!-- ) -->
+<!-- ``` -->
 
 The point of this is to introduce the idea of *dynamically generated
 reports*. There'll be some formatting syntax to pretty it up, but don't worry
@@ -174,5 +174,4 @@ that the file has changed.
 
 If you're not sure then it's safest to delete the `knitr-cache-tex/` directory 
 to re-run all calculations (including loading in of data).
-
 
