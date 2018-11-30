@@ -1,3 +1,12 @@
 # CONCLUSIONS
 
+Common templates for CSAS reports are useful to ensure web access standards and speedup publishing times for DFO reports.
+
+Assisting everyone in the department nation wide with making standard translation tools between languages esnures rapid and equal quality graphics in documents and presenations regardless of its original language and its tranlations.
+
+Common graphical standards for different plot types (look and feel) draws more attention to the advice than the particular mode of presenting it thus seeking stronger standards in this regards should aid communication of the implication Science's work, advice and uncertainties in that advice.
+
+Using tools that allow traceability, transferable tools such as github, R-packaging and R-markdown files for documenting and disseminating assessment code, is a means of promoting a transparent line of work, decisions, assumptions and known issues which are key components of defensible science advice.
+In addition, using these tools in DFO assessment work can promote greater within and between region collaboration that can improve the speed and quality of some science advice.
+
 ## RECOMMENDATIONS/ADVICE (?)
