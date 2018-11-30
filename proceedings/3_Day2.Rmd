@@ -24,9 +24,14 @@ Using this draft document, we explored how to produce and link figures, tables, 
 
 ## OPEN DATA PROTOCOLS (BRUCE PATTEN)
 
-Bruce Patten, section head of the Fisheries and Assessment Data Unit, talked about data standards.
-He described Darwin Core, a model for “observational” data that has terms and definitions that facilitate the exchange of information about the geographic occurrence of organisms, and how it may be applied to fisheries survey data.
+Bruce Patten presented an overview of the Darwin Core (DWC) observational data model and the benefits of its potential application to fisheries science.
+This data model provides a standard for representing survey data in a consistent format that allows for integration of datasets from multiple sources.
+The DWC model has been extended by the Ocean Biogeographic Information System (OBIS) initiative to be more useful for marine biological and oceanographic survey data and is called the OBIS-ENV-DATA schema.
 He listed several online repositories for biological data that use Darwin Core data standards including [Ocean Biogeographic Information Systes: http://www.iobis.org](http://www.iobis.org) and related R tools (RODBC, robis and obistools R packages).
+Several international data sharing initiatives such as OBIS are exchanging data using this format.
+Canada has committed to contributing to these efforts and DFO has already participated to some degree.
+There are some R packages available that provide the user with tools for interacting with data in the OBIS format of DWC.
+Mr. Patten proposes that DFO Science put some effort towards mapping existing databases to the OBIS-ENV-DATA schema with the idea of developing datasets in this format for use by analysts.
 
 ## DEFENSIBLE SCIENCE ADVICE (KRONLUND)
 
