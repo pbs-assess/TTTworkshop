@@ -5,9 +5,7 @@ Exercises were done by the participants to learn how to alter an example package
 
 Resources from Hadley Wickham were presented such as "Advanced R" (Wickham 2016), "R Packages" (Wickham 2015) and "R for Data Science" (Wickham 2016)  These resources are available on line as well as in print form.
 
-## GENERATING ENGLISH AND FRENCH FIGURES (GRINNELL)
-
-`Did this actually happen?`
+## WRITING **R** PACKAGES (ANDERSON)
 
 ## TRANSLATING CSAS DOCUMENTS (ANN MARISCAK)
 
@@ -28,3 +26,8 @@ The first of these groups worked on an applied example, in which they worked tog
 The second of these groups ... focussed on a brainstorming session about .. the development of tools to automate language translation of CSAS research documents ???
 
 The remaining three groups worked on collaboratively writing text for this workshop proceedings document using GitHub, with each group tasked with summarizing one day of the workshop. A proceedings template document that met the format requirements of the Canadian Techncial Report was compiled ahead of time.The three report-writing groups were able to clone the relevant repository and make changes to the template.
+
+## GENERATING ENGLISH AND FRENCH FIGURES (GRINNELL)
+
+`Did this actually happen?`
+

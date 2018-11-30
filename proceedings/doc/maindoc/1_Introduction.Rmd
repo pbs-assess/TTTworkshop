@@ -8,7 +8,7 @@ Workshop participants are listed in Table \@ref(tab:participants).
 
 <!-- Load participants table -->
 ```{r participants, echo=FALSE, results='asis'}
-# Caption
+# Caption <- 
 kCap <- "Participants in the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments."
 kCapShort <- "Workshop participants"
 # Import participant table
