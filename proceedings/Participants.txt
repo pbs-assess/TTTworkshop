@@ -4,7 +4,7 @@ Central and Arctic,Kevin Hedges,x,x,x,x
 Central and Arctic,Xinhua Zhu,X,X,X,X
 Central and Arctic,Kim Howland,,,,
 Qu\'{e}bec,Daniel Duplisea (chair),X,X,X,X
-Qu\'{e}bec,Mathieu Desgagn\'{e}s,,,,
+Qu\'{e}bec,Mathieu Desgagn\'{e}s,X,X,X,X
 Qu\'{e}bec,Hugues Benoit,X,X,X,X
 Gulf,Daniel Ricard,X,X,X,X
 Gulf,David Fishman,X,X,X,
@@ -17,8 +17,8 @@ Newfoundland and Labrador,Luiz Mello,,,,
 Pacific,Kendra Holt,X,X,X,X
 Pacific,Carrie Holt,X,X,X,
 Pacific,Jaclyn Cleary,X,X,X,
-Pacific,Catarina Wor,,,X,
-Pacific,Shannon Obradovich,,,,
+Pacific,Catarina Wor,,,X,X
+Pacific,Shannon Obradovich,X,X,X,X
 Pacific,Erika Anderson,X,X,X,X
 Pacific,Cameron Freshwater,X,X,X,
 Pacific,Brendan Connors,,,,

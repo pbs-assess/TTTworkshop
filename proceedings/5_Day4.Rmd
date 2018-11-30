@@ -1,3 +1,9 @@
 # DAY 4
-The Government of Canada, through Shared Services Canada, has a GitLab entreprise account called [gccode](https://gccode.ssc-spc.gc.ca "gccode homepage"). One must be on the DFO network (or any Government of Canada network) to access the website and the remote git server. You can create an account on gccode and use it in the same way that you would use GitHub. One advantage of using gccode is that it is provided by Shared Services Canada and therefore has no privacy concerns that may arise from using a publically available system such as GitHub. The downside is that the git server can only be access from your office or from a VPN.  
+
+The Government of Canada, through Shared Services Canada, has a GitLab entreprise account called [gccode](https://gccode.ssc-spc.gc.ca "gccode homepage").
+One must be on the DFO network (or any Government of Canada network) to access the website and the remote git server.
+You can create an account on gccode and use it in the same way that you would use GitHub.
+One advantage of using gccode is that it is provided by Shared Services Canada and therefore has no privacy concerns that may arise from using a publically available system such as GitHub.
+The downside is that the git server can only be access from your office or from a VPN.
+
 ## WRAP UP (EDWARDS AND DUPLISEA)
