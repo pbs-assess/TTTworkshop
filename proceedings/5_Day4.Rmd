@@ -1,5 +1,7 @@
 # DAY 4
 
+## GitLab (RICARD)
+
 The Government of Canada, through Shared Services Canada, has a GitLab entreprise account called [gccode](https://gccode.ssc-spc.gc.ca "gccode homepage").
 One must be on the DFO network (or any Government of Canada network) to access the website and the remote git server.
 You can create an account on gccode and use it in the same way that you would use GitHub.
