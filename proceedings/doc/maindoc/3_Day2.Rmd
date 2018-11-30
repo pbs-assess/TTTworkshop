@@ -2,7 +2,10 @@
 
 ## INTRODUCTION TO R MARKDOWN (EDWARDS)
 
-Edwards presented an intro to the basics of R markdown. R markdown allows us to interspace text, R code, and R output. This is then elegantly converted into html, pdf, or word formats using the knitr package and pandoc (a universal document converter). Markdown is compatible with latex, but is a much simpler to learn markup language. Basic formatting options were presented.
+Edwards presented an intro to the basics of R markdown.
+R markdown allows us to interspace text, R code, and R output.
+This is then elegantly converted into html, pdf, or word formats using the knitr package and pandoc (a universal document converter).
+Markdown is compatible with latex, but is a much simpler to learn markup language. Basic formatting options were presented.
 Some recommendations included naming our code chunks using unique and useful descriptions (aids in using caches and finding errors) and that caches are useful when working with large datasets.
 
 ## INTRODUCTION TO **csasdown** (ANDERSON)
@@ -22,12 +25,17 @@ Using this draft document, we explored how to produce and link figures, tables, 
 
 ## OPEN DATA PROTOCOLS (BRUCE PATTEN)
 
-Bruce Patten, section head of the Fisheries and Assessment Data Unit, talked about data standards. He described Darwin Core, a model for “observational” data that has terms and definitions that facilitate the exchange of information about the geographic occurrence of organisms, and how it may be applied to fisheries survey data. He listed several online repositories for biological data that use Darwin Core data standards including [Ocean Biogeographic Information Systes: http://www.iobis.org](http://www.iobis.org) and related R tools (RODBC, robis and obistools R packages).
+Bruce Patten, section head of the Fisheries and Assessment Data Unit, talked about data standards.
+He described Darwin Core, a model for “observational” data that has terms and definitions that facilitate the exchange of information about the geographic occurrence of organisms, and how it may be applied to fisheries survey data.
+He listed several online repositories for biological data that use Darwin Core data standards including [Ocean Biogeographic Information Systes: http://www.iobis.org](http://www.iobis.org) and related R tools (RODBC, robis and obistools R packages).
 
 
 ## DEFENSIBLE SCIENCE ADVICE (KRONLUND)
 
-Regional staff have science advisors in Ottawa who are responsible for explaining their research. Science advisors work under tight timelines and endeavor to accurately represent the science. Bill C68 will amend the Fishes Act in ways that will increases this pressure and require assessments and reference limits on 197 stocks including 72 data limited stocks. Therefore, Kronlund recommends establishing a positive relationship with your science advisor. 
+Regional staff have science advisors in Ottawa who are responsible for explaining their research.
+Science advisors work under tight timelines and endeavor to accurately represent the science.
+Bill C68 will amend the Fishes Act in ways that will increases this pressure and require assessments and reference limits on 197 stocks including 72 data limited stocks.
+Therefore, Kronlund recommends establishing a positive relationship with your science advisor. 
 
 
 
