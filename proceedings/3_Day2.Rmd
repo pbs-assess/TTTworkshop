@@ -35,7 +35,9 @@ Mr. Patten proposes that DFO Science put some effort towards mapping existing da
 
 ## DEFENSIBLE SCIENCE ADVICE (KRONLUND)
 
-Regional staff have science advisors in Ottawa who are responsible for explaining their research.
-Science advisors work under tight timelines and endeavor to accurately represent the science.
-Bill C68 will amend the Fishes Act in ways that will increases this pressure and require assessments and reference limits on 197 stocks including 72 data limited stocks.
-Therefore, Kronlund recommends establishing a positive relationship with your science advisor. 
+A brief overview of the broad implications of Bill C-68 in the context of the DFO PA Framework (DFO 2009) was provided.
+Proposed language in Bill [C-68](http://www.parl.ca/DocumentViewer/en/42-1/bill/C-68/third-reading) implies there will be legislative imperatives for evidence to support management measures to maintain stocks at or above sustainable levels (Provision 6.1(1)), maintain stocks above the Limit Reference Point (Provision 6.1(2)), and rebuild stocks above the Limit Reference Point in the provided time periods (Provision 6.2).
+The provisions require taking into account the biology of the fish and environmental conditions affecting the stock.
+Fish stocks currently tracked by the [Sustainability Survey for Fisheries](http://www.dfo-mpo.gc.ca/reports-rapports/regs/sff-cpd/survey-sondage/index-en.html), and others as needed, will need PA Framework elements to meet requirements under Bill C-68 (i.e., reference points, harvest control rules, consideration of uncertainty).
+In general, defending science advice means the advice meets current standards of acceptable scientific and fisheries management practice, including reproducible science, a key element of this workshop.
+The suite of software tools discussed in the workshop also enable national standardization of how uncertainty, stock status, and risks associated with management trade-offs are communicated, a step that would also improve the defense of science advice.
