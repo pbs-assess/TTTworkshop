@@ -1,12 +1,17 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # DAY 1
 
 ## MOTIVATION FOR THE WORKSHOP (EDWARDS AND DUPLISEA)
 
-Assessment staff work collaboratively and previous methods for collaboration (e.g., email)  are inefficient and prone to errors.
+Assessment staff work collaboratively and previous methods for collaboration (e.g., email) are inefficient and prone to errors. Models generally need to be updated every time a new assessment is scheduled, rather than built from the ground up, however the technical team running the model may change year to year. As a result, substantial amounts of work are likely to be unnecessarily repeated Unless models are easily transferable among individuals and constructed in a transparent manner.
 
 ## MOTIVATION FOR USING **Git** (EDWARDS)
 
-Emailing individual files does not preserved folder structure, which is important for code functionality.
+Emailing individual files does not preserve folder structure, which is important for code functionality.
 Github is more efficient and less prone to errors by preserving folder struture and allows analysts to work on code simultaneously.
 Github tracks changes in a document and keeps all previous changes, so that previous versions are never lost.
 It also tracks who made which changes which can be viewed using the blame button. It merges versions of document edtied by different users, and highlights lines with conflicts that need to be resolved.
