@@ -14,6 +14,7 @@ It allows analysts to refernce pieces of code and/or changes in code easily when
 Issues can be easily tracked on the GitHub site, which can be assigned to other analysts.
 
 ## INTERACTIVE INTRODUCTION TO **Git** (EDWARDS AND GRANDIN)
+
 Andy led the group though the steps for: 
 
 - creating a repository
