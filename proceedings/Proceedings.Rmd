@@ -4,12 +4,12 @@ output:
     toc: no
 fontsize: 12pt
 header-includes:
-  \usepackage{../tr-style/TechReport}
+  \usepackage{./tr-style/TechReport}
 ---
 
 <!-- File path to resources (e.g., style file, logos) -->
 <!-- https://github.com/grinnellm/TechnicalReport -->
-\newcommand{\locRes}{../tr-style}
+\newcommand{\locRes}{./tr-style}
 
 <!-- Title, year, report number -->
 \newcommand{\trTitle}{Proceedings of the {TESA} workshop on tools for transparent, traceable, and transferable assessments}
@@ -20,7 +20,7 @@ header-includes:
 \newcommand{\trAuthsLong}{Andrew Edwards, Daniel Duplisea}
 \newcommand{\trAuthsBack}{Edwards, A, and Duplisea, D.}
 
-<!-- Address: full, and reversed-->
+<!-- Address -->
 \newcommand{\trAddy}{Fisheries and Oceans Canada\\Science Branch, Pacific Region\\Pacific Biological Station\\3190 Hammond Bay Road\\Nanaimo, BC \enskip V9T 6N7}
 
 <!-- Abstract -->
@@ -45,25 +45,25 @@ library( bindrcpp )
 ```
 
 <!-- Introduction -->
-```{r child='maindoc/1_Introduction.Rmd'}
+```{r child='1_Introduction.Rmd'}
 ```
 
 <!-- Day 1 -->
-```{r child='maindoc/2_Day1.Rmd'}
+```{r child='2_Day1.Rmd'}
 ```
 
 <!-- Day 2 -->
-```{r child='maindoc/3_Day2.Rmd'}
+```{r child='3_Day2.Rmd'}
 ```
 
 <!-- Day 3 -->
-```{r child='maindoc/4_Day3.Rmd'}
+```{r child='4_Day3.Rmd'}
 ```
 
 <!-- Day 4 -->
-```{r child='maindoc/5_Day4.Rmd'}
+```{r child='5_Day4.Rmd'}
 ```
 
 <!-- Conclusions -->
-```{r child='maindoc/6_Conclusions.Rmd'}
+```{r child='6_Conclusions.Rmd'}
 ```
