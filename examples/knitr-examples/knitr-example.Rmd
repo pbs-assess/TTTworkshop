@@ -1,27 +1,24 @@
 ---
-# This part is YAML (Yet Another Markup Language). To run this file do:
-# rmarkdown::render("knitr-example.Rmd")
-title: Simple knitr Rmarkdown example -- automatic write-up of simulated data
+title: "Simple knitr Rmarkdown example -- automatic write-up of simulated data"
 author: "Author name goes here"
-output: pdf_document
-fontsize: 12pt
 header-includes:
-  - \usepackage{mathptmx}      # Better font
-  # Need these packages for kableExtra - if hard to download 
-  #  then use knitr-example-2.Rmd for simpler version of this file
-  - \usepackage[table]{xcolor}
-  - \usepackage{colortbl}
-  - \usepackage{booktabs}
-  - \usepackage{wrapfig}
-  - \usepackage{float}
-  - \usepackage{colortbl}
-  - \usepackage{pdflscape}
-  - \usepackage{tabu}
-  - \usepackage{threeparttable}
-  - \usepackage{threeparttablex}
-  - \usepackage[normalem]{ulem}
-  - \usepackage{makecell}
-
+- \usepackage{mathptmx}
+- \usepackage[table]{xcolor}
+- \usepackage{colortbl}
+- \usepackage{booktabs}
+- \usepackage{wrapfig}
+- \usepackage{float}
+- \usepackage{colortbl}
+- \usepackage{pdflscape}
+- \usepackage{tabu}
+- \usepackage{threeparttable}
+- \usepackage{threeparttablex}
+- \usepackage[normalem]{ulem}
+- \usepackage{makecell}
+output:
+  html_document:
+    df_print: paged
+fontsize: 12pt
 ---
 
 <!-- This is a comment 
@@ -64,7 +61,7 @@ First generate the data in R:
 
 ```{r generate}
 set.seed(42)
-n = 50                       # sample size
+n = 50                      # sample size
 x = 1:n               
 y = 10*x + rnorm(n, 0, 10)
 # y = 10*x^1.5 + rnorm(n, 0, 10)
