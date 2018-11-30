@@ -19,7 +19,7 @@ Pacific,Carrie Holt,X,X,X,
 Pacific,Jaclyn Cleary,X,X,X,
 Pacific,Catarina Wor,,,X,
 Pacific,Shannon Obradovich,,,,
-Pacific,Erika Anderson,,,,
+Pacific,Erika Anderson,X,X,X,X
 Pacific,Cameron Freshwater,X,X,X,
 Pacific,Brendan Connors,,,,
 Pacific,Chris Rooper,,,,
