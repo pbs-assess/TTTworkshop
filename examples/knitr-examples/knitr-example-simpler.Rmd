@@ -1,13 +1,12 @@
 ---
-# This part is YAML (Yet Another Markup Language). To run this file do:
-# rmarkdown::render("knitr-example-simpler.Rmd")
-# or click "Knit" in RStudio
-title: Simple knitr Rmarkdown example --- automatic write-up of simulated data
+title: "Simple knitr Rmarkdown example --- automatic write-up of simulated data"
 author: "Author name goes here"
-output: pdf_document
+output:
+  pdf_document: default
+  html_document:
+    df_print: paged
+  word_document: default
 fontsize: 12pt
-header-includes:
-  - \usepackage{mathptmx}      # Times font
 ---
 
 <!-- This is a comment 

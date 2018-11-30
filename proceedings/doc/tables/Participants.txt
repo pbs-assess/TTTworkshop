@@ -5,7 +5,7 @@ Central and Arctic,Xinhua Zhu,,,,
 Central and Arctic,Kim Howland,,,,
 Qu\'{e}bec,Daniel Duplisea (chair),,,,
 Qu\'{e}bec,Mathieu Desgagn\'{e}s,,,,
-Qu\'{e}bec,Hugues Benoit,,,,
+Qu\'{e}bec,Hugues Benoit,x,x,x,x
 Gulf,Daniel Ricard,,,,
 Gulf,David Fishman,,,,
 Gulf,Tobie Surette,,,,
