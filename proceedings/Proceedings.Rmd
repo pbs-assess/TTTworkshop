@@ -67,3 +67,9 @@ library( bindrcpp )
 <!-- Conclusions -->
 ```{r child='6_Conclusions.Rmd'}
 ```
+
+ <!-- Style file -->
+\bibliographystyle{\locRes/CJFAS}
+
+ <!-- References -->
+\addcontentsline{toc}{section}{\refname}\bibliography{References}
