@@ -1,56 +1,54 @@
 ---
-# This part is YAML (Yet Another Markup Language). To run this file do:
-# rmarkdown::render("knitr-example.Rmd")
-title: Simple knitr Rmarkdown example -- automatic write-up of simulated data
+title: "Simple knitr Rmarkdown example -- automatic write-up of simulated data"
 author: "Author name goes here"
-output: pdf_document
-fontsize: 12pt
 header-includes:
-  - \usepackage{mathptmx}      # Better font
-  # Need these packages for kableExtra - if hard to download 
-  #  then use knitr-example-2.Rmd for simpler version of this file
-  - \usepackage[table]{xcolor}
-  - \usepackage{colortbl}
-  - \usepackage{booktabs}
-  - \usepackage{wrapfig}
-  - \usepackage{float}
-  - \usepackage{colortbl}
-  - \usepackage{pdflscape}
-  - \usepackage{tabu}
-  - \usepackage{threeparttable}
-  - \usepackage{threeparttablex}
-  - \usepackage[normalem]{ulem}
-  - \usepackage{makecell}
-
+- \usepackage{mathptmx}
+- \usepackage[table]{xcolor}
+- \usepackage{colortbl}
+- \usepackage{booktabs}
+- \usepackage{wrapfig}
+- \usepackage{float}
+- \usepackage{colortbl}
+- \usepackage{pdflscape}
+- \usepackage{tabu}
+- \usepackage{threeparttable}
+- \usepackage{threeparttablex}
+- \usepackage[normalem]{ulem}
+- \usepackage{makecell}
+output:
+  word_document: default
+  html_document:
+    df_print: paged
+fontsize: 12pt
 ---
 
 <!-- This is a comment 
      The following code alternates betwen R and the write-up of text
 -->
 
-<!-- knitr options, adapted from gfsynopsis: -->
-```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  # warning = FALSE,
-  # message = FALSE,
-  comment = "#>",
-  fig.path = "knitr-figs/",
-  cache.path = if (knitr:::is_latex_output()) "knitr-cache-tex/" else "knitr-cache-docx/",
-  fig.asp = 0.618,
-  fig.width = 9,
-  out.width = "6in",
-  echo = TRUE,
-  autodep = TRUE,
-  cache = TRUE,
-  # cache.comments = FALSE,
-  dev = if (knitr:::is_latex_output()) "png" else "png",
-  dpi = 200,
-  fig.align = "center",
-  fig.pos = "htb"
-)
-rm(list=ls())
-```
+<!-- <!-- knitr options, adapted from gfsynopsis: --> -->
+<!-- ```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE} -->
+<!-- knitr::opts_chunk$set( -->
+<!--   collapse = TRUE, -->
+<!--   # warning = FALSE, -->
+<!--   # message = FALSE, -->
+<!--   comment = "#>", -->
+<!--   fig.path = "knitr-figs/", -->
+<!--   cache.path = if (knitr:::is_latex_output()) "knitr-cache-tex/" else "knitr-cache-docx/", -->
+<!--   fig.asp = 0.618, -->
+<!--   fig.width = 9, -->
+<!--   out.width = "6in", -->
+<!--   echo = TRUE, -->
+<!--   autodep = TRUE, -->
+<!--   cache = TRUE, -->
+<!--   # cache.comments = FALSE, -->
+<!--   dev = if (knitr:::is_latex_output()) "png" else "png", -->
+<!--   dpi = 200, -->
+<!--   fig.align = "center", -->
+<!--   fig.pos = "htb" -->
+<!-- ) -->
+<!-- rm(list=ls()) -->
+<!-- ``` -->
 
 
 The point of this is to introduce the idea of *dynamically generated
@@ -64,7 +62,7 @@ First generate the data in R:
 
 ```{r generate}
 set.seed(42)
-n = 50                       # sample size
+n = 30                       # sample size
 x = 1:n               
 y = 10*x + rnorm(n, 0, 10)
 # y = 10*x^1.5 + rnorm(n, 0, 10)
