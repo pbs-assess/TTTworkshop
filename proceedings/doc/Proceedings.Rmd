@@ -4,23 +4,20 @@ output:
     toc: no
 fontsize: 12pt
 header-includes:
-  \usepackage{../../../TechnicalReport/Document/TechReport}
+  \usepackage{../tr-style/TechReport}
 ---
 
 <!-- File path to resources (e.g., style file, logos) -->
 <!-- https://github.com/grinnellm/TechnicalReport -->
-\newcommand{\locRes}{../../../TechnicalReport/Document}
+\newcommand{\locRes}{../tr-style}
 
 <!-- Title, year, report number -->
 \newcommand{\trTitle}{Proceedings of the {TESA} workshop on tools for transparent, traceable, and transferable assessments}
 \newcommand{\trYear}{YYYY}
 \newcommand{\trReportNum}{NNNN}
 
-<!-- Contact info (optional) -->
-\newcommand{\trAuthFootA}{\footnote{E-mail: \texttt{Andrew.Edwards@dfo-mpo.gc.ca} $|$ telephone: (250)~756.7146}}
-
 <!-- Authors -->
-\newcommand{\trAuthsLong}{Andrew Edwards,\trAuthFootA{} Daniel Duplisea}
+\newcommand{\trAuthsLong}{Andrew Edwards, Daniel Duplisea}
 \newcommand{\trAuthsBack}{Edwards, A, and Duplisea, D.}
 
 <!-- Address: full, and reversed-->
