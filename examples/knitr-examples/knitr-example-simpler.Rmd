@@ -103,7 +103,7 @@ plot(x, y)
 
 Can fit and then print the summary regression output from R:
 
-```{r regression}
+```{r regression, echo=FALSE, results="hide"} 
 fit <- lm(y ~ x)
 print(summary(fit))
 ``` 
@@ -175,4 +175,3 @@ that the file has changed.
 
 If you're not sure then it's safest to delete the `knitr-cache-tex/` directory 
 to re-run all calculations (including loading in of data).
-
