@@ -1,26 +1,45 @@
+---
+output:
+  html_document: default
+  pdf_document: default
+---
 # DAY 1
 
 ## MOTIVATION FOR THE WORKSHOP (EDWARDS AND DUPLISEA)
 
-Assessment staff work collaboratively and previous methods for collaboration (e.g., email)  are inefficient and prone to errors.
+Assessment staff work collaboratively and previous methods for collaboration (e.g., email) are inefficient and prone to errors. Models generally need to be updated every time a new assessment is scheduled, rather than built from the ground up, however the technical team running the model may change year to year. As a result, substantial amounts of work are likely to be unnecessarily repeated Unless models are easily transferable among individuals and constructed in a transparent manner.
 
 ## MOTIVATION FOR USING **Git** (EDWARDS)
 
-Emailing individual files does not preserved folder structure, which is important for code functionality.
+Emailing individual files does not preserve folder structure, which is important for code functionality, particularly when building complicated models with nested functions.
 Github is more efficient and less prone to errors by preserving folder struture and allows analysts to work on code simultaneously.
-Github tracks changes in a document and keeps all previous changes, so that previous versions are never lost.
-It also tracks who made which changes which can be viewed using the blame button. It merges versions of document edtied by different users, and highlights lines with conflicts that need to be resolved.
-It allows analysts to refernce pieces of code and/or changes in code easily when posing questions or issues.
-Issues can be easily tracked on the GitHub site, which can be assigned to other analysts.
+Github tracks changes in a document and keeps all previous changes, so that previous versions are never lost. 
+By using branches, individual developers can simultaneously work on the same project without worrying about overwriting other individual's work. It merges versions of document edtied by different users, and highlights lines with conflicts that need to be resolved. It also tracks who made which changes, which can be viewed using the blame button. 
+During development (or post-development), Git also allows analysts to easily reference pieces of code and/or changes in code easily when posing questions or issues, using remote repositories.
+Issues can be easily tracked on the GitHub site and used as a continuously updated to-do list, with a permanently recorded history. Individual issues that need to be addressed can also be assigned to specific analysts within a working group.
 
 ## INTERACTIVE INTRODUCTION TO **Git** (EDWARDS AND GRANDIN)
 
-Andy led the group though the steps for: 
+Chris and Andy led the group though the steps for basic git functions:
 
-- creating a repository
-- cloning the repository to the local hard drive
-- adding a file to the repository
-- commiting the addtions
-- making changes to files
-- commiting those changes
-- pushing to the local drive.
+- Creating a remote repository on hostsite (e.g. Github); also included adding a .gitignore file that specifies files that git should not track (e.g. data files)
+- Cloning the repository to your local hard drive
+- Adding a file to the repository
+- Commiting the file with an informative message
+- Editing files
+- Commiting changes to update the document
+- Pushing to the remote repository
+- Referencing previous commits using their `HASH`
+
+We also made a gitconfig file that included useful keyboard shortcuts. 
+
+Next Andy addressed a family of git functions that are more likely to be used during a collaboration:
+
+- Making a new branch separate from the master
+- Merging branches and addressing any conflicts that arise
+- Pushing branches upstream so they can be accessed by others
+- Deleting old branches to keep your workspace tidy
+- Stashing any changes that have not been committed when you switch branches
+- Examining network graphs (on github site) to interpret branch structure
+- Adding remotes (besides `master`) and fetching collaborators changes from them
+- Use git diff to compare changes between collaborators `master` and your `master`
