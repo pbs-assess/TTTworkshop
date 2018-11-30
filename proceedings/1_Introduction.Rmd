@@ -1,19 +1,28 @@
 # INTRODUCTION
 
+The workshop took place in Nanaimo, BC in an interactive classroom setting (Figure \ref{fig:classroom}).
+Workshop participants are listed in Table \@ref(tab:participants).
 Workshop materials are on the [GitHub repository](https://github.com/pbs-assess/TTTworkshop).
 
-## PARTICIPANTS
-
-Workshop participants are listed in Table \@ref(tab:participants).
+\begin{figure}
+\fbox{\includegraphics[width=\linewidth]{Classroom1.jpg}}
+\caption[Interactive classroom setting]{Interactive classroom setting for the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments.}
+\label{fig:classroom}
+\end{figure}
 
 <!-- Load participants table -->
 ```{r participants, echo=FALSE, results='asis'}
-# Caption
+# Caption <- 
 kCap <- "Participants in the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments."
 kCapShort <- "Workshop participants"
 # Import participant table
-participants <- read_csv( file="../tables/Participants.txt", col_names=TRUE,
+participants <- read_csv( file="./Participants.txt", col_names=TRUE,
   col_types=cols(), na=" " ) %>%
+  mutate( 
+    `1`=ifelse(`1`=="", "", "\\checkmark"),
+    `2`=ifelse(`2`=="", "", "\\checkmark"),
+    `3`=ifelse(`3`=="", "", "\\checkmark"),
+    `4`=ifelse(`4`=="", "", "\\checkmark") ) %>%
   arrange( Region, Name ) %>%
   kable( booktabs=TRUE, linesep="", format="latex", escape=FALSE,
     align=c("l", "l", "c", "c", "c", "c"), caption=kCap, 
