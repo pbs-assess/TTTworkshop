@@ -13,28 +13,28 @@ fontsize: 12pt
      The following code alternates betwen R and the write-up of text
 -->
 
-<!-- knitr options, adapted from gfsynopsis: -->
-```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  # warning = FALSE,
-  # message = FALSE,
-  comment = "#>",
-  fig.path = "knitr-figs/",
-  cache.path = if (knitr:::is_latex_output()) "knitr-cache-tex/" else "knitr-cache-docx/",
-  fig.asp = 0.618,
-  fig.width = 9,
-  out.width = "6in",
-  echo = TRUE,
-  autodep = TRUE,
-  cache = TRUE,
-  # cache.comments = FALSE,
-  dev = if (knitr:::is_latex_output()) "pdf" else "png",
-  dpi = 200,
-  fig.align = "center",
-  fig.pos = "htb"
-)
-```
+<!-- <!-- knitr options, adapted from gfsynopsis: --> -->
+<!-- ```{r setup, echo=FALSE, cache=FALSE, message=FALSE, results='hide', warning=FALSE} -->
+<!-- knitr::opts_chunk$set( -->
+<!--   collapse = TRUE, -->
+<!--   # warning = FALSE, -->
+<!--   # message = FALSE, -->
+<!--   comment = "#>", -->
+<!--   fig.path = "knitr-figs/", -->
+<!--   cache.path = if (knitr:::is_latex_output()) "knitr-cache-tex/" else "knitr-cache-docx/", -->
+<!--   fig.asp = 0.618, -->
+<!--   fig.width = 9, -->
+<!--   out.width = "6in", -->
+<!--   echo = TRUE, -->
+<!--   autodep = TRUE, -->
+<!--   cache = TRUE, -->
+<!--   # cache.comments = FALSE, -->
+<!--   dev = if (knitr:::is_latex_output()) "pdf" else "png", -->
+<!--   dpi = 200, -->
+<!--   fig.align = "center", -->
+<!--   fig.pos = "htb" -->
+<!-- ) -->
+<!-- ``` -->
 
 The point of this is to introduce the idea of *dynamically generated
 reports*. There'll be some formatting syntax to pretty it up, but don't worry
@@ -66,7 +66,7 @@ Or round it to two decimal places: the maximum value of $y$ is `r round(max(y),2
 
 ## Not show the R code
 
-We can choose *not* echo to the R code:
+We can choose *not* to echo the R code:
 
 ```{r notecho, echo=FALSE}
 # library(kableExtra)
@@ -117,7 +117,7 @@ abline(fit, col = "red")
 
 ## Summarise the results
 
-So the maximum value of $y$ is `r round(max(y),2)`, which is 
+So the maximum value of $y$ is `r round(max(y),0)`, which is 
 `r ifelse(max(y)>400, paste("greater than"), paste("less than"))` 
 the special value of 400.
 
@@ -175,5 +175,4 @@ that the file has changed.
 
 If you're not sure then it's safest to delete the `knitr-cache-tex/` directory 
 to re-run all calculations (including loading in of data).
-
 
