@@ -2,28 +2,25 @@ Region,Name,1,2,3,4
 Central and Arctic,Ross Tallman,X,X,X,X
 Central and Arctic,Kevin Hedges,x,x,x,x
 Central and Arctic,Xinhua Zhu,X,X,X,X
-Central and Arctic,Kim Howland,,,,
 Qu\'{e}bec,Daniel Duplisea (chair),X,X,X,X
 Qu\'{e}bec,Mathieu Desgagn\'{e}s,X,X,X,X
 Qu\'{e}bec,Hugues Benoit,X,X,X,X
 Gulf,Daniel Ricard,X,X,X,X
 Gulf,David Fishman,X,X,X,
-Gulf,Tobie Surette,,,,
-Newfoundland and Labrador,Mark Simpson,,,,
-Newfoundland and Labrador,Bob Rogers,,,,
-Newfoundland and Labrador,Laura Wheeland,,,,
-Newfoundland and Labrador,Krista Baker,,,,
-Newfoundland and Labrador,Luiz Mello,,,,
+Gulf,Tobie Surette,X,X,X,X
+Newfoundland and Labrador,Mark Simpson,X,X,X,X
+Newfoundland and Labrador,Bob Rogers,X,X,X,X
+Newfoundland and Labrador,Laura Wheeland,X,X,X,X
+Newfoundland and Labrador,Krista Baker,X,X,X,X
 Pacific,Kendra Holt,X,X,X,X
-Pacific,Carrie Holt,X,X,X,
+Pacific,Carrie Holt,X,X,X,X
 Pacific,Jaclyn Cleary,X,X,X,
 Pacific,Catarina Wor,,,X,X
 Pacific,Shannon Obradovich,X,X,X,X
 Pacific,Erika Anderson,X,X,X,X
-Pacific,Cameron Freshwater,X,X,X,
-Pacific,Brendan Connors,,,,
-Pacific,Chris Rooper,,,,
-Pacific,Lingbo Li,,,,
+Pacific,Cameron Freshwater,X,X,X,X
+Pacific,Brendan Connors,X,X,X,X
+Pacific,Chris Rooper,X,X,X,
 Pacific,Philina English,X,X,X,X
 National Capital,Rob Kronlund,X,X,X,X
 Pacific,"Andrew Edwards (chair, instructor)",X,X,X,X
