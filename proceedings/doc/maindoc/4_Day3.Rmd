@@ -1,11 +1,12 @@
 # DAY 3
+
+## WRITING **R** PACKAGES (ANDERSON)
 The third day of the TTT workshop started with a presentation by Sean Anderson on R package development. Sean used materials from presentations by Harley Wickam (senior scientist at RStudio) to get participants started with developing R packages. The development of R packages is greatly simplified by using an RStudio's project and taking advantage of its many available tools related to package development. For example, one can create a project in RStudio and define it as an R package, and the software will create the necessary backbone of an R package. Sean covered the development of an R package, the generation of its documentation using ROxygen, unit testing of the package, and package testing.
 
 Exercises were done by the participants to learn how to alter an example package.  It was demonstrated how to create a new file in an R package enviroment employing the usethis::use_r("file-name") function.  Tips were provided on how to edit the users R profile to load key packages.
 
 Resources from Hadley Wickham were presented such as "Advanced R" (Wickham 2016), "R Packages" (Wickham 2015) and "R for Data Science" (Wickham 2016)  These resources are available on line as well as in print form.
 
-## WRITING **R** PACKAGES (ANDERSON)
 
 ## TRANSLATING CSAS DOCUMENTS (ANN MARISCAK)
 
