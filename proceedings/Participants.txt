@@ -1,11 +1,11 @@
 Region,Name,1,2,3,4
 Central and Arctic,Ross Tallman,X,X,X,X
 Central and Arctic,Kevin Hedges,x,x,x,x
-Central and Arctic,Xinhua Zhu,,,,
+Central and Arctic,Xinhua Zhu,X,X,X,X
 Central and Arctic,Kim Howland,,,,
 Qu\'{e}bec,Daniel Duplisea (chair),X,X,X,X
 Qu\'{e}bec,Mathieu Desgagn\'{e}s,,,,
-Qu\'{e}bec,Hugues Benoit,,,,
+Qu\'{e}bec,Hugues Benoit,X,X,X,X
 Gulf,Daniel Ricard,X,X,X,X
 Gulf,David Fishman,X,X,X,
 Gulf,Tobie Surette,,,,
