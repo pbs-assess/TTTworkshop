@@ -17,11 +17,11 @@ header-includes:
 \newcommand{\trReportNum}{NNNN}
 
 <!-- Contact info (optional) -->
-\newcommand{\trAuthFootA}{\footnote{E-mail: \texttt{First.Author@dfo-mpo.gc.ca} $|$ telephone: (250)~756.ZZZZ}}
+\newcommand{\trAuthFootA}{\footnote{E-mail: \texttt{Andrew.Edwards@dfo-mpo.gc.ca} $|$ telephone: (250)~756.7146}}
 
 <!-- Authors -->
-\newcommand{\trAuthsLong}{First A. Author,\trAuthFootA{} Second B. Author}
-\newcommand{\trAuthsBack}{Author, F.A., and Author, S.B.}
+\newcommand{\trAuthsLong}{Andrew Edwards,\trAuthFootA{} Daniel Duplisea}
+\newcommand{\trAuthsBack}{Edwards, A, and Duplisea, D.}
 
 <!-- Address: full, and reversed-->
 \newcommand{\trAddy}{Fisheries and Oceans Canada\\Science Branch, Pacific Region\\Pacific Biological Station\\3190 Hammond Bay Road\\Nanaimo, BC \enskip V9T 6N7}
