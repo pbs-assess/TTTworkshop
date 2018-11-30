@@ -35,7 +35,7 @@ Mr. Patten proposes that DFO Science put some effort towards mapping existing da
 
 ## DEFENSIBLE SCIENCE ADVICE (KRONLUND)
 
-A brief overview of the broad implications of Bill C-68 in the context of the DFO PA Framework (DFO 2009) was provided.
+A brief overview of the broad implications of Bill C-68 in the context of the DFO PA Framework [@DFO2013] was provided.
 Proposed language in Bill [C-68](http://www.parl.ca/DocumentViewer/en/42-1/bill/C-68/third-reading) implies there will be legislative imperatives for evidence to support management measures to maintain stocks at or above sustainable levels (Provision 6.1(1)), maintain stocks above the Limit Reference Point (Provision 6.1(2)), and rebuild stocks above the Limit Reference Point in the provided time periods (Provision 6.2).
 The provisions require taking into account the biology of the fish and environmental conditions affecting the stock.
 Fish stocks currently tracked by the [Sustainability Survey for Fisheries](http://www.dfo-mpo.gc.ca/reports-rapports/regs/sff-cpd/survey-sondage/index-en.html), and others as needed, will need PA Framework elements to meet requirements under Bill C-68 (i.e., reference points, harvest control rules, consideration of uncertainty).

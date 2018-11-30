@@ -16,7 +16,6 @@ header-includes:
 - \usepackage[normalem]{ulem}
 - \usepackage{makecell}
 output:
-  word_document: default
   html_document:
     df_print: paged
 fontsize: 12pt
@@ -62,7 +61,7 @@ First generate the data in R:
 
 ```{r generate}
 set.seed(42)
-n = 30                       # sample size
+n = 50                      # sample size
 x = 1:n               
 y = 10*x + rnorm(n, 0, 10)
 # y = 10*x^1.5 + rnorm(n, 0, 10)
