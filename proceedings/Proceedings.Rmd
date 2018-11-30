@@ -3,6 +3,9 @@ output:
   bookdown::pdf_book:
     toc: no
 fontsize: 12pt
+bibliography: references.bib
+csl: ./tr-style/csas.csl
+link-citations: true
 header-includes:
   \usepackage{./tr-style/TechReport}
 ---
@@ -68,8 +71,13 @@ library( bindrcpp )
 ```{r child='6_Conclusions.Rmd'}
 ```
 
- <!-- Style file -->
-\bibliographystyle{\locRes/CJFAS}
+# REFERENCES {-}
+<!--This manually sets the header for this unnumbered chapter.-->
+\markboth{References}{References}
 
- <!-- References -->
-\addcontentsline{toc}{section}{\refname}\bibliography{References}
+\noindent
+\vspace{-2em}
+\setlength{\parindent}{-0.2in}
+\setlength{\leftskip}{0.2in}
+\setlength{\parskip}{8pt}
+
