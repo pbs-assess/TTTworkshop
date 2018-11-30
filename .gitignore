@@ -20,3 +20,8 @@
 *knitr-cache-tex
 *knitr-figs
 *knitr-cache-docx
+_main.Rmd
+^examples/knitr-examples/knitr-cache-*
+*.rdb
+*.RData
+*.rdx

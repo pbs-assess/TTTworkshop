@@ -1,6 +1,6 @@
 Region,Name,1,2,3,4
 Central and Arctic,Ross Tallman,X,X,X,X
-Central and Arctic,Kevin Hedges,,,,
+Central and Arctic,Kevin Hedges,x,x,x,x
 Central and Arctic,Xinhua Zhu,,,,
 Central and Arctic,Kim Howland,,,,
 Qu\'{e}bec,Daniel Duplisea (chair),,,,
@@ -29,6 +29,6 @@ Pacific,Philina English,X,X,X,
 National Capital,Rob Kronlund,,,,
 Pacific,"Andrew Edwards (chair, instructor)",X,X,,
 Pacific,Chris Grandin (instructor),X,X,,
-Pacific,Sean Anderson (instructor),X,X,,
+Pacific,Sean Anderson (instructor),X,X,X,
 Pacific,Matthew Grinnell (instructor),X,X,X,X
-Pacific,Elise Keppel (instructor),X,X,,
+Pacific,Elise Keppel (instructor),X,X,X,X
