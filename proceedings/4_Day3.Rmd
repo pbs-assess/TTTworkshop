@@ -12,7 +12,7 @@ Exercises were done by the participants to learn how to alter an example package
 It was demonstrated how to create a new file in an R package enviroment employing the `usethis::use_r("file-name")` function.
 Tips were provided on how to edit the users R profile to load key packages.
 
-Resources from Hadley Wickham were presented such as "Advanced R" (Wickham 2016), "R Packages" (Wickham 2015) and "R for Data Science" (Wickham 2016).
+Resources from Hadley Wickham were presented such as "Advanced R" [@Wickham2014], "R Packages" [@Wickham2015] and "R for Data Science" [@Wickham2017].
 These resources are available on line as well as in print form.
 
 ## TRANSLATING CSAS DOCUMENTS (ANN MARISCAK)
