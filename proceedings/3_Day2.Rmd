@@ -1,16 +1,17 @@
 # DAY 2
 
-## INTRODUCTION TO R MARKDOWN (EDWARDS)
+## INTRODUCTION TO R Markdown (EDWARDS)
 
-Edwards presented an intro to the basics of R markdown.
-R markdown allows us to interspace text, R code, and R output.
+Edwards presented an intro to the basics of R Markdown.
+R Markdown allows us to interspace text, R code, and R output.
 This is then elegantly converted into html, pdf, or word formats using the knitr package and pandoc (a universal document converter).
-Markdown is compatible with latex, but is a much simpler to learn markup language. Basic formatting options were presented.
+R Markdown is compatible with latex, but is a much simpler to learn markup language.
+Basic formatting options were presented.
 Some recommendations included naming our code chunks using unique and useful descriptions (aids in using caches and finding errors) and that caches are useful when working with large datasets.
 
-## INTRODUCTION TO **csasdown** (ANDERSON)
+## INTRODUCTION TO csasdown (ANDERSON)
 
-Pacific region has written an R package called csasdown  (based on bookdown R package) to help authors write research documents formatted for Canadian Science Advisory Secretariat.  
+Pacific region has written an R package called csasdown  (based on the R package bookdown) to help authors write research documents formatted for Canadian Science Advisory Secretariat.  
 
 After loading csasdown a template document can be produced using the following R code:
 
@@ -27,7 +28,7 @@ Using this draft document, we explored how to produce and link figures, tables, 
 Bruce Patten presented an overview of the Darwin Core (DWC) observational data model and the benefits of its potential application to fisheries science.
 This data model provides a standard for representing survey data in a consistent format that allows for integration of datasets from multiple sources.
 The DWC model has been extended by the [Ocean Biogeographic Information System (OBIS)](http://www.iobis.org) initiative to be more useful for marine biological and oceanographic survey data and is called the OBIS-ENV-DATA schema.
-He listed several online repositories for biological data that use Darwin Core data standards including OBIS and related R tools (RODBC, robis and obistools R packages).
+He listed several online repositories for biological data that use Darwin Core data standards including OBIS and related R tools (RODBC, robis, and obistools R packages).
 Several international data sharing initiatives such as OBIS are exchanging data using this format.
 Canada has committed to contributing to these efforts and DFO has already participated to some degree.
 There are some R packages available that provide the user with tools for interacting with data in the OBIS format of DWC.

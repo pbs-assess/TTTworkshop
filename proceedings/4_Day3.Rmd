@@ -1,6 +1,6 @@
 # DAY 3
 
-## WRITING **R** PACKAGES (ANDERSON)
+## WRITING R PACKAGES (ANDERSON)
 
 The third day of the TTT workshop started with a presentation by Sean Anderson on R package development.
 Sean used materials from presentations by Harley Wickam (senior scientist at RStudio) to get participants started with developing R packages.
@@ -21,9 +21,9 @@ A presentation was made regarding the new policies for outputing CSAS documents.
 As a legal requirement, the Department must ensure that all CSAS documents are written into both official languages.
 As well, it is required that the documents be accessible for persons with disabilities and be compatible with tools such as screen readers.
 It was noted that translation of text will slow the final output of documents and increase their cost.
-Tools such as LatTex and CSASDown may be able to assist in translation and thereby shorten the time and reduce the cost to produce fully translated documents.
+Tools such as \LaTeX and csasown may be able to assist in translation and thereby shorten the time and reduce the cost to produce fully translated documents.
 Another problem will be translation of figures into the other offical language.
-It was suggested that it might be possible for an automated translation of frequently used words such as "Age" or "Fork Length".
+It was suggested that it might be possible for an automated translation of frequently used words such as "Age" or "Fork length".
 
 ### Editing vs. Translation
 
@@ -40,32 +40,26 @@ Daniel Ricard made mention of another translation database native to DFO called 
 
 ## BREAK-OUT GROUPS
 
-Workshop participants separated out into five break-out groups.  Workshops participants were able to self-select which group they went to, which worked well.
+Workshop participants separated out into five break-out groups.
+Workshop participants were able to self-select which group they went to, which worked well.
 
-The first of these groups worked on an applied example, in which they worked together to compose a trip report for a the Newfounland and Labradour Region using *Rmarkdown*.
+The first of these groups worked on an applied example, in which they worked together to compose a trip report for a the Newfounland and Labradour Region using Rmarkdown.
 
 The second of these groups focussed on a brainstorming session about the development of tools to automate language translation of figures in CSAS documents.
-This resulted in the creation of a new **R** package [rosettafish](https://github.com/pbs-assess/rosettafish), which translates common figure annotations between English, French, and Inuktitut.
+This resulted in the creation of a new R package [rosettafish](https://github.com/pbs-assess/rosettafish), which translates common figure annotations between English, French, and Inuktitut.
 
 The remaining three groups worked on collaboratively writing text for this workshop proceedings document using GitHub, with each group tasked with summarizing one day of the workshop.
 A proceedings template document that met the format requirements of the Canadian Techncial Report was compiled ahead of time.
 The three report-writing groups were able to clone the relevant repository and make changes to the template.
 
-**Multi-species survey automated report break-out group**
+### Multi-species survey automated report
 
 A breakout group (Krista Baker, Brendan Connors, Kevin Hedges, Bob Roger, Mark
-Simpson and Laura Wheeland) was formed to work on an applied example of all of
-the workshop topics.  The group created a Github repository, R project and
-Markdown document to standardize and automate the creation of RV survey trip
-reports. The group used Newfoundland and Labrador Region multispecies surveys as
-a test case and tailored the project to handling the particular data structure
-from those surveys, but the project could easily be adapted for other trip types
-(e.g. Shellfish surveys). Work was divided among group members and coordinated
-through GitHub. Individual tasks included creating the GitHub repository,
-creating the R project, drafting separate Markdown files that provide a trip
-summary, survey map and catch summary and creating a bookdown file to combine
-the separate Markdown files into a single PDF report. The Markdown files
-combined standard text and dynamic calculations in R to automatically generate
-survey details and summary results. By the end of the workshop the report
-project was completed and automated survey reports had been successfully
-generated.
+Simpson, and Laura Wheeland) was formed to work on an applied example of all of
+the workshop topics.
+The group created a Github repository, R project, and R Markdown document to standardize and automate the creation of RV survey trip reports.
+The group used Newfoundland and Labrador Region multispecies surveys as a test case and tailored the project to handling the particular data structure from those surveys, but the project could easily be adapted for other trip types (e.g., Shellfish surveys).
+Work was divided among group members and coordinated through GitHub.
+Individual tasks included creating the GitHub repository, creating the R project, drafting separate Markdown files that provide a trip summary, survey map and catch summary and creating a bookdown file to combine the separate Markdown files into a single PDF report.
+The Markdown files combined standard text and dynamic calculations in R to automatically generate survey details and summary results.
+By the end of the workshop the report project was completed and automated survey reports had been successfully generated.
