@@ -23,24 +23,24 @@ Individual issues that need to be addressed can also be assigned to specific ana
 
 Chris and Andy led the group though the steps for basic git functions:
 
-- Creating a remote repository on hostsite (e.g., GitHub); also included adding a .gitignore file that specifies files that git should not track (e.g., data files)
-- Cloning the repository to your local hard drive
-- Adding a file to the repository
-- Commiting the file with an informative message
-- Editing files
-- Commiting changes to update the document
-- Pushing to the remote repository
-- Referencing previous commits using their `HASH`
+- Creating a remote repository on hostsite (e.g., GitHub); also included adding a `.gitignore` file that specifies files that git should not track (e.g., data files);
+- Cloning the repository to your local hard drive;
+- Adding a file to the repository;
+- Commiting the file with an informative message;
+- Editing files;
+- Commiting changes to update the document;
+- Pushing to the remote repository; and
+- Referencing previous commits using their `HASH`.
 
 We also made a gitconfig file that included useful keyboard shortcuts. 
 
 Next Andy addressed a family of git functions that are more likely to be used during a collaboration:
 
-- Making a new branch separate from the master
-- Merging branches and addressing any conflicts that arise
-- Pushing branches upstream so they can be accessed by others
-- Deleting old branches to keep your workspace tidy
-- Stashing any changes that have not been committed when you switch branches
-- Examining network graphs (on github site) to interpret branch structure
-- Adding remotes (besides `master`) and fetching collaborators changes from them
-- Use git diff to compare changes between collaborators `master` and your `master`
+- Making a new branch separate from the master;
+- Merging branches and addressing any conflicts that arise;
+- Pushing branches upstream so they can be accessed by others;
+- Deleting old branches to keep your workspace tidy;
+- Stashing any changes that have not been committed when you switch branches;
+- Examining network graphs (on github site) to interpret branch structure;
+- Adding remotes (besides `master`) and fetching collaborators changes from them; and
+- Use `git diff` to compare changes between collaborators `master` and your `master`.
