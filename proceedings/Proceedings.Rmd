@@ -21,7 +21,7 @@ header-includes:
 
 <!-- Authors -->
 \newcommand{\trAuthsLong}{Erika	Anderson, Sean Anderson, Krista Baker, Hugues Benoit, Jaclyn Cleary, Brendan Connors, Mathieu Desgagn\'{e}s, Daniel Duplisea, Andrew Edwards, Philina English, David Fishman, Cameron Freshwater, Chris Grandin, Matthew Grinnell, Kevin Hedges, Carrie Holt, Kendra Holt, Elise Keppel, Rob Kronlund, Shannon Obradovich, Daniel Ricard, Bob Rogers, Chris Rooper, Mark Simpson, Tobie Surette, Ross Tallman, Laura Wheeland, Catarina Wor, and Xinhua Zhu}
-\newcommand{\trAuthsBack}{Anderson, E., Anderson, S., Baker, K., Benoit, H., Cleary, J., Connors, B., Desgagn\'{e}s, M., Duplisea, D., Edwards, A., English, P., Fishman, D., Freshwater, C., Grandin, C., Grinnell, M., Hedges, K., Holt, C., Holt, K., Keppel, E., Kronlund, R., Obradovich, S., Ricard, D., Rogers, B., Rooper, C., Simpson, M., Surette, T., Tallman, R., Wheeland, L., Wor, C., and Zhu, X.,}
+\newcommand{\trAuthsBack}{Anderson, E., Anderson, S., Baker, K., Benoit, H., Cleary, J., Connors, B., Desgagn\'{e}s, M., Duplisea, D., Edwards, A., English, P., Fishman, D., Freshwater, C., Grandin, C., Grinnell, M., Hedges, K., Holt, C., Holt, K., Keppel, E., Kronlund, R., Obradovich, S., Ricard, D., Rogers, B., Rooper, C., Simpson, M., Surette, T., Tallman, R., Wheeland, L., Wor, C., and Zhu, X.}
 
 <!-- Address -->
 \newcommand{\trAddy}{Fisheries and Oceans Canada\\Science Branch, Pacific Region\\Pacific Biological Station\\3190 Hammond Bay Road\\Nanaimo, BC \enskip V9T 6N7}
