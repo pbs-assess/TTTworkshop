@@ -21,34 +21,34 @@ header-includes:
 
 <!-- Authors -->
 \newcommand{\trAuthsLong}{
-Andrew Edwards\textsuperscript{1},
+Andrew Edwards$^1$,
 Daniel Duplisea,
-Matthew Grinnell\textsuperscript{1},
-Sean Anderson\textsuperscript{1},
-Chris Grandin\textsuperscript{1},
-Elise Keppel\textsuperscript{1},
+Matthew Grinnell$^1$,
+Sean Anderson$^1$,
+Chris Grandin$^1$,
+Elise Keppel$^1$,
 Erika Anderson,
 Krista Baker,
 Hugues Beno\^{i}t,
-Jaclyn Cleary\textsuperscript{1},
-Brendan Connors\textsuperscript{2},
+Jaclyn Cleary$^1$,
+Brendan Connors$^2$,
 Mathieu Desgagn\'{e}s,
-Philina English\textsuperscript{1},
+Philina English$^1$,
 David Fishman,
-Cameron Freshwater\textsuperscript{1},
+Cameron Freshwater$^1$,
 Kevin Hedges,
-Carrie Holt\textsuperscript{1},
-Kendra Holt\textsuperscript{2},
+Carrie Holt$^1$,
+Kendra Holt$^2$,
 Rob Kronlund,
-Shannon Obradovich\textsuperscript{1},
+Shannon Obradovich$^1$,
 Daniel Ricard,
 Bob Rogers,
-Chris Rooper\textsuperscript{1},
+Chris Rooper$^1$,
 Mark Simpson,
 Tobie Surette,
 Ross Tallman,
 Laura Wheeland,
-Catarina Wor\textsuperscript{1},
+Catarina Wor$^1$,
 and Xinhua Zhu}
 
 \newcommand{\trAuthsBack}{
@@ -87,8 +87,8 @@ and Zhu, X.}
 
 <!-- Affiliations -->
 \newcommand{\trAffil}{
-\textsuperscript{1} Pacific Biological Station, Fisheries and Oceans Canada, 3190 Hammond Bay Road, Nanaimo, BC, V9T 6N7\\
-\textsuperscript{2} Institute of Ocean Sciences, P.O. Box 6000, 9860 West
+$^1$ Pacific Biological Station, Fisheries and Oceans Canada, 3190 Hammond Bay Road, Nanaimo, BC, V9T 6N7\\
+$^2$ Institute of Ocean Sciences, P.O. Box 6000, 9860 West
 Saanich Road, Sidney, BC, V8L 4B2\\
 Freshwater Institute, Central and Arctic Region, Fisheries and Oceans Canada, 501 University Crescent, Winnipeg, Manitoba, R3T 2N6.\\
 Gulf Fisheries Centre, Fisheries and Oceans Canada, 343 Universit\'e Avenue, Moncton, New Brunswick, E1C 9B6.\\
