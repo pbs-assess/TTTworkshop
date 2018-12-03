@@ -88,7 +88,13 @@ and Zhu, X.}
 <!-- Affiliations -->
 \newcommand{\trAffil}{
 \textsuperscript{1} Pacific Biological Station, Fisheries and Oceans Canada, 3190 Hammond Bay Road, Nanaimo, BC, V9T 6N7\\
-\textsuperscript{2} Institute of Ocean Sciences, P.O. Box 6000, 9860 West Saanich Road, Sidney, BC, V8L 4B2
+\textsuperscript{2} Institute of Ocean Sciences, P.O. Box 6000, 9860 West
+Saanich Road, Sidney, BC, V8L 4B2\\
+Freshwater Institute, Central and Arctic Region, Fisheries and Oceans Canada, 501 University Crescent, Winnipeg, Manitoba, R3T 2N6.\\
+Gulf Fisheries Centre, Fisheries and Oceans Canada, 343 Universit\'e Avenue, Moncton, New Brunswick, E1C 9B6.\\
+Institute for the Oceans and Fisheries, The University of British Columbia, AERL, 2202 Main Mall, Vancouver, British Columbia, V6T 1Z4.\\
+Northwest Atlantic Fisheries Centre, Fisheries and Oceans Canada, 80 East White Hills, St. John's, Newfoundland and Labrador, A1C 5X1.\\
+Maurice Lamontagne Institute, Fisheries and Oceans Canada, 850 de la Mer Road, Mont-Joli, Quebec, G5H 3Z4.
 }
 
 <!-- Abstract -->
