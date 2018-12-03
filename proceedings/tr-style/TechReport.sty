@@ -1,43 +1,43 @@
 %%%%% Load packages %%%%%
+% \RequirePackage{booktabs}  % Nicer table formatting
+% \RequirePackage{longtable}  % Long tables (multi-page)
 \RequirePackage{fancyhdr}  % Make nice headers
-\RequirePackage{graphicx}  % Import figures
-\RequirePackage{booktabs}  % Nicer table formatting
-\RequirePackage{textcomp}  % Prevents two warnings in gensymb
-\RequirePackage{gensymb}  % Symbols for math and text
-\RequirePackage{lineno}  % Number lines (editing)
-\RequirePackage{longtable}  % Long tables (multi-page)
-\RequirePackage{amsmath}  % Math facilities
-\RequirePackage{microtype}  % Better type handling
-\RequirePackage{url}  % Format website addresses
+% \RequirePackage{graphicx}  % Import figures
+% \RequirePackage{textcomp}  % Prevents two warnings in gensymb
+% \RequirePackage{gensymb}  % Symbols for math and text
+% \RequirePackage{lineno}  % Number lines (editing)
+% \RequirePackage{amsmath}  % Math facilities
+% \RequirePackage{microtype}  % Better type handling
+% \RequirePackage{url}  % Format website addresses
 % \RequirePackage{setspace}  % Extra space between lines (editing)
 \RequirePackage{lastpage}  % Count total number of pages
-\RequirePackage[nottoc, notbib]{tocbibind}  % Add index to TOC
+% \RequirePackage[nottoc, notbib]{tocbibind}  % Add index to TOC
 \RequirePackage{hanging}  % Hanging paragraphs (i.e., citations)
-\RequirePackage{placeins}  % Better float placement
+% \RequirePackage{placeins}  % Better float placement
 \RequirePackage{flafter}  % Floats after cross-references
 \RequirePackage{sectsty}  % Change section formatting
 \RequirePackage[english]{babel}  % Typographics and hyphenation
 \RequirePackage{titlecaps}  %  Case options for title
 \RequirePackage{textcase}  % More case options for title
 \RequirePackage[labelsep=period]{caption}  % Dots in captions
-\RequirePackage{lmodern}  % Nicer (c) symbol
-\RequirePackage{calc}  % Text length calculations
-\RequirePackage[authoryear]{natbib}  % Citations
-\RequirePackage{hyperref}  % Better cross references
-\RequirePackage{letltxmacro}  % Enable/disable footnotes
+% \RequirePackage{lmodern}  % Nicer (c) symbol
+% \RequirePackage{calc}  % Text length calculations
+% \RequirePackage[authoryear]{natbib}  % Citations
+% \RequirePackage{hyperref}  % Better cross references
+% \RequirePackage{letltxmacro}  % Enable/disable footnotes
 \RequirePackage{pdfpages}  % Include PDF documents
-\RequirePackage[T1]{fontenc}  % Allow french characters (Resume)
-\RequirePackage{doi}  % DOI hyperlinks in references
-\RequirePackage{tikz}  % >% Flow diagram
-\RequirePackage[title]{appendix}  % More appendix options
-\RequirePackage{subcaption}  % Panels within a figure
+% \RequirePackage[T1]{fontenc}  % Allow french characters (Resume)
+% \RequirePackage{doi}  % DOI hyperlinks in references
+% \RequirePackage{tikz}  % >% Flow diagram
+% \RequirePackage[title]{appendix}  % More appendix options
+% \RequirePackage{subcaption}  % Panels within a figure
 
 % Hyper links
-\hypersetup{colorlinks,
-            plainpages=true,
-            linkcolor=black,
-            citecolor=black,
-            urlcolor=blue }
+% \hypersetup{colorlinks,
+%             plainpages=true,
+%             linkcolor=black,
+%             citecolor=black,
+%             urlcolor=blue }
 
 %%%%% Parameters %%%%%
 % General layout parameters for all pages:
@@ -88,7 +88,7 @@
 % Update definitions
 \renewcommand{\headrulewidth}{0pt}  % No header line
 \setlength{\headheight}{14.5pt}
-\bibpunct{(}{)}{;}{a}{}{,}  % Punctuation for citations
+% \bibpunct{(}{)}{;}{a}{}{,}  % Punctuation for citations
 \fancyhead{}  % No header
 \sloppy  % No text in margins (line length)
 %\setlength\parindent{1em}  % Paragraph indent
@@ -108,12 +108,12 @@
 %\renewcommand{\familydefault}{\sfdefault}
 
 % Flow diagram options
-\usetikzlibrary{shapes, arrows.meta, shapes.geometric, positioning, backgrounds}
-\tikzstyle{terminal} = [draw, rectangle, text width=9.5em, rounded corners]
-\tikzstyle{decision} = [draw, diamond, text width=9.5em]
-\tikzstyle{process} = [draw, rectangle, text width=9.5em]
-\tikzstyle{inout} = [draw, trapezium, text width=9.25em, trapezium left angle=85, trapezium right angle=95]
-\tikzstyle{line} = [draw, -{Latex[length=2mm, width=1.5mm]}, thick]
+% \usetikzlibrary{shapes, arrows.meta, shapes.geometric, positioning, backgrounds}
+% \tikzstyle{terminal} = [draw, rectangle, text width=9.5em, rounded corners]
+% \tikzstyle{decision} = [draw, diamond, text width=9.5em]
+% \tikzstyle{process} = [draw, rectangle, text width=9.5em]
+% \tikzstyle{inout} = [draw, trapezium, text width=9.25em, trapezium left angle=85, trapezium right angle=95]
+% \tikzstyle{line} = [draw, -{Latex[length=2mm, width=1.5mm]}, thick]
 
 % Ensure auto-generated sections are uppercase
 \addto\captionsenglish{\renewcommand{\contentsname}{CONTENTS}}
