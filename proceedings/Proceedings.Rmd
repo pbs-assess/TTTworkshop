@@ -20,7 +20,7 @@ header-includes:
 \newcommand{\trReportNum}{NNNN}
 
 <!-- Authors -->
-\newcommand{\trAuthsLong}{Andrew Edwards, Daniel Duplisea, Matthew Grinnell, Erika	Anderson, Sean Anderson, Krista Baker, Hugues Beno\^{i}t, Jaclyn Cleary, Brendan Connors, Mathieu Desgagn\'{e}s, Philina English, David Fishman, Cameron Freshwater, Chris Grandin, Kevin Hedges, Carrie Holt, Kendra Holt, Elise Keppel, Rob Kronlund, Shannon Obradovich, Daniel Ricard, Bob Rogers, Chris Rooper, Mark Simpson, Tobie Surette, Ross Tallman, Laura Wheeland, Catarina Wor, and Xinhua Zhu}
+\newcommand{\trAuthsLong}{Andrew Edwards, Daniel Duplisea, Matthew Grinnell, Erika Anderson, Sean Anderson, Krista Baker, Hugues Beno\^{i}t, Jaclyn Cleary, Brendan Connors, Mathieu Desgagn\'{e}s, Philina English, David Fishman, Cameron Freshwater, Chris Grandin, Kevin Hedges, Carrie Holt, Kendra Holt, Elise Keppel, Rob Kronlund, Shannon Obradovich, Daniel Ricard, Bob Rogers, Chris Rooper, Mark Simpson, Tobie Surette, Ross Tallman, Laura Wheeland, Catarina Wor, and Xinhua Zhu}
 \newcommand{\trAuthsBack}{Edwards, A., Duplisea, D., Grinnell, M., Anderson, E., Anderson, S., Baker, K., Beno\^{i}t, H., Cleary, J., Connors, B., Desgagn\'{e}s, M., English, P., Fishman, D., Freshwater, C., Grandin, C., Hedges, K., Holt, C., Holt, K., Keppel, E., Kronlund, R., Obradovich, S., Ricard, D., Rogers, B., Rooper, C., Simpson, M., Surette, T., Tallman, R., Wheeland, L., Wor, C., and Zhu, X.}
 
 <!-- Address -->
