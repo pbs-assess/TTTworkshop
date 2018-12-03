@@ -1,10 +1,12 @@
 # CONCLUSIONS
 
-Common templates for CSAS reports are useful to ensure web access standards and speedup publishing times for DFO reports.
-Assisting everyone in the department nationwide with making standard translation tools between languages esnures rapid and equal quality graphics in documents and presenations regardless of its original language and its translations.
-Common graphical standards for different plot types (look and feel) draws more attention to the advice than the particular mode of presenting it thus seeking stronger standards in this regards should aid communication of the implication Science's work, advice and uncertainties in that advice.
-Using tools that allow traceability, transferable tools such as GitHub, R packages, and Rmarkdown files for documenting and disseminating assessment code, is a means of promoting a transparent line of work, decisions, assumptions and known issues which are key components of defensible science advice.
-These tools allow greater transferablability and reproducability in the assessment process that permits new staff to come on line quickly and for the process to better deal with staff changes and absences (e.g., owing to parental leave).
-Assessment and advice conforming to TTT can provide strong support for decision making based on such advice. 
-Some of these tools require considerable expertise. If these tools are to be used going forward, dedicated staff and/or training needs to be integrated into the stock assessment-advice work flow and not simply as a side activity.
+Common templates for CSAS reports are useful to ensure web access standards and speed-up publishing times for DFO reports.
+Assisting DFO employees with standard translation tools between languages ensures rapid and equal quality (especially figures) documents and presentations, regardless of the original language and any translations.
+Common graphical standards for different plot types (look and feel) draws more attention to the advice rather than the particular mode of presentation, thus seeking stronger standards in this regard should aid the communication of Science work, advice, and uncertainties in that advice.
+transparent, traceable, and transferable
+Using tools that facilitate traceability and transferability such as GitHub, R packages, and R Markdown files for documenting and disseminating assessment code, is a means of promoting a transparent line of work, decisions, assumptions and known issues which are key components of defensible science advice.
+These tools allow greater transferability and reproducability in the assessment process that permits new staff to come on-line quickly, and for the process to better deal with staff changes and absences (e.g., owing to parental leave).
+Assessment and advice conforming to TTT can provide strong support for decision making based on such advice.
+Some of these tools require considerable expertise.
+If these tools are to be used going forward, dedicated staff and/or training needs to be integrated into the stock assessment-advice work flow and not simply as a side activity.
 In addition, using these tools in DFO assessment work can promote greater within and between region collaboration that can improve the speed and quality of some science advice.
