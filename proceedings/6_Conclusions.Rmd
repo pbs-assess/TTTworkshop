@@ -4,8 +4,8 @@
 speedup publishing times for DFO reports.
 
 1. Assisting everyone in the department nationwide with making standard translation
-tools between languages esnures rapid and equal quality graphics in documents
-and presenations regardless of its original language and its translations.
+tools between languages ensures rapid and equal quality graphics in documents
+and presentations regardless of its original language and its translations.
 
 1. Common graphical standards for different plot types (look and feel) draws more
 attention to the advice than the particular mode of presenting it thus seeking
@@ -17,7 +17,7 @@ R-packaging and R-markdown files for documenting and disseminating assessment
 code, is a means of promoting a transparent line of work, decisions, assumptions
 and known issues which are key components of defensible science advice.
 
-1. These tools allow greater transferablability and reproducability in the
+1. These tools allow greater transferability and reproducibility in the
 assessment process that permits new staff to come on line quickly and for the
 process to better deal with staff changes and absences (e.g. owing to parental
 leave).
