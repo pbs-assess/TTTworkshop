@@ -20,11 +20,18 @@ header-includes:
 \newcommand{\trReportNum}{NNNN}
 
 <!-- Authors -->
-\newcommand{\trAuthsLong}{Andrew Edwards, Daniel Duplisea, Matthew Grinnell, Erika Anderson, Sean Anderson, Krista Baker, Hugues Beno\^{i}t, Jaclyn Cleary, Brendan Connors, Mathieu Desgagn\'{e}s, Philina English, David Fishman, Cameron Freshwater, Chris Grandin, Kevin Hedges, Carrie Holt, Kendra Holt, Elise Keppel, Rob Kronlund, Shannon Obradovich, Daniel Ricard, Bob Rogers, Chris Rooper, Mark Simpson, Tobie Surette, Ross Tallman, Laura Wheeland, Catarina Wor, and Xinhua Zhu}
+\newcommand{\trAuthsLong}{Andrew Edwards\textsuperscript{1}, Daniel Duplisea, Matthew Grinnell\textsuperscript{1}, Erika Anderson, Sean Anderson\textsuperscript{1}, Krista Baker, Hugues Beno\^{i}t, Jaclyn Cleary\textsuperscript{1}, Brendan Connors\textsuperscript{2}, Mathieu Desgagn\'{e}s, Philina English\textsuperscript{1}, David Fishman, Cameron Freshwater\textsuperscript{1}, Chris Grandin\textsuperscript{1}, Kevin Hedges, Carrie Holt\textsuperscript{1}, Kendra Holt\textsuperscript{2}, Elise Keppel\textsuperscript{1}, Rob Kronlund, Shannon Obradovich\textsuperscript{1}, Daniel Ricard, Bob Rogers, Chris Rooper\textsuperscript{1}, Mark Simpson, Tobie Surette, Ross Tallman, Laura Wheeland, Catarina Wor\textsuperscript{1}, and Xinhua Zhu}
+
 \newcommand{\trAuthsBack}{Edwards, A., Duplisea, D., Grinnell, M., Anderson, E., Anderson, S., Baker, K., Beno\^{i}t, H., Cleary, J., Connors, B., Desgagn\'{e}s, M., English, P., Fishman, D., Freshwater, C., Grandin, C., Hedges, K., Holt, C., Holt, K., Keppel, E., Kronlund, R., Obradovich, S., Ricard, D., Rogers, B., Rooper, C., Simpson, M., Surette, T., Tallman, R., Wheeland, L., Wor, C., and Zhu, X.}
 
 <!-- Address -->
 \newcommand{\trAddy}{Fisheries and Oceans Canada\\Science Branch, Pacific Region\\Pacific Biological Station\\3190 Hammond Bay Road\\Nanaimo, BC \enskip V9T 6N7}
+
+<!-- Affiliations -->
+\newcommand{\trAffil}{
+\textsuperscript{1} Pacific Biological Station, Fisheries and Oceans Canada, 3190 Hammond Bay Road, Nanaimo, BC, V9T 6N7\\
+\textsuperscript{2} Institute of Ocean Sciences, P.O. Box 6000, 9860 West Saanich Road, Sidney, BC, V8L 4B2
+}
 
 <!-- Abstract -->
 \newcommand{\trAbstract}{
