@@ -34,7 +34,7 @@ A four day workshop was held in Nanaimo on 27-30 November 2018 to foster a commo
 \emph{Transferable}: It should be feasible for another person to pick up the assessment and build on it with a minimal learning curve.
 A fourth T could be \emph{Translatable} in the sense that with two official languages, it is important to ensure proper document standards to enable consistent translations between official languages.
 Software demonstrations were given of Git, GitHub, R Markdown, knitr, and latex, and group work was conducted around the use of these tools.
-For example csasdown styles were introduced to show how documents produced for science processes through the Canadian Science Advisory Secretariat (\href{http://www.dfo-mpo.gc.ca/csas-sccs/index-eng.htm}{CSAS}) could be produced and updated using assessment model runs.
+For example, csasdown styles were introduced to show how documents produced for science processes through the Canadian Science Advisory Secretariat (\href{http://www.dfo-mpo.gc.ca/csas-sccs/index-eng.htm}{CSAS}) could be produced and updated using assessment model runs.
 Presentations were given on open data standards, on CSAS formatting and accessibility constraints, and on GitLab (a Git service available to Government of Canada employees).
 Anticipated changes to the Fisheries Act in 2019, particularly in relation to the need for limit reference points, were discussed in relation to how TTT tools could support the operationalisation of these legislative changes in DFO science advice.
 The present report was written collectively during the workshop using the TTT tools as a testament to the efficacy of this way to work.
