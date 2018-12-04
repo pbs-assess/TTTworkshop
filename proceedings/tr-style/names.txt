@@ -1,0 +1,34 @@
+% https://tex.stackexchange.com/questions/57636/macro-for-formatting-names-initials-or-full-name
+
+\documentclass{article}
+
+\makeatletter
+% define the styles for the first name; these are going to be the values
+% for the optional argument of \NewNameType;
+% \@style => \NewNameType[style]{<csname>}
+\def\@fullname#1\q@stop{#1~}
+\def\@initial#1#2\q@stop{#1~}
+\def\@initialdot#1#2\q@stop{#1.~}
+\def\@noname#1\q@stop{}
+
+% define the user command; the optional arguments sets the format;
+% I chose `initial' as default:
+\newcommand*\NewNameType[2][initial]{%
+  \expandafter\newcommand\expandafter*\csname#2\endcsname[1]{\@nameuse{#2@aux}##1\q@stop}%
+  \@namedef{#2@aux}##1 ##2\q@stop{\@nameuse{@#1}##1\q@stop##2}}
+\makeatother
+
+% define some styles:
+\NewNameType{researcher}           % J Doe
+\NewNameType[fullname]{artist}     % John Doe
+\NewNameType[noname]{baker}        % Doe
+\NewNameType[initialdot]{musician} % J. Doe
+
+\begin{document}
+
+\researcher{John Doe} \par
+\artist{John Doe} \par
+\baker{John Doe} \par
+\musician{John Doe}
+
+\end{document}
