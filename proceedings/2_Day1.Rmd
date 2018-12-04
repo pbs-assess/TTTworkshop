@@ -2,9 +2,24 @@
 
 ## MOTIVATION FOR THE WORKSHOP (EDWARDS AND DUPLISEA)
 
-Assessment staff work collaboratively and previous methods for collaboration (e.g., email) are inefficient and prone to errors.
-Models generally need to be updated every time a new assessment is scheduled, rather than built from the ground up, however the technical team running the model may change year to year.
+This workshop was motivated by several recent developments:
+
+(1) The TESA Template Model Builder (TMB) course in Halifax in January 2018 introduced many DFO assessment scientists to tools such as github and the advantages of a strong versioning system, centralised methods repositories and the ability to share code. Git and Github was already well used at the Pacific Biological Station but not so much in other DFO labs and the national advantages of this became clearer after the TMB course.
+
+(2) ICES has developed an initiative called the [Transparent Assessment Framework (TAF)]https://github.com/ices-taf that works towards TTT goals. ICES representatives gave a webinar to TESA in the Spring of 2017 on this initiative and has been a source of inspiration in moving on this TTT workshop.
+
+(3) There has been a desire in DFO to create a common look and feel in DFO science advice in assessment. Previous experience has shown that this does not work well when pushed from the top down but use of these modern sharing tools should help create some common looking outputs as emergent products of this way of working.
+
+(4) Bill C-68 (changes to the Fisheries Act) is currently in the Senate. C-68 contains specific wording around the need to develop limit reference points and recovery plans. The legislated need for these products that come from assesssment scientists' workbenches is a motivating factor to work clearly in a TTT framework.
+
+(5) The need to develop bilingual documentation for all DFO web published documents and in often during assessment peer review processes motivates the development of translation tools for tables and graphics that can be done consistently, relatively instantly and across all regions. The fourth and appropriately silent T in TTT can be considered translation but in reality is no less important than the others.
+
+## ADVANTAGES OF USING A TTT APPROACH
+
+Assessment staff work collaboratively and previous methods for collaboration (e.g., email) are inefficient and prone to errors while a structured sharing system with versioning and update notifications is much more efficient.
+Assessment models generally need to be updated every time a new assessment is scheduled, rather than built from the ground up, however the technical team running the model may change year to year. Transferable approaches allow a more efficient transfer to new staff to up and running efficiently.
 As a result, substantial amounts of work are likely to be unnecessarily repeated unless models are easily transferable among individuals and constructed in a transparent manner.
+
 
 ## MOTIVATION FOR USING Git (EDWARDS)
 
@@ -18,6 +33,7 @@ Git also tracks who made which changes, which can be viewed using the blame butt
 During development (or post-development), Git also allows analysts to easily reference pieces of code and/or changes in code easily when posing questions or issues, using remote repositories.
 Issues can be easily tracked on the GitHub site and used as a continuously updated to-do list, with a permanently recorded history.
 Individual issues that need to be addressed can also be assigned to specific analysts within a working group.
+
 
 ## INTERACTIVE INTRODUCTION TO Git (EDWARDS AND GRANDIN)
 
