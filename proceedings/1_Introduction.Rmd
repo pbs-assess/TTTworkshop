@@ -14,15 +14,23 @@ program with one or two representatives in each region. There is an internal
 [GCpedia page](http://www.gcpedia.gc.ca/wiki/DFO_Science_TESA_ETES).
 
 <!-- From the abstract -->
-A four day workshop was held in Nanaimo on 27-30 November 2018 to foster a common understanding of modern methods and tools in DFO that enables an exchange of knowledge, data, and methods for stock assessment which should lead to transparent, traceable, and transferable (TTT) assessments in DFO.
-\emph{Transparent}: There is a clear and open way to show data, code, and results, and others should be able to duplicate the assessment;
+A four-day TESA workshop was held in Nanaimo on 27-30 November 2018 to foster a
+common understanding of modern methods and tools in DFO that enables an exchange
+of knowledge, data, and methods for stock assessment which should lead to
+transparent, traceable, and transferable (TTT) assessments in DFO.
+\emph{Transparent}: There is a clear and open way to show data, code, and
+results, and others should be able to duplicate the assessment;
 \emph{Traceable}: One should be able to link results to components; and
-\emph{Transferable}: It should be feasible for another person to pick up the assessment and build on it with a minimal learning curve.
-A fourth T could be \emph{Translatable} in the sense that with two official languages, it is important to ensure proper document standards to enable consistent translations between official languages.
+\emph{Transferable}: It should be feasible for another person to pick up the
+assessment and build on it with a minimal learning curve.  A fourth T could be
+\emph{Translatable} in the sense that with two official languages, it is
+important to ensure proper document standards to enable consistent translations
+between official languages.
 
-The TTT workshop took place in Nanaimo, British Columbia in an interactive classroom setting (Figure \ref{fig:classroom}).
-Workshop participants are listed in Table \@ref(tab:participants).
-Workshop materials are on the [GitHub repository](https://github.com/pbs-assess/TTTworkshop).
+The TTT workshop took place in Nanaimo, British Columbia in an interactive
+classroom setting (Figure \ref{fig:classroom}).  Workshop participants are
+listed in Table \@ref(tab:participants).  Workshop materials are on the [GitHub
+repository](https://github.com/pbs-assess/TTTworkshop).
 
 <!-- Classroom picture -->
 \begin{figure}
