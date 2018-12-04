@@ -11,6 +11,8 @@ header-includes:
 urlcolor: blue
 ---
 
+<!-- To build from command line: rmarkdown::render("Proceedings.Rmd")  -->
+
 <!-- File path to resources (e.g., style file, logos) -->
 <!-- https://github.com/grinnellm/TechnicalReport -->
 \newcommand{\locRes}{./tr-style}
