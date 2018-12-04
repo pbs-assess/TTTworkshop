@@ -1,14 +1,17 @@
 # INTRODUCTION
 
-<!-- Plagarized from the CSAS website -->
-The DFO Technical Expertise in Stock Assessment (TESA) program was created in 2008 to help rebuild capacity in fish stock assessment, and to develop technical approaches in a common venue separate from science advisory meetings.
-The TESA program is composed of three related elements:
+<!-- From the TESA GCpedia site -->
+The purpose of the Technical Expertise in Stock Assessment (TESA) program is to
+promote stock assessment excellence through organizing national activities that
+contribute to the development of expertise in stock assessment across Fisheries
+and Oceans Canada (DFO).
 
-1) Stock Assessment Methods Committee (SAMC);
-2) Annual national stock assessment methods workshop; and
-3) Stock assessment technical training/upgrading program.
-
-TESA is led by a steering committee composed of the chair (Noel Cadigan), one stock assessment expert from each region, a champion from the National Ecosystem, Oceans and Science Director Committee (NEOSDC), and a Science manager.
+In 2009, TESA was created in response to a loss of stock assessment expertise in 
+DFO owing to retirements. Each year, TESA organises three or four training courses
+and one or two topical workshops on stock assessment issues. TESA is a national
+program with one or two representatives in each region. There is an internal
+(only accessible from the DFO network) 
+[GCpedia page](http://www.gcpedia.gc.ca/wiki/DFO_Science_TESA_ETES).
 
 <!-- From the abstract -->
 A four day workshop was held in Nanaimo on 27-30 November 2018 to foster a common understanding of modern methods and tools in DFO that enables an exchange of knowledge, data, and methods for stock assessment which should lead to transparent, traceable, and transferable (TTT) assessments in DFO.
