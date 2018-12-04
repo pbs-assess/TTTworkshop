@@ -1,6 +1,20 @@
 # INTRODUCTION
 
-The workshop took place in Nanaimo, BC in an interactive classroom setting (Figure \ref{fig:classroom}).
+<!-- Plagarized from the CSAS website -->
+The DFO Technical Expertise in Stock Assessment (TESA) program was created in 2008 to help rebuild capacity in fish stock assessment, and to develop technical approaches in a common venue separate from science advisory meetings.
+The TESA program is composed of three related elements:
+
+1) Stock Assessment Methods Committee (SAMC);
+
+2) Annual National Stock Assessment Methods Workshop; and
+
+3) Stock Assessment Technical Training/Upgrading program.
+
+TESA is led by a steering committee composed of the chair (Noel Cadigan), one stock assessment expert from each region, a champion from the National Ecosystem, Oceans and Science Director Committee (NEOSDC), and a Science manager.
+
+<!-- TTT -->
+
+The TTT workshop took place in Nanaimo, British Columbia in an interactive classroom setting (Figure \ref{fig:classroom}).
 Workshop participants are listed in Table \@ref(tab:participants).
 Workshop materials are on the [GitHub repository](https://github.com/pbs-assess/TTTworkshop).
 
