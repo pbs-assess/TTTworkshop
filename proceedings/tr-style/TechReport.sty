@@ -23,7 +23,14 @@
 % \RequirePackage{lmodern}  % Nicer (c) symbol
 % \RequirePackage{calc}  % Text length calculations
 % \RequirePackage[authoryear]{natbib}  % Citations
-% \RequirePackage{hyperref}  % Better cross references
+% \RequirePackage{hyperref}  % Better cross references. Gets loaded anyway.
+%% From gfsynopsis: Load hyperlink package and set up link colors, then trying
+%% PassOptionsToPackage (which shows up in the .tex file for color package)
+\PassOptionsToPackage{breaklinks=true,
+                      bookmarksopen=true,
+                      bookmarksdepth=3}
+                      {hyperref} % hyperref is loaded already.
+                                 % See \hypersetup below for further options
 % \RequirePackage{letltxmacro}  % Enable/disable footnotes
 \RequirePackage{pdfpages}  % Include PDF documents
 % \RequirePackage[T1]{fontenc}  % Allow french characters (Resume)
@@ -179,7 +186,15 @@
 \renewcommand*{\thefootnote}{\fnsymbol{footnote}}
 
 % Prevent issues with the first two unnumbered pages
-\hypersetup{pageanchor=false}
+% \hypersetup{pageanchor=false}    % now included below
+% Adapted from gfsynopsis:
+\hypersetup{colorlinks,
+            pageanchor=false,
+            plainpages=true,
+            linkcolor=Black,  % Table, Figure, Section links - Black is better
+                              % here for ToC
+            citecolor=Blue,
+            urlcolor=Blue},
 
 % First page: cover
 \thispagestyle{fancyplain}
