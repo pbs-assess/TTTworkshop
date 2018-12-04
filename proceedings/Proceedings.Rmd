@@ -139,8 +139,8 @@ between official languages.
 Software demonstrations were given of Git, GitHub,
 R Markdown, knitr, LaTeX and creation of R packages. For example, the csasdown R package was introduced to show how 
 properly formatted documents produced for Canadian Science Advisory Secretariat
-(\href{http://www.dfo-mpo.gc.ca/csas-sccs/index-eng.htm}{CSAS}) 
-processes can be built and easily updated with new assessment model results.
+(CSAS) processes can be built and easily updated with new assessment model
+results.
 
 Presentations were given on
 open data standards, on CSAS formatting and accessibility constraints, and on
@@ -178,7 +178,7 @@ le travail de groupe s'est concentr\'{e} sur l'utilisation de ces outils.  Par
 exemple, les styles csasdown ont \'{e}t\'{e} pr\'{e}sent\'{e}s pour montrer
 comment les documents produits durant les processus scientifiques du
 Secr\'{e}tariat Canadien de Consultation Scientifique
-(\href{http://www.dfo-mpo.gc.ca/csas-sccs/index-fra.htm}{SCCS}) pourraient
+(SCCS) pourraient
 \^{e}tre cr\'{e}\'{e}s et r\'{e}dig\'{e}s \`{a} l'aide des passes de mod\`{e}les
 d'\'{e}valuation.  Des pr\'{e}sentations sur les standards de donn\'{e}es
 ouvertes, sur les contraintes de mise en page et d'accessibilit\'{e} du SCCS, et
