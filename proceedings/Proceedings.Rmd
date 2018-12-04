@@ -91,7 +91,7 @@ Columbia, V9T 6N7}
 \newcommand{\trAffil}{
 $^1$Pacific Biological Station, Fisheries and Oceans Canada, 3190~Hammond Bay
 Road, Nanaimo, British Columbia, V9T 6N7.\\
-$^2$Maurice Lamontagne Institute, Fisheries and Oceans Canada, 850~de~la Mer Road, Mont-Joli, Quebec, G5H 3Z4.\\
+$^2$Maurice Lamontagne Institute, Fisheries and Oceans Canada, 850~route~de~la mer, Mont-Joli, Quebec, G5H 3Z4.\\
 $^3$Northwest Atlantic Fisheries Centre, Fisheries and Oceans Canada, 80~East White Hills, St.~John's, Newfoundland and Labrador, A1C 5X1.\\
 $^4$Institute of Ocean Sciences, Fisheries and Oceans Canada, P.O.~Box~6000,
 9860~West Saanich Road, Sidney, British Columbia, V8L 4B2.\\
