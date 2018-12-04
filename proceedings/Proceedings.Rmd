@@ -12,9 +12,6 @@ urlcolor: blue
 ---
 
 <!-- To build from command line: rmarkdown::render("Proceedings.Rmd")  -->
-<!-- You currently may need to run it twice and on the command line (not via the
-RStudio 'knit' button) if you get an error about an option clash with the
-xtable package.  -->
 
 <!-- File path to resources (e.g., style file, logos) -->
 <!-- https://github.com/grinnellm/TechnicalReport -->
@@ -196,12 +193,11 @@ mani\`{e}re de travailler.
 
 <!-- Basic set up -->
 ```{r echo=FALSE, warning=FALSE, message=FALSE}
-# Require packages
-library( tidyverse )
-library( knitr )
-library( kableExtra )
-library( bookdown )
-library( bindrcpp )
+library(dplyr)
+library(readr)
+# https://github.com/haozhu233/kableExtra/issues/274
+# avoid xcolor clash:
+options(kableExtra.latex.load_packages = FALSE)
 ```
 
 <!-- Introduction -->
