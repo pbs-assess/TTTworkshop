@@ -114,7 +114,7 @@ $^7$Centennial Towers, Fisheries and Oceans Canada, 200~Kent Street, 9th~floor, 
 
 <!-- Abstract -->
 \newcommand{\trAbstract}{
-A four-day workshop was held in Nanaimo, British Colubmia, from 27-30
+A four-day workshop was held in Nanaimo, British Colubmia, from 27--30
 November 2018. The aim was to foster a
 common understanding of modern computational methods and tools among stock
 assessment scientists in Fisheries and
@@ -124,7 +124,7 @@ easy sharing of methods with others.
 This should lead to more
 transparent, traceable, and transferable (TTT) assessments in DFO.
 
-\emph{Transparent} means a clear and open way to show data, code, and
+\emph{Transparent} means a clear and open way to show data, code and
 results, such that others should be able to reproduce the assessment.
 \emph{Traceable} means that there is a clear link from database queries and code
 to final results (numbers, tables and
@@ -146,14 +146,15 @@ Presentations were given on
 open data standards, on CSAS formatting and accessibility constraints, and on
 GitLab (a Git service available to Government of Canada employees). Anticipated
 changes to the Fisheries Act in 2019, particularly in relation to the need for
-limit reference points, were discussed in relation to how TTT tools could
-support the operationalisation of these legislative changes in DFO science
-advice. 
+limit reference points, were discussed with respect to how TTT tools could
+support the operationalisation of providing such science advice.
 Participants formed several breakout groups to practice using these tools,
-resulting in an automated report from a multispecies survey and an R package to
-facilitate fast and efficient translation of figures for CSAS documents.
+creating, for example, an automated report from a multispecies survey and an
+R package to
+facilitate fast, cheap and efficient translation of figures for CSAS documents.
 This proceedings document was written collectively during the workshop using
-the TTT tools as a testament to the efficiency of this way of collaborative working.
+the TTT tools as a testament to the efficiency of this way of collaborative 
+working.
 }
 
 <!-- Resume (i.e., French abstract) -->
