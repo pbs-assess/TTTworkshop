@@ -5,14 +5,12 @@ The DFO Technical Expertise in Stock Assessment (TESA) program was created in 20
 The TESA program is composed of three related elements:
 
 1) Stock Assessment Methods Committee (SAMC);
-
-2) Annual National Stock Assessment Methods Workshop; and
-
-3) Stock Assessment Technical Training/Upgrading program.
+2) Annual national stock assessment methods workshop; and
+3) Stock assessment technical training/upgrading program.
 
 TESA is led by a steering committee composed of the chair (Noel Cadigan), one stock assessment expert from each region, a champion from the National Ecosystem, Oceans and Science Director Committee (NEOSDC), and a Science manager.
 
-<!-- TTT -->
+<!-- TTT background here -->
 
 The TTT workshop took place in Nanaimo, British Columbia in an interactive classroom setting (Figure \ref{fig:classroom}).
 Workshop participants are listed in Table \@ref(tab:participants).
