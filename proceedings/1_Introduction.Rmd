@@ -55,7 +55,8 @@ participants <- readr::read_csv( file="./Participants.txt", col_names=TRUE,
   arrange( Region, Name ) %>%
   knitr::kable( booktabs=TRUE, linesep="", format="latex", escape=FALSE,
     align=c("l", "l", "c", "c", "c", "c"), caption=kCap, 
-    caption.short=kCapShort) %>%
+    caption.short=kCapShort ) %>%
+  # kableExtra::kable_styling( latex_options=c("striped","hold_position") ) %>%
   kableExtra::row_spec( row=0, bold=TRUE ) %>%
   kableExtra::add_header_above( header=c(" ", " ", "Day"=4), bold=TRUE ) %>%
   print( )
