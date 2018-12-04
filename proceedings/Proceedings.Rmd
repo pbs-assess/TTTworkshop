@@ -20,8 +20,8 @@ urlcolor: navyblue
 
 <!-- Title, year, report number -->
 \newcommand{\trTitle}{Proceedings of the Technical Expertise in Stock Assessment
- (TESA) national workshop on `Tools for transparent, traceable, and transferable
- assessments', 27–30 November 2018, Nanaimo, British Columbia}
+ (TESA) National Workshop on `Tools for Transparent, Traceable, and Transferable
+ Assessments', 27--30 November 2018, Nanaimo, British Columbia}
 \newcommand{\trYear}{YYYY}
 \newcommand{\trReportNum}{NNNN}
 
@@ -91,9 +91,13 @@ Wor, C.,
 and Zhu, X.}
 
 <!-- Address -->
-\newcommand{\trAddy}{Fisheries and Oceans Canada\\Science Branch, Pacific
-Region\\Pacific Biological Station\\3190 Hammond Bay Road\\Nanaimo, British
-Columbia, V9T 6N7}
+\newcommand{\trAddy}{
+Pacific Biological Station,\\
+Fisheries and Oceans Canada,\\
+3190 Hammond Bay Road,\\
+Nanaimo, British Columbia,\\
+V9T 6N7.
+}
 
 <!-- Affiliations -->
 \newcommand{\trAffil}{
