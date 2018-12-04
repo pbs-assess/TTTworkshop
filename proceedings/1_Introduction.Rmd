@@ -40,7 +40,7 @@ repository](https://github.com/pbs-assess/TTTworkshop).
 \end{figure}
 
 <!-- Load participants table -->
-```{r participants, echo=FALSE, results='asis'}
+```{r participants, echo=FALSE, results='asis', warning=FALSE}
 # Caption <- 
 kCap <- "Participants in the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments."
 kCapShort <- "Workshop participants"
