@@ -91,9 +91,13 @@ Wor, C.,
 and Zhu, X.}
 
 <!-- Address -->
-\newcommand{\trAddy}{Fisheries and Oceans Canada\\Science Branch, Pacific
-Region\\Pacific Biological Station\\3190 Hammond Bay Road\\Nanaimo, British
-Columbia, V9T 6N7}
+\newcommand{\trAddy}{
+Pacific Biological Station,\\
+Fisheries and Oceans Canada,\\
+3190 Hammond Bay Road,\\
+Nanaimo, British Columbia,\\
+V9T 6N7.
+}
 
 <!-- Affiliations -->
 \newcommand{\trAffil}{
