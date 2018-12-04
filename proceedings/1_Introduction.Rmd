@@ -10,27 +10,65 @@ In 2009, TESA was created in response to a loss of stock assessment expertise in
 DFO owing to retirements. Each year, TESA organises three or four training courses
 and one or two topical workshops on stock assessment issues. TESA is a national
 program with one or two representatives in each region. There is an internal
-(only accessible from the DFO network) 
-[GCpedia page](http://www.gcpedia.gc.ca/wiki/DFO_Science_TESA_ETES).
+[GCpedia website](http://www.gcpedia.gc.ca/wiki/DFO_Science_TESA_ETES) 
+(only accessible from the DFO network).
 
-<!-- From the abstract -->
-A four-day TESA workshop was held in Nanaimo on 27-30 November 2018 to foster a
-common understanding of modern methods and tools in DFO that enables an exchange
-of knowledge, data, and methods for stock assessment which should lead to
+<!-- Adapting from updated abstract -->
+
+A four-day TESA workshop was held to foster a
+common understanding of modern computational methods and tools among stock
+assessment scientists in DFO.
+These tools enable efficient sharing of code and
+writing of complex stock assessment documents within an assessment team, and
+easy sharing of methods with others.
+This should lead to more
 transparent, traceable, and transferable (TTT) assessments in DFO.
-\emph{Transparent}: There is a clear and open way to show data, code, and
-results, and others should be able to duplicate the assessment;
-\emph{Traceable}: One should be able to link results to components; and
-\emph{Transferable}: It should be feasible for another person to pick up the
-assessment and build on it with a minimal learning curve.  A fourth T could be
-\emph{Translatable} in the sense that with two official languages, it is
-important to ensure proper document standards to enable consistent translations
-between official languages.
 
-The TTT workshop took place in Nanaimo, British Columbia in an interactive
+The following definitions used:
+
+* \emph{Transparent} means a clear and open way to show data, code and
+results, such that others should be able to reproduce the assessment.
+
+* \emph{Traceable} means that there is a clear link from database queries and code
+to final results (numbers, tables and
+graphs in an assessment document).
+
+* \emph{Transferable} means that it should be feasible for another person to 
+reproduce an assessment and build upon it with a minimal
+learning curve.
+
+A fourth T could be \emph{Translatable} in the sense that with two official
+languages, it is
+important to ensure consistent translations
+between official languages. 
+
+This document briefly summarises each day's presentations and activities. 
+Various software demonstrations were given and participants later split into 
+breakout groups to work on various
+projects and practice the techniques.
+One group created an R package to produce an automated report
+from a multispecies survey (that they intend to be used in real-time so that
+the report can be produced during the survey). A second group created
+[rosettafish](https://github.com/pbs-assess/rosettafish/), an
+R package to facilitate fast, cheap and efficient translation of text (e.g. axes
+labels) within figures of CSAS documents. It contains an expanding list of
+translated technical terms (that a user can help update), and also allows for
+translation into Inuktitut.
+A third group commenced writing of this Proceedings document (using a template
+by Matthew Grinnell), which was finished up in the week after the workshop.
+This demonstrates the efficiency of using these tools to work collaboratively.
+Other groups worked on smaller projects, such as organising their existing code
+into a more TTT-type framework.
+
+The workshop took place at the Coast Bastion Hotel in Nanaimo, British Columbia
+in an interactive
 classroom setting (Figure \ref{fig:classroom}).  Workshop participants are
-listed in Table \@ref(tab:participants).  Workshop materials are on the [GitHub
-repository](https://github.com/pbs-assess/TTTworkshop).
+listed in Table \@ref(tab:participants).  Workshop materials specific to this
+workshop are on the [TTT GitHub
+repository](https://github.com/pbs-assess/TTTworkshop), with further training
+materials and examples on the [git-course
+repository](https://github.com/pbs-assess/git-course) and
+the [csasdown repository](https://github.com/pbs-assess/csasdown).
 
 <!-- Classroom picture -->
 \begin{figure}
