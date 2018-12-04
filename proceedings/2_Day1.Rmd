@@ -15,7 +15,7 @@ Previous experience has shown that this does not work well when pushed from the 
 
 (4) [Bill C-68 (changes to the Fisheries Act)](http://www.parl.ca/DocumentViewer/en/42-1/bill/C-68/third-reading) is currently in the Senate.
 Bill C-68 contains specific wording around the need to develop limit reference points and recovery plans.
-The legislated need for these products that come from assesssment scientists' workbenches is a motivating factor to work clearly in a TTT framework.
+The legislated need for these products that come from assessment scientists' workbenches is a motivating factor to work clearly in a TTT framework.
 
 (5) The need to develop bilingual documentation for all DFO web published documents and in often during assessment peer review processes motivates the development of translation tools for tables and graphics that can be done consistently, relatively instantly, and across all regions.
 The fourth and appropriately silent T in TTT can be considered translation, but in reality Translation is no less important than the others.
@@ -31,10 +31,10 @@ As a result, substantial amounts of work are likely to be unnecessarily repeated
 Emailing individual files does not preserve folder structure, which is important for code functionality, particularly when building complicated models with nested functions.
 GitHub is more efficient and less prone to errors by preserving folder structure and allows analysts to work on code simultaneously.
 
-GitHub tracks changes in a document and keeps all previous changes, so that previous versions are never lost. 
+GitHub tracks changes in a document and keeps all previous changes, so that previous versions are never lost.
 By using branches, individual developers can simultaneously work on the same project without worrying about overwriting each others work.
 Git merges versions of the document edited by different users, and highlights lines with conflicts that need to be resolved.
-Git also tracks who made which changes, which can be viewed using the blame button. 
+Git also tracks who made which changes, which can be viewed using the blame button.
 During development (or post-development), Git also allows analysts to easily reference pieces of code and/or changes in code easily when posing questions or issues, using remote repositories.
 Issues can be easily tracked on the GitHub site and used as a continuously updated to-do list, with a permanently recorded history.
 Individual issues that need to be addressed can also be assigned to specific analysts within a working group.
@@ -48,13 +48,13 @@ Chris and Andy led the group though the steps for basic Git functions:
   - also included adding a `.gitignore` file that specifies files that Git should not track (e.g., data files);
 - Cloning the repository to your local hard drive;
 - Adding a file to the repository;
-- Committing the file with an informative message;
+- Staging and committing the file with an informative message;
 - Editing files;
-- Committing changes to update the document;
+- Staging and committing changes to update the document;
 - Pushing to the remote repository; and
-- Referencing previous commits using their `HASH`.
+- Referencing previous commits using their `HASH` code.
 
-We also made a `.gitconfig` file that includes useful keyboard shortcuts. 
+We also made a `.gitconfig` file that includes useful keyboard shortcuts.
 
 Next Andy addressed a family of Git functions that are more likely to be used during a collaboration:
 
@@ -64,5 +64,5 @@ Next Andy addressed a family of Git functions that are more likely to be used du
 - Deleting old branches to keep your workspace tidy;
 - Stashing changes that have not been committed when you switch branches;
 - Examining network graphs (on GitHub site) to interpret branch structure;
-- Adding remotes (besides `master`), and fetching collaborators changes from them; and
-- Use `git diff` to compare changes between collaborators `master` and your `master`.
+- Adding remote forks and fetching a collaborator's changes from them; and
+- Use `git diff` to compare changes between a collaborator's branch or fork and yours
