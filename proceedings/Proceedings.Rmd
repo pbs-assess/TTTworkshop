@@ -20,8 +20,8 @@ urlcolor: navyblue
 
 <!-- Title, year, report number -->
 \newcommand{\trTitle}{Proceedings of the Technical Expertise in Stock Assessment
- (TESA) National Workshop on `Tools for Transparent, Traceable, and Transferable
- Assessments', 27--30 November 2018, Nanaimo, British Columbia}
+ (TESA) national workshop on `Tools for transparent, traceable, and transferable
+ assessments', 27--30 November 2018, Nanaimo, British Columbia}
 \newcommand{\trYear}{YYYY}
 \newcommand{\trReportNum}{NNNN}
 
