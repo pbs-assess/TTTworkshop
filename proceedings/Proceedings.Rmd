@@ -23,7 +23,7 @@ header-includes:
 \newcommand{\trAuthsLong}{
 Andrew M. Edwards$^1$,
 Daniel E. Duplisea$^2$,
-Matthew Grinnell$^1$,
+Matthew H. Grinnell$^1$,
 Sean C. Anderson$^1$,
 Chris J. Grandin$^1$,
 Elise A. Keppel$^1$,
@@ -54,7 +54,7 @@ and Xinhua Zhu$^6$}
 \newcommand{\trAuthsBack}{
 Edwards, A.M.,
 Duplisea, D.E.,
-Grinnell, M.,
+Grinnell, M.H.,
 Anderson, S.C.,
 Grandin, C.J.,
 Keppel, E.A.,
