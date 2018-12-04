@@ -107,30 +107,46 @@ $^7$Centennial Towers, Fisheries and Oceans Canada, 200~Kent Street, 9th~floor, 
 
 <!-- Abstract -->
 \newcommand{\trAbstract}{
-A four day workshop was held in Nanaimo on 27-30 November 2018 to foster a
-common understanding of modern methods and tools in DFO that enables an exchange
-of knowledge, data, and methods for stock assessment which should lead to
+A four-day workshop was held in Nanaimo, British Colubmia, from 27-30
+November 2018. The aim was to foster a
+common understanding of modern computational methods and tools among stock
+assessment scientists in Fisheries and
+Oceans Canada (DFO). These tools enable efficient sharing of code and
+writing of complex stock assessment documents within an assessment team, and
+easy sharing of methods with others.
+This should lead to more
 transparent, traceable, and transferable (TTT) assessments in DFO.
-\emph{Transparent}: There is a clear and open way to show data, code, and
-results, and others should be able to duplicate the assessment;
-\emph{Traceable}: One should be able to link results to components; and
-\emph{Transferable}: It should be feasible for another person to pick up the
-assessment and build on it with a minimal learning curve.  A fourth T could be
+
+\emph{Transparent} means a clear and open way to show data, code, and
+results, such that others should be able to reproduce the assessment.
+\emph{Traceable} means that there is a clear link from database queries and code
+to final results (numbers, tables and
+graphs in an assessment document).
+\emph{Transferable} means that it should be feasible for another person to 
+reproduce an assessment and build upon it with a minimal
+learning curve. A fourth T could be
 \emph{Translatable} in the sense that with two official languages, it is
-important to ensure proper document standards to enable consistent translations
-between official languages.  Software demonstrations were given of Git, GitHub,
-R Markdown, knitr, and latex, and group work was conducted around the use of
-these tools.  For example, csasdown styles were introduced to show how documents
-produced for science processes through the Canadian Science Advisory Secretariat
-(\href{http://www.dfo-mpo.gc.ca/csas-sccs/index-eng.htm}{CSAS}) could be
-produced and updated using assessment model runs.  Presentations were given on
+important to ensure consistent translations
+between official languages. 
+
+Software demonstrations were given of Git, GitHub,
+R Markdown, knitr, LaTeX and creation of R packages. For example, the csasdown R package was introduced to show how 
+properly formatted documents produced for Canadian Science Advisory Secretariat
+(\href{http://www.dfo-mpo.gc.ca/csas-sccs/index-eng.htm}{CSAS}) 
+processes can be built and easily updated with new assessment model results.
+
+Presentations were given on
 open data standards, on CSAS formatting and accessibility constraints, and on
-GitLab (a Git service available to Government of Canada employees).  Anticipated
+GitLab (a Git service available to Government of Canada employees). Anticipated
 changes to the Fisheries Act in 2019, particularly in relation to the need for
 limit reference points, were discussed in relation to how TTT tools could
 support the operationalisation of these legislative changes in DFO science
-advice.  The present report was written collectively during the workshop using
-the TTT tools as a testament to the efficacy of this way to work.
+advice. 
+Participants formed several breakout groups to practice using these tools,
+resulting in an automated report from a multispecies survey and an R package to
+facilitate fast and efficient translation of figures for CSAS documents.
+This proceedings document was written collectively during the workshop using
+the TTT tools as a testament to the efficiency of this way of collaborative working.
 }
 
 <!-- Resume (i.e., French abstract) -->
