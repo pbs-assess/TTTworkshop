@@ -12,10 +12,14 @@ urlcolor: blue
 ---
 
 <!-- To build from command line: rmarkdown::render("Proceedings.Rmd")  -->
+<!-- You currently may need to run it twice and on the command line (not via the
+RStudio 'knit' button) if you get an error about an option clash with the
+xtable package.  -->
 
 <!-- File path to resources (e.g., style file, logos) -->
 <!-- https://github.com/grinnellm/TechnicalReport -->
 \newcommand{\locRes}{./tr-style}
+<!-- We will eventually include this style file in csasdown -->
 
 <!-- Title, year, report number -->
 \newcommand{\trTitle}{Proceedings of the Technical Expertise in Stock Assessment
