@@ -37,7 +37,7 @@ reduce the cost to produce fully translated and accessible documents.
 A big problem is
 translation of figures (which are usually PNG 'images' in PDF documents) into the other
 official language. It was suggested that it might be possible for an automated
-translation of frequently used words such as "Age" or "Fork length".
+translation of frequently used words such as "Age" or "Fork length."
 Mariscak mentioned a recent example of having to manually replace all the words 
 by their translated versions in
 all the figures in a lengthy Research Document. It took someone 35 hours to do
