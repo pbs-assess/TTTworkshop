@@ -25,39 +25,64 @@ urlcolor: navyblue
 \newcommand{\trYear}{YYYY}
 \newcommand{\trReportNum}{NNNN}
 
+```{r authors, echo=FALSE}
+# Paste strings nicely
+PasteNicely <- function( x, intChars=", ", nChar="and " ) {
+  # Get the length of the vector
+  n <- length( x )
+  # If there are more than two 
+  if( n > 2 ) {
+    # Make a print-friendly vector
+    x[n] <- paste( nChar, x[n], sep="" )
+    # Get print friendly values
+    res <- paste( x, collapse=intChars )
+  } else {  # End if more than two, otherwise
+    # Add a space
+    nCharSp <- paste( " ", nChar, sep="" )
+    # Get print friendly values
+    res <- paste( x, collapse=nCharSp )
+  }  # End if not more than two
+  # Return the results
+  return( res )
+}  # End PasteNicely function
+
+Authors <- c( "Andrew M. Edwards$^1$",
+"Daniel E. Duplisea$^2$",
+"Matthew H. Grinnell$^1$",
+"Sean C. Anderson$^1$",
+"Chris J. Grandin$^1$",
+"Elise A. Keppel$^1$",
+"Erika D. Anderson$^1$",
+"Krista D. Baker$^3$",
+"Hugues P. Benoît$^2$",
+"Jaclyn S. Cleary$^1$",
+"Brendan M. Connors$^4$",
+"Mathieu Desgagnés$^2$",
+"Philina A. English$^1$",
+"David J. Fishman$^5$",
+"Cameron Freshwater$^1$",
+"Kevin J. Hedges$^6$",
+"Carrie A. Holt$^1$",
+"Kendra R. Holt$^4$",
+"A.~Rob Kronlund$^7$",
+"Ann Mariscak$^1$",
+"Shannon G. Obradovich$^1$",
+"Bruce A. Patten$^1$",
+"Daniel Ricard$^5$",
+"Bob Rogers$^3$",
+"Chris N. Rooper$^1$",
+"Mark R. Simpson$^3$",
+"Tobie J. Surette$^5$",
+"Ross F. Tallman$^6$",
+"Laura J. Wheeland$^3$",
+"Catarina Wor$^1$", 
+"Xinhua Zhu$^6$" )
+AuthorsNoMath <- gsub( pattern="\\$.*\\$", replacement="", x=Authors )
+```
+
 <!-- Authors -->
-\newcommand{\trAuthsLong}{
-Andrew M. Edwards$^1$,
-Daniel E. Duplisea$^2$,
-Matthew H. Grinnell$^1$,
-Sean C. Anderson$^1$,
-Chris J. Grandin$^1$,
-Elise A. Keppel$^1$,
-Erika D. Anderson$^1$,
-Krista D. Baker$^3$,
-Hugues P. Beno\^{i}t$^2$,
-Jaclyn S. Cleary$^1$,
-Brendan M. Connors$^4$,
-Mathieu Desgagn\'{e}s$^2$,
-Philina A. English$^1$,
-David J. Fishman$^5$,
-Cameron Freshwater$^1$,
-Kevin J. Hedges$^6$,
-Carrie A. Holt$^1$,
-Kendra R. Holt$^4$,
-A.~Rob Kronlund$^7$,
-Ann Mariscak$^1$,
-Shannon G. Obradovich$^1$,
-Bruce A. Patten$^1$,
-Daniel Ricard$^5$,
-Bob Rogers$^3$,
-Chris N. Rooper$^1$,
-Mark R. Simpson$^3$,
-Tobie J. Surette$^5$,
-Ross F. Tallman$^6$,
-Laura J. Wheeland$^3$,
-Catarina Wor$^1$,
-and Xinhua Zhu$^6$}
+\newcommand{\trAuthsLong}{`r PasteNicely(Authors)`}
+\newcommand{\trAuthsNoMath}{`r PasteNicely(AuthorsNoMath)`}
 
 \newcommand{\trAuthsBack}{
 Edwards, A.M.,
