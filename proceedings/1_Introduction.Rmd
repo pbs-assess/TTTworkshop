@@ -24,16 +24,16 @@ easy sharing of methods with others.
 This should lead to more
 transparent, traceable, and transferable (TTT) assessments in DFO.
 
-The following definitions used:
+The following definitions were used:
 
-* \emph{Transparent} means a clear and open way to show data, code and
+- \emph{Transparent} means a clear and open way to show data, code and
 results, such that others should be able to reproduce the assessment.
 
-* \emph{Traceable} means that there is a clear link from database queries and code
+- \emph{Traceable} means that there is a clear link from database queries and code
 to final results (numbers, tables and
 graphs in an assessment document).
 
-* \emph{Transferable} means that it should be feasible for another person to 
+- \emph{Transferable} means that it should be feasible for another person to 
 reproduce an assessment and build upon it with a minimal
 learning curve.
 

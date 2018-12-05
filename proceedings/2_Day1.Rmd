@@ -11,7 +11,8 @@ the ability to share code.  Git and GitHub were already well used at the Pacific
 Biological Station but not so much in other DFO labs, and the national
 advantages of this became clearer after the TMB course.
 
-(2) ICES has developed an initiative called the [Transparent Assessment
+(2) The International Council for the Exploration of the Sea (ICES)
+has developed an initiative called the [Transparent Assessment
 Framework (TAF)](https://github.com/ices-taf) that works towards TTT goals.
 ICES representatives gave a webinar to TESA in the Spring of 2017 on this
 initiative, which was a source of inspiration in developing this TTT workshop.
@@ -29,10 +30,10 @@ develop limit reference points and recovery plans.  The legislated need for
 these products that come from assessment scientists' workbenches is a motivating
 factor to work clearly in a TTT framework.
 
-(5) The need to develop bilingual documentation for all DFO web published
-documents and in often during assessment peer review processes motivates the
+(5) The need to develop bilingual documentation for DFO CSAS documents
+motivates the
 development of translation tools for tables and graphics that can be done
-consistently, relatively instantly, and across all regions.  The fourth and
+consistently, relatively instantly, and across all regions. The fourth and
 appropriately silent T in TTT can be considered translation, but in reality
 Translation is no less important than the others.
 
@@ -42,24 +43,27 @@ Assessment staff work collaboratively and previous methods for collaboration
 (e.g., email) are inefficient and prone to errors while a structured sharing
 system with versioning and update notifications is much more efficient.
 Assessment models generally need to be updated every time a new assessment is
-scheduled, rather than built from the ground up, however the technical team
-running the model may change year to year. Transferable approaches allow a more
-efficient transfer to new staff to up and running efficiently.  As a result,
-substantial amounts of work are likely to be unnecessarily repeated unless
-models are easily transferable among individuals and constructed in a
+scheduled, rather than built from the ground up, but the technical team
+running the model may change from year to year. Transferable approaches allow a 
+more efficient transfer of code to new staff to get them up and running. Otherwise,
+substantial amounts of work are likely to be unnecessarily repeated --- repetition
+is avoided when
+code (including the writing up of lengthy assessment documents) 
+is easily transferable among individuals and constructed in a
 transparent manner.
 
 ## MOTIVATION FOR USING Git (EDWARDS)
 
-Emailing individual files does not preserve folder structure, which is important
+Emailing individual files between an assessment team does not preserve folder structure, which is important
 for code functionality, particularly when building complicated models with
-nested functions.  GitHub is more efficient and less prone to errors by
+nested functions. Using Git and GitHub is more efficient and less prone to errors by
 preserving folder structure and allows analysts to work on code simultaneously.
 
-GitHub tracks changes in a document and keeps all previous changes, so that
-previous versions are never lost.  By using branches, individual developers can
+Git tracks changes to files and keeps all previous changes, so that
+previous versions are never lost. GitHub is a web-based service for sharing and
+collaborating on code. By using branches, individual developers can
 simultaneously work on the same project without worrying about overwriting each
-others work.  Git merges versions of the document edited by different users, and
+others' work. Git merges versions of the document edited by different users, and
 highlights lines with conflicts that need to be resolved.  Git also tracks who
 made which changes, which can be viewed using the blame button.  During
 development (or post-development), Git also allows analysts to easily reference
@@ -72,29 +76,30 @@ analysts within a working group.
 
 ## INTERACTIVE INTRODUCTION TO Git (EDWARDS AND GRANDIN)
 
-Chris and Andy led the group though the steps for basic Git functions:
+Chris Grandin and Andrew Edwards led the group though the steps for basic Git 
+functions:
 
-- Creating a remote repository on a host site (e.g., GitHub)
-  - also included adding a `.gitignore` file that specifies files that Git should not track (e.g., data files);
-- Cloning the repository to your local hard drive;
-- Adding a file to the repository;
-- Staging and committing the file with an informative message;
-- Editing files;
-- Staging and committing changes to update the document;
-- Pushing to the remote repository; and
-- Referencing previous commits using their `HASH` code.
+- creating a remote repository on a host site (e.g., GitHub)
+  - also included adding a `.gitignore` file that specifies files that Git should not track (e.g., data files)
+- cloning the repository to your local hard drive
+- adding a file to the repository
+- staging and committing the file with an informative message
+- editing files
+- staging and committing changes to update the document
+- pushing to the remote repository and
+- referencing previous commits using their `HASH` code.
 
-We also made a `.gitconfig` file that includes useful keyboard shortcuts.
+A `.gitconfig` file was shared that includes useful keyboard shortcuts.
 
-Next Andy addressed a family of Git functions that are more likely to be used
+Next Andrew addressed a family of Git functions that are more likely to be used
 during a collaboration:
 
-- Making a new branch separate from the master;
-- Merging branches, and addressing any conflicts that arise;
-- Pushing branches upstream so they can be accessed by others;
-- Deleting old branches to keep your workspace tidy;
-- Stashing changes that have not been committed when you switch branches;
-- Examining network graphs (on GitHub site) to interpret branch structure;
-- Adding remote forks and fetching a collaborator's changes from them; and
-- Use `git diff` to compare changes between a collaborator's branch or fork and 
-yours
+- making a new branch separate from the master
+- merging branches, and addressing any conflicts that arise
+- pushing branches upstream so they can be accessed by others
+- deleting old branches to keep your workspace tidy
+- stashing changes that have not been committed when you switch branches
+- examining network graphs (on GitHub site) to interpret branch structure
+- adding remote forks and fetching a collaborator's changes from them
+- use `git diff` to compare changes between a collaborator's branch or fork and 
+yours.
