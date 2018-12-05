@@ -110,7 +110,7 @@ AuthorsBack <- Convert2Cite( names=AuthorsNoMath )
 ```
 
 <!-- Authors -->
-\newcommand{\trAuthsLong}{`r PasteNicely(Authors)`}
+\newcommand{\trAuths}{`r PasteNicely(Authors)`}
 \newcommand{\trAuthsNoMath}{`r PasteNicely(AuthorsNoMath)`}
 \newcommand{\trAuthsBack}{`r PasteNicely(AuthorsBack)`}
 
