@@ -41,7 +41,7 @@ Mariscak mentioned a recent example of having to manually replace all the words
 by their translated versions in
 all the figures in a lengthy Research Document. It took someone 35 hours to do
 this, excluding the time and expense of actually getting the words translated. 
-This motivated participants' development of the fishrosetta package (see below),
+This motivated participants' development of the rosettafish package (see below),
 such that authors should somewhat easily be able to create figures in both 
 languages.
 Mariscak also noted that manual editing (through Photoshop and other tools) often degrades quality of the figures.
