@@ -107,7 +107,7 @@ trip types (e.g., shellfish surveys). Work was divided among group members, and
 coordinated through GitHub. Individual tasks included creating the GitHub
 repository, creating the R project, drafting separate R Markdown files to
 provide a trip summary, survey map, and catch summary, and then creating a
-bookdown file to combine the separate R Markdown files into a single pdf report.
+bookdown file to combine the separate R Markdown files into a single PDF report.
 The R Markdown files combined standard text and dynamic calculations in R to
 automatically generate survey details and summary results. By the end of the
 workshop the report project was completed, and automated survey reports had been
