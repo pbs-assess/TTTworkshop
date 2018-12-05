@@ -99,7 +99,7 @@ Proceedings document.
 A breakout group (Krista Baker, Brendan Connors, Kevin Hedges, Bob Roger, Mark
 Simpson, and Laura Wheeland) was formed to work on an applied example of all of
 the workshop topics. The group created a GitHub repository, an R project, and
-an R Markdown document to standardize and automate the creation of RV survey
+an R Markdown document to standardize and automate the creation of survey
 trip reports. The group used the Newfoundland and Labrador Region multispecies
 surveys as a test case, and tailored the project to handling the particular data
 structure from those surveys, but the project could easily be adapted for other
