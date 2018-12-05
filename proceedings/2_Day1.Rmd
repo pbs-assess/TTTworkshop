@@ -80,7 +80,7 @@ Chris Grandin and Andrew Edwards led the group though the steps for basic Git
 functions:
 
 - creating a remote repository on a host site (e.g., GitHub)
- - also included adding a `.gitignore` file that specifies files that Git should not track (e.g., data files)
+- adding a `.gitignore` file that specifies files that Git should not track (e.g., data files)
 - cloning the repository to your local hard drive
 - adding a file to the repository
 - staging and committing the file with an informative message
@@ -100,6 +100,6 @@ during a collaboration:
 - deleting old branches to keep your workspace tidy
 - stashing changes that have not been committed when you switch branches
 - examining network graphs (on GitHub site) to interpret branch structure
-- adding remote forks and fetching a collaborator's changes from them
-- use `git diff` to compare changes between a collaborator's branch or fork and 
+- adding remote forks and fetching a collaborator's changes from them and
+- using `git diff` to compare changes between a collaborator's branch or fork and 
 yours.
