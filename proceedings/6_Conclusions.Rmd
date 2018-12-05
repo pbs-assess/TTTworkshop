@@ -1,6 +1,6 @@
 # CONCLUSIONS
 
-Common templates for CSAS reports are useful to ensure web accessibility
+Common templates for CSAS reports (e.g., Research Documents, Science Responses) are useful to ensure web accessibility
 standards and to
 speed up publishing times for DFO reports. Assisting DFO employees with
 standard translation tools between languages ensures rapid and equal quality
@@ -8,12 +8,12 @@ documents and presentations (especially quality of figures), regardless of the o
 language. Common graphical standards for different plot
 types draw more attention to the advice rather than the
 particular mode of presentation. Seeking stronger standards in this regard
-should aid the communication of science work, advice and uncertainties.
+should aid the communication of science work, advice, and uncertainties.
 Using tools that facilitate traceability and transferability (such as
 GitHub, R packages, and R Markdown) for documenting and disseminating
 assessment code, is a means of promoting a transparent line of work. This
 includes the decisions,
-assumptions and known issues which are key components of defensible science
+assumptions, and known issues which are key components of defensible science
 advice.
 Assessment and advice conforming to TTT can provide strong support for
 decision-making that is based on such advice. 
@@ -31,6 +31,6 @@ some of these tools require considerable
 expertise, and can sometimes be difficult to set up due to minor technical
 issues. If these tools are to be used going forward, dedicated staff and/or
 training needs to be integrated into the stock assessment-advice workflow and
-not simply as a side activity.  In addition, using these tools in DFO assessment
+not simply as a side activity. In addition, using these tools in DFO assessment
 work can promote greater within- and between-region collaboration that can
 improve the speed and quality of some science advice.
