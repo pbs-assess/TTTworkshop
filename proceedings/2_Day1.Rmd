@@ -73,6 +73,12 @@ used as a continuously updated to-do list, with a permanently recorded history.
 Individual issues that need to be addressed can also be assigned to specific
 analysts within a working group.
 
+Git and GitHub, together with some of the other TTT tools discussed below, have
+been successfully used in recent stock assessments of 
+Pacific Herring [@DFO],
+Pacific Cod [@Forrest], and
+Pacific Hake [@Edwards2018hake],
+as well as a data synopsis of over 100 species of groundfish [@Anderson].
 
 ## INTERACTIVE INTRODUCTION TO Git (EDWARDS AND GRANDIN)
 
