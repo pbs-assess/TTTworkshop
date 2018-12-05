@@ -77,45 +77,41 @@ Authors <- c( "Andrew M. Edwards$^1$",
 "Laura J. Wheeland$^4$",
 "Catarina Wor$^1$", 
 "Xinhua Zhu$^6$" )
+
 AuthorsNoMath <- gsub( pattern="\\$.*\\$", replacement="", x=Authors )
+
+# Function to convert "First M. Last"" to "Last, F.M." for citations
+Convert2Cite <- function( names ) {
+  # Get last names (list)
+  fam <- as.list( sub(pattern=".* ", replacement="", x=names) )
+  # Pattern to search for initials
+  regex <- '(?<=^|\\s)[[:alpha:]]' 
+  # Get initials
+  initials <- regmatches( x=names, 
+    m=gregexpr(pattern=regex, text=names, perl=TRUE) )
+  # Omit last initial
+  inits <- lapply( X=initials, FUN=function(x) head(x, -1) )
+  # Combine initials
+  init <- lapply( X=inits, FUN=function(x) paste(x, collapse=".") )
+  # Error if these aren't the same length
+  if( length(fam) != length(init) )
+    stop( "Different length for family names and initials" )
+  # Combine last name and initials
+  famInit <- paste( fam, init, sep=", ")
+  # Add a period
+  res <- paste( famInit, ".", sep="" )
+  # Return the results
+  return( res )
+}  # End Convert2Cite function
+
+# Get names for citaion
+AuthorsBack <- Convert2Cite( names=AuthorsNoMath )
 ```
 
 <!-- Authors -->
 \newcommand{\trAuthsLong}{`r PasteNicely(Authors)`}
 \newcommand{\trAuthsNoMath}{`r PasteNicely(AuthorsNoMath)`}
-
-\newcommand{\trAuthsBack}{
-Edwards, A.M.,
-Duplisea, D.E.,
-Grinnell, M.H.,
-Anderson, S.C.,
-Grandin, C.J.,
-Ricard, D.,
-Keppel, E.A.,
-Anderson, E.D.,
-Baker, K.D.,
-Beno\^{i}t, H.P.,
-Cleary, J.S.,
-Connors, B.M.,
-Desgagn\'{e}s, M.,
-English, P.A.,
-Fishman, D.J.,
-Freshwater, C.,
-Hedges, K.J.,
-Holt, C.A.,
-Holt, K.R.,
-Kronlund, A.R.,
-Mariscak, A.,
-Obradovich, S.G.,
-Patten, B.A.,
-Rogers, B.,
-Rooper, C.N.,
-Simpson, M.R.,
-Surette, T.J.,
-Tallman, R.F.,
-Wheeland, L.J.,
-Wor, C.,
-and Zhu, X.}
+\newcommand{\trAuthsBack}{`r PasteNicely(AuthorsBack)`}
 
 <!-- Address -->
 \newcommand{\trAddy}{
