@@ -16,6 +16,7 @@ header-includes:
 - \usepackage[normalem]{ulem}
 - \usepackage{makecell}
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 fontsize: 12pt

@@ -121,7 +121,7 @@ common understanding of modern computational methods and tools among stock
 assessment scientists in Fisheries and
 Oceans Canada (DFO). These tools enable efficient sharing of code and
 writing of complex stock assessment documents within an assessment team, and
-easy sharing of methods with others.
+easy sharing of methods with other scientists.
 This should lead to more
 transparent, traceable, and transferable (TTT) assessments in DFO.
 
@@ -137,34 +137,38 @@ learning curve. A fourth T could be
 important to ensure consistent translations
 between official languages. 
 
-Software demonstrations were given of Git, GitHub,
-R Markdown, knitr, LaTeX, and creation of R packages. For example, the csasdown R package was introduced to show how 
-properly formatted documents produced for Canadian Science Advisory Secretariat
-(CSAS) processes can be built and easily updated with new assessment model
-results.
+Software demonstrations were given of Git, GitHub, R Markdown, knitr, LaTeX, 
+and creation of R packages. For example, the csasdown R package was introduced 
+to show how properly formatted documents produced for Canadian Science Advisory 
+Secretariat (CSAS) processes can be built and elegantly updated with new assessment 
+model results.
 
 Presentations were given on
 open data standards, on CSAS formatting and accessibility constraints, and on
 GitLab (a Git service available to Government of Canada employees). Anticipated
 changes to the Fisheries Act in 2019, particularly in relation to the need for
 limit reference points, were discussed with respect to how TTT tools could
-support the operationalisation of providing such science advice.
+support the operationalisation of providing science advice in DFO.
 Participants formed several breakout groups to practice using these tools,
 creating, for example, an automated report from a multispecies survey, and an
-R package to
-facilitate fast, cheap, and efficient translation of figures for CSAS documents.
-This proceedings document was written collectively during the workshop using
-the TTT tools as a testament to the efficiency of this way of collaborative 
-working.
+R package to facilitate fast, cheap, and efficient translation of figures appearing in 
+CSAS documents. This proceedings document was written collectively during the 
+workshop using the TTT tools as a testament to the efficiency of this way of 
+collaborative working.
 }
 
 <!-- Resume (i.e., French abstract) -->
 \newcommand{\trResume}{
-Un groupe de travail de 4 jours a eu lieu \`{a} Nanaimo du 27 au 30 novembre
-2018 afin de favoriser une compr\'{e}hension commune des outils et m\'{e}thodes
-modernes qui permettent un \'{e}change de connaissance, de donn\'{e}es, et de
-m\'{e}thodes pour l'\'{e}valuation des stocks et qui conduira vers des
-{e}valuations transparentes, tra\c{c}ables et transf\'{e}rables (TTT) au MPO.
+Un groupe de travail de 4 jours a eu lieu \`{a} Nanaimo, Colombie-Britanique, 
+du 27 au 30 novembre 2018. L'objectif \'{e}tait de favoriser une compr\'{e}hension 
+commune des outils et m\'{e}thodes modernes parmi les scientifiques en 
+\'{e}valuation des stocks de P\^{e}ches et Oc\'{e}ans Canada (MPO). Ces outils 
+permettent un \'{e}change efficace de code informatique et l'\'{e}criture de 
+documents d'\'{e}valuations complexes \`{a} l'int\'{e}rieur d'une \'{e}quipe 
+d'\'{e}valuation, et le partage facile de m\'{e}thodes avec d'autres scientifiques. 
+Ceci devrait mener \`{a} des \'{e}valuations plus transparentes, tra\c{c}ables et 
+transf\'{e}rables (TTT) au MPO.
+
 \emph{Transparent}: Il existe un moyen clair et ouvert d'afficher des
 donn\'{e}es, du code, et des r\'{e}sultats, et d'autres utilisateurs devraient
 pouvoir reproduire l'\'{e}valuation; \emph{tra\c{c}able}: On devrait pouvoir
@@ -174,25 +178,31 @@ de se charger de l'\'{e}valuation et de l'innover avec une courbe
 d'apprentissage minimale.  Un quatri\`{e}me T pourrait \^{e}tre
 \emph{Traduisible} puisque avec deux langues officielles il est important de
 s'assurer que les documents suivent un standard qui permet des traductions
-consistentes entre les langues officielles.  Des exemples de logiciels ont
-\'{e}t\'{e} pr\'{e}sent\'{e}s pour Git, GitHub, R Markdown, knitr, et latex, et
-le travail de groupe s'est concentr\'{e} sur l'utilisation de ces outils.  Par
-exemple, les styles csasdown ont \'{e}t\'{e} pr\'{e}sent\'{e}s pour montrer
-comment les documents produits durant les processus scientifiques du
-Secr\'{e}tariat Canadien de Consultation Scientifique
-(SCCS) pourraient
-\^{e}tre cr\'{e}\'{e}s et r\'{e}dig\'{e}s \`{a} l'aide des passes de mod\`{e}les
-d'\'{e}valuation.  Des pr\'{e}sentations sur les standards de donn\'{e}es
-ouvertes, sur les contraintes de mise en page et d'accessibilit\'{e} du SCCS, et
-sur GitLab (un service Git accessible aux employ\'{e}(e)s du gouvernement du
-Canada) ont aussi eu lieu.  Les changements anticip\'{e}s de la loi sur les
-p\^{e}ches en 2019, particuli\`{e}rement en ce qui \`{a} trait au besoin de
-points de r\'{e}f\'{e}rence, a \'{e}t\'{e} discut\'{e} par rapport au r\^{o}le
+consistentes entre les langues officielles.  
+
+Des exemples de logiciels ont \'{e}t\'{e} pr\'{e}sent\'{e}s pour Git, GitHub, 
+R Markdown, knitr, LaTeX et la cr\'{e}ation de composantes du logiciel R (R packages). 
+Par exemple, le package csasdown a \'{e}t\'{e} pr\'{e}sent\'{e} pour montrer comment 
+des documents correctement format\'{e}s produits durant les processus scientifiques du 
+Secr\'{e}tariat Canadien de Consultation Scientifique (SCCS) peuvent \^{e}tre 
+cr\'{e}\'{e}s et \'{e}l\'{e}gamment mis \`{a} jour avec de nouveaus r\'{e}sultats de 
+mod\`{e}les d'\'{e}valuation. 
+
+Des pr\'{e}sentations sur les standards de donn\'{e}es ouvertes, sur les contraintes 
+de mise en page et d'accessibilit\'{e} du SCCS, et sur GitLab (un service Git 
+accessible aux employ\'{e}(e)s du gouvernement du Canada) ont aussi eu lieu. 
+Les changements anticip\'{e}s \`{a} la loi sur les p\^{e}ches en 2019, 
+particuli\`{e}rement en ce qui \`{a} trait au besoin de 
+points de r\'{e}f\'{e}rence, ont \'{e}t\'{e} discut\'{e}s par rapport au r\^{o}le
 de support que pourrait jouer les outils TTT dans l'op\'{e}rationnalisation de
-ces changements l\'{e}gislatifs dans les avis scientifiques du MPO.  Le
+ces changements l\'{e}gislatifs pour fournir des avis scientifiques au MPO.  
+Les participants ont form\'{e} plusieurs sous-groupes afin de pratiquer 
+l'utilisation de ces outils, cr\'{e}ant, par exemple, un rapport automatis\'{e} 
+d'un relev\'{e} multi-esp\`{e}ce, et un package R facilitant des traductions rapides, 
+abordables et efficaces des figures apparaissant dans les documents SCCS. Le 
 pr\'{e}sent rapport a \'{e}t\'{e} \'{e}crit collectivement durant le groupe de
-travail en utilisant les outils TTT, un testament de l'efficacit\'{e} de cette
-mani\`{e}re de travailler.
+travail en utilisant les outils TTT, un t\'{e}moignage de l'efficacit\'{e} de cette
+mani\`{e}re de travailler collaborativement.
 }
 
 <!-- Make the first few pages -->

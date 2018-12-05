@@ -64,8 +64,10 @@ Plus](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng).
 Termimum Plus is an invaluable tool used for the translation of technical
 terminology. The quality of the translation is perpetually being improved
 through expert-user feedback and contribution. Ricard made mention of another
-translation database native to DFO called the [DFO Bilingual
-Lexicon](http://www.btb.termiumplus.gc.ca/).
+translation document native to DFO called the [DFO Bilingual
+Lexicon](http://intra.dfo-mpo.gc.ca/IntraCom/toolbox/pdf/lexicon-lexique-bil-2018.pdf), 
+part of the [Writing and Publishing Tools](http://intra.dfo-mpo.gc.ca/IntraCom/toolbox/writing-tools-eng.htm) 
+of the [DFO Communications Toolbox](http://intra.dfo-mpo.gc.ca/IntraCom/toolbox/home-eng.htm).
 
 ## BREAK-OUT GROUPS
 
