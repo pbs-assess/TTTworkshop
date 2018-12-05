@@ -78,6 +78,7 @@ Authors <- c( "Andrew M. Edwards$^1$",
 "Catarina Wor$^1$", 
 "Xinhua Zhu$^6$" )
 
+# Strip math stuff from author names
 AuthorsNoMath <- gsub( pattern="\\$.*\\$", replacement="", x=Authors )
 
 # Function to convert "First M. Last"" to "Last, F.M." for citations
