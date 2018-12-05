@@ -9,16 +9,16 @@ rmarkdown R packages and pandoc (a universal document converter).  R Markdown is
 a markup language that is compatible with LaTeX, but much simpler to learn.
 Basic formatting options were presented.  Some recommendations included naming
 code chunks using unique and useful descriptions (to aid in using caches and
-finding errors), and that caches are useful when working with large data sets.
+finding errors), and that caches are useful when working with large calculations.
 
 ## INTRODUCTION TO csasdown (ANDERSON)
 
 Pacific Region has written an R package called csasdown (based on the R packages
 bookdown and thesisdown) to help authors write Research Documents formatted for
-the Canadian Science Advisory Secretariat
-[(CSAS)](http://www.dfo-mpo.gc.ca/csas-sccs/index-eng.htm).
+CSAS.
 
-A template document can be produced using the following R code:
+Sean Anderson showed how a template document can be produced using the following 
+R code:
 
 ```{r create-draft-csas-doc, eval=FALSE, echo=TRUE}
 # devtools::install_github("pbs-assess/csasdown")
@@ -27,12 +27,13 @@ rmarkdown::draft("index.Rmd", template = "resdoc", package = "csasdown",
   create_dir = FALSE, edit = FALSE)
 ```
 
-Using this draft document, we explored how to produce and link figures, tables,
-and references within a Research Document.
+Using this draft document, participants explored how to produce and link
+figures, tables, and references within a Research Document.
 
 ## OPEN DATA PROTOCOLS (BRUCE PATTEN)
 
-Patten presented an overview of the Darwin Core (DWC) observational data model,
+Bruce Patten (Pacific Biological Station) came to present 
+an overview of the Darwin Core (DWC) observational data model,
 and the benefits of its potential application to fisheries science.  This data
 model provides a standard for representing survey data in a consistent format
 that allows for integration of data sets from multiple sources.  The DWC model
@@ -51,9 +52,10 @@ developing data sets in this format for use by analysts.
 
 ## DEFENSIBLE SCIENCE ADVICE (KRONLUND)
 
-Kronlund provided a brief overview of the broad implications of Bill C-68 in the
-context of the DFO PA Framework [@DFO2013].  Proposed language in [Bill
-C-68](http://www.parl.ca/DocumentViewer/en/42-1/bill/C-68/third-reading) implies
+Rob Kronlund provided a brief overview of the broad implications of 
+[Bill C-68](http://www.parl.ca/DocumentViewer/en/42-1/bill/C-68/third-reading)
+in the context of the DFO Precautionary Approach (PA) Framework [@DFO2013]. 
+Proposed language in Bill C-68 implies
 there will be legislative imperatives for evidence to support management
 measures to maintain stocks at or above sustainable levels (Provision 6.1(1)),
 maintain stocks above the Limit Reference Point (Provision 6.1(2)), and rebuild
@@ -63,11 +65,11 @@ environmental conditions affecting the stock.  Fish stocks currently tracked by
 the [Sustainability Survey for
 Fisheries](http://www.dfo-mpo.gc.ca/reports-rapports/regs/sff-cpd/survey-sondage/index-en.html),
 and others as needed, will need PA Framework elements to meet requirements under
-Bill C-68 (i.e., reference points, harvest control rules, consideration of
+Bill C-68 (such as reference points, harvest control rules, consideration of
 uncertainty).  In general, defending science advice means the advice meets
 current standards of acceptable scientific and fisheries management practice,
 including reproducible science, a key element of this workshop.  The suite of
-software tools discussed in the workshop also enables national standardization
+software tools discussed in the workshop also enable national standardization
 of how uncertainty, stock status, and risks associated with management
 trade-offs are communicated, a step that would also improve the defence of
 science advice.

@@ -51,7 +51,7 @@ from a multispecies survey (that they intend to be used in real-time so that
 the report can be produced during the survey). A second group created
 [rosettafish](https://github.com/pbs-assess/rosettafish/), an
 R package to facilitate fast, cheap and efficient translation of text (e.g. axes
-labels) within figures of CSAS documents. It contains an expanding list of
+labels) within figures of [Canadian Science Advice Secretariat (CSAS)](http://www.dfo-mpo.gc.ca/csas-sccs/index-eng.htm) documents. It contains an expanding list of
 translated technical terms (that a user can help update), and also allows for
 translation into Inuktitut.
 A third group commenced writing of this Proceedings document (using a template
