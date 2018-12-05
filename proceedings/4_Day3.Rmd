@@ -81,9 +81,19 @@ R Markdown (see below).
 
 The second of these groups focused on a brainstorming session about the
 development of tools to automate language translation of figures in CSAS
-documents. This resulted in the creation of a new R package
+documents (Figure \ref{fig:genesis}). This resulted in the creation of a new R package
 [rosettafish](https://github.com/pbs-assess/rosettafish), which translates
 common figure annotations between English, French, and Inuktitut.
+<!-- Brainstorming photo -->
+\begin{figure}
+\begin{center}
+  % {\centering{\includegraphics[width=4in, angle=270]{rosetta-genesis.jpg}}
+  \includegraphics[width=4in, angle=270]{rosetta-genesis.jpg}
+\end{center}
+\caption[Genesis of rosettafish]{The genesis of the rosettafish R package.}
+\label{fig:genesis}
+\end{figure}
+
 
 The remaining three groups worked on collaboratively writing text for this
 workshop's Proceedings document using GitHub, with each group tasked with
