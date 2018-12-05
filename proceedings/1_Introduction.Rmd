@@ -26,11 +26,11 @@ transparent, traceable, and transferable (TTT) assessments in DFO.
 
 The following definitions were used:
 
-- \emph{Transparent} means a clear and open way to show data, code and
+- \emph{Transparent} means a clear and open way to show data, code, and
 results, such that others should be able to reproduce the assessment.
 
 - \emph{Traceable} means that there is a clear link from database queries and code
-to final results (numbers, tables and
+to final results (numbers, tables, and
 graphs in an assessment document).
 
 - \emph{Transferable} means that it should be feasible for another person to 
@@ -43,18 +43,18 @@ important to ensure consistent translations
 between official languages. 
 
 This document briefly summarises each day's presentations and activities. 
-Various software demonstrations were given and participants later split into 
+Various software demonstrations were given, and participants later split into 
 breakout groups to work on various
 projects and practice the techniques.
 One group created an R package to produce an automated report
 from a multispecies survey (that they intend to be used in real-time so that
 the report can be produced during the survey). A second group created
 [rosettafish](https://github.com/pbs-assess/rosettafish/), an
-R package to facilitate fast, cheap and efficient translation of text (e.g. axes
+R package to facilitate fast, cheap, and efficient translation of text (e.g., axes
 labels) within figures of [Canadian Science Advice Secretariat (CSAS)](http://www.dfo-mpo.gc.ca/csas-sccs/index-eng.htm) documents. It contains an expanding list of
-translated technical terms (that a user can help update), and also allows for
+translated technical terms (that users can help update), and also allows for
 translation into Inuktitut.
-A third group commenced writing of this Proceedings document (using a template
+A third group commenced writing this Proceedings document (using a template
 by Matthew Grinnell), which was finished up in the week after the workshop.
 This demonstrates the efficiency of using these tools to work collaboratively.
 Other groups worked on smaller projects, such as organising their existing code
@@ -73,7 +73,7 @@ the [csasdown repository](https://github.com/pbs-assess/csasdown).
 <!-- Classroom picture -->
 \begin{figure}
 \fbox{\includegraphics[width=\linewidth]{Classroom1.jpg}}
-\caption[Interactive classroom setting]{Interactive classroom setting for the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments.}
+\caption[Interactive classroom setting]{Sean Anderson giving an introduction to R package development in the interactive classroom setting for the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments.}
 \label{fig:classroom}
 \end{figure}
 
