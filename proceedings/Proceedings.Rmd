@@ -32,30 +32,30 @@ Daniel E. Duplisea$^2$,
 Matthew H. Grinnell$^1$,
 Sean C. Anderson$^1$,
 Chris J. Grandin$^1$,
+Daniel Ricard$^3$,
 Elise A. Keppel$^1$,
 Erika D. Anderson$^1$,
-Krista D. Baker$^3$,
+Krista D. Baker$^4$,
 Hugues P. Beno\^{i}t$^2$,
 Jaclyn S. Cleary$^1$,
-Brendan M. Connors$^4$,
+Brendan M. Connors$^5$,
 Mathieu Desgagn\'{e}s$^2$,
 Philina A. English$^1$,
-David J. Fishman$^5$,
+David J. Fishman$^3$,
 Cameron Freshwater$^1$,
 Kevin J. Hedges$^6$,
 Carrie A. Holt$^1$,
-Kendra R. Holt$^4$,
+Kendra R. Holt$^5$,
 A.~Rob Kronlund$^7$,
 Ann Mariscak$^1$,
 Shannon G. Obradovich$^1$,
 Bruce A. Patten$^1$,
-Daniel Ricard$^5$,
-Bob Rogers$^3$,
+Bob Rogers$^4$,
 Chris N. Rooper$^1$,
-Mark R. Simpson$^3$,
-Tobie J. Surette$^5$,
+Mark R. Simpson$^4$,
+Tobie J. Surette$^3$,
 Ross F. Tallman$^6$,
-Laura J. Wheeland$^3$,
+Laura J. Wheeland$^4$,
 Catarina Wor$^1$,
 and Xinhua Zhu$^6$}
 
@@ -65,6 +65,7 @@ Duplisea, D.E.,
 Grinnell, M.H.,
 Anderson, S.C.,
 Grandin, C.J.,
+Ricard, D.,
 Keppel, E.A.,
 Anderson, E.D.,
 Baker, K.D.,
@@ -82,7 +83,6 @@ Kronlund, A.R.,
 Mariscak, A.,
 Obradovich, S.G.,
 Patten, B.A.,
-Ricard, D.,
 Rogers, B.,
 Rooper, C.N.,
 Simpson, M.R.,
@@ -105,10 +105,11 @@ V9T 6N7}
 $^1$Pacific Biological Station, Fisheries and Oceans Canada, 3190~Hammond Bay
 Road, Nanaimo, British Columbia, V9T 6N7.\\
 $^2$Maurice Lamontagne Institute, Fisheries and Oceans Canada, 850~route~de~la mer, Mont-Joli, Quebec, G5H 3Z4.\\
-$^3$Northwest Atlantic Fisheries Centre, Fisheries and Oceans Canada, 80~East White Hills, St.~John's, Newfoundland and Labrador, A1C 5X1.\\
-$^4$Institute of Ocean Sciences, Fisheries and Oceans Canada, P.O.~Box~6000,
+$^3$Gulf Fisheries Centre, Fisheries and Oceans Canada, 343~Universit\'e Avenue,
+Moncton, New~Brunswick, E1C 9B6.\\
+$^4$Northwest Atlantic Fisheries Centre, Fisheries and Oceans Canada, 80~East White Hills, St.~John's, Newfoundland and Labrador, A1C 5X1.\\
+$^5$Institute of Ocean Sciences, Fisheries and Oceans Canada, P.O.~Box~6000,
 9860~West Saanich Road, Sidney, British Columbia, V8L 4B2.\\
-$^5$Gulf Fisheries Centre, Fisheries and Oceans Canada, 343~Universit\'e Avenue, Moncton, New~Brunswick, E1C 9B6.\\
 $^6$Freshwater Institute, Fisheries and Oceans Canada, 501~University Crescent, Winnipeg, Manitoba, R3T 2N6.\\
 $^7$Centennial Towers, Fisheries and Oceans Canada, 200~Kent Street, 9th~floor, Ottawa, Ontario, K1A 0E6.
 }
