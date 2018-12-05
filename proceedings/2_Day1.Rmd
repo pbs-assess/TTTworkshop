@@ -7,7 +7,7 @@ This workshop was motivated by several recent developments:
 (1) The TESA Template Model Builder (TMB) course in Halifax in January 2018
 introduced many DFO assessment scientists to tools such as GitHub and the
 advantages of a strong versioning system, centralised methods repositories, and
-the ability to share code.  Git and GitHub were already well used at the Pacific
+the ability to share code. Git and GitHub were already well used at the Pacific
 Biological Station but not so much in other DFO labs, and the national
 advantages of this became clearer after the TMB course.
 
@@ -18,15 +18,15 @@ ICES representatives gave a webinar to TESA in the Spring of 2017 on this
 initiative, which was a source of inspiration in developing this TTT workshop.
 
 (3) There has been a desire in DFO to create a common look and feel in DFO
-science advice in assessment.  Previous experience has shown that this does not
+science advice in assessment. Previous experience has shown that this does not
 work well when pushed from the top down, but use of these modern sharing tools
 should help create some common looking outputs as emergent products of this way
 of working.
 
-(4) [Bill C-68 (changes to the Fisheries
-Act)](http://www.parl.ca/DocumentViewer/en/42-1/bill/C-68/third-reading) is
-currently in the Senate.  Bill C-68 contains specific wording around the need to
-develop limit reference points and recovery plans.  The legislated need for
+(4) [Bill C-68](http://www.parl.ca/DocumentViewer/en/42-1/bill/C-68/third-reading)
+(changes to the Fisheries Act) is
+currently in the Senate. Bill C-68 contains specific wording around the need to
+develop limit reference points and recovery plans. The legislated need for
 these products that come from assessment scientists' workbenches is a motivating
 factor to work clearly in a TTT framework.
 
@@ -64,11 +64,11 @@ previous versions are never lost. GitHub is a web-based service for sharing and
 collaborating on code. By using branches, individual developers can
 simultaneously work on the same project without worrying about overwriting each
 others' work. Git merges versions of the document edited by different users, and
-highlights lines with conflicts that need to be resolved.  Git also tracks who
-made which changes, which can be viewed using the blame button.  During
+highlights lines with conflicts that need to be resolved. Git also tracks who
+made which changes, which can be viewed using the `blame` button. During
 development (or post-development), Git also allows analysts to easily reference
 pieces of code and/or changes in code easily when posing questions or issues,
-using remote repositories.  Issues can be easily tracked on the GitHub site and
+using remote repositories. Issues can be easily tracked on the GitHub site and
 used as a continuously updated to-do list, with a permanently recorded history.
 Individual issues that need to be addressed can also be assigned to specific
 analysts within a working group.
@@ -80,7 +80,7 @@ Chris Grandin and Andrew Edwards led the group though the steps for basic Git
 functions:
 
 - creating a remote repository on a host site (e.g., GitHub)
-  - also included adding a `.gitignore` file that specifies files that Git should not track (e.g., data files)
+ - also included adding a `.gitignore` file that specifies files that Git should not track (e.g., data files)
 - cloning the repository to your local hard drive
 - adding a file to the repository
 - staging and committing the file with an informative message
