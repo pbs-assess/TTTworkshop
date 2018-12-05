@@ -21,7 +21,7 @@ urlcolor: navyblue
 <!-- Title, year, report number -->
 \newcommand{\trTitle}{Proceedings of the Technical Expertise in Stock Assessment
  (TESA) national workshop on `Tools for transparent, traceable, and transferable
- assessments', 27--30 November 2018, Nanaimo, British Columbia}
+ assessments', 27--30 November 2018 in Nanaimo, British Columbia}
 \newcommand{\trYear}{YYYY}
 \newcommand{\trReportNum}{NNNN}
 
@@ -94,12 +94,11 @@ and Zhu, X.}
 
 <!-- Address -->
 \newcommand{\trAddy}{
-Pacific Biological Station,\\
-Fisheries and Oceans Canada,\\
-3190 Hammond Bay Road,\\
-Nanaimo, British Columbia,\\
-V9T 6N7.
-}
+Pacific Biological Station\\
+Fisheries and Oceans Canada\\
+3190 Hammond Bay Road\\
+Nanaimo, British Columbia\\
+V9T 6N7}
 
 <!-- Affiliations -->
 \newcommand{\trAffil}{
@@ -111,7 +110,7 @@ $^4$Institute of Ocean Sciences, Fisheries and Oceans Canada, P.O.~Box~6000,
 9860~West Saanich Road, Sidney, British Columbia, V8L 4B2.\\
 $^5$Gulf Fisheries Centre, Fisheries and Oceans Canada, 343~Universit\'e Avenue, Moncton, New~Brunswick, E1C 9B6.\\
 $^6$Freshwater Institute, Fisheries and Oceans Canada, 501~University Crescent, Winnipeg, Manitoba, R3T 2N6.\\
-$^7$Centennial Towers, Fisheries and Oceans Canada, 200~Kent Street, 9th~floor, Ottawa, Ontario K1A 0E6.
+$^7$Centennial Towers, Fisheries and Oceans Canada, 200~Kent Street, 9th~floor, Ottawa, Ontario, K1A 0E6.
 }
 
 <!-- Abstract -->
@@ -126,10 +125,10 @@ easy sharing of methods with others.
 This should lead to more
 transparent, traceable, and transferable (TTT) assessments in DFO.
 
-\emph{Transparent} means a clear and open way to show data, code and
+\emph{Transparent} means a clear and open way to show data, code, and
 results, such that others should be able to reproduce the assessment.
 \emph{Traceable} means that there is a clear link from database queries and code
-to final results (numbers, tables and
+to final results (numbers, tables, and
 graphs in an assessment document).
 \emph{Transferable} means that it should be feasible for another person to 
 reproduce an assessment and build upon it with a minimal
@@ -139,7 +138,7 @@ important to ensure consistent translations
 between official languages. 
 
 Software demonstrations were given of Git, GitHub,
-R Markdown, knitr, LaTeX and creation of R packages. For example, the csasdown R package was introduced to show how 
+R Markdown, knitr, LaTeX, and creation of R packages. For example, the csasdown R package was introduced to show how 
 properly formatted documents produced for Canadian Science Advisory Secretariat
 (CSAS) processes can be built and easily updated with new assessment model
 results.
@@ -151,9 +150,9 @@ changes to the Fisheries Act in 2019, particularly in relation to the need for
 limit reference points, were discussed with respect to how TTT tools could
 support the operationalisation of providing such science advice.
 Participants formed several breakout groups to practice using these tools,
-creating, for example, an automated report from a multispecies survey and an
+creating, for example, an automated report from a multispecies survey, and an
 R package to
-facilitate fast, cheap and efficient translation of figures for CSAS documents.
+facilitate fast, cheap, and efficient translation of figures for CSAS documents.
 This proceedings document was written collectively during the workshop using
 the TTT tools as a testament to the efficiency of this way of collaborative 
 working.
@@ -195,6 +194,7 @@ pr\'{e}sent rapport a \'{e}t\'{e} \'{e}crit collectivement durant le groupe de
 travail en utilisant les outils TTT, un testament de l'efficacit\'{e} de cette
 mani\`{e}re de travailler.
 }
+
 <!-- Make the first few pages -->
 \frontmatter
 
@@ -240,4 +240,3 @@ options(kableExtra.latex.load_packages = FALSE)
 \setlength{\parindent}{-0.2in}
 \setlength{\leftskip}{0.2in}
 \setlength{\parskip}{8pt}
-
