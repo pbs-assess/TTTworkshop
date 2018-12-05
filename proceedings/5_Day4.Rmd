@@ -21,6 +21,4 @@ cannot be used for collaboration with non-government colleagues.
 Workshop participants continued to work in small groups on tasks from the
 previous day, including writing this report. The rosettafish R package continued
 to be developed and will be used for translating more than 200 full pages of 
-figures in 'A reproducible data synopsis for over 100 species of British
-Columbia groundfish', a CSAS Working Paper that will be revised and finalised as
-a Research Document in 2019.
+figures in @Anderson for the final CSAS Research Document.
