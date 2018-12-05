@@ -4,10 +4,10 @@
 
 The Government of Canada, through Shared Services Canada, has a GitLab
 enterprise account called [gccode](https://gccode.ssc-spc.gc.ca "gccode
-homepage").  One must be on the DFO network (or any Government of Canada
-network) to access the website and the remote Git server.  DFO employees can
+homepage"). One must be on the DFO network (or any Government of Canada
+network) to access the website and the remote Git server. DFO employees can
 create an account on gccode, and use it in the same way that they would use
-GitHub.  One advantage of using gccode is that it is provided by Shared Services
+GitHub. One advantage of using gccode is that it is provided by Shared Services
 Canada and therefore has no privacy concerns that may arise from using a
 publicly available system such as GitHub (although GitHub does provide private
 repositories, and GitHub is not used to share data).
@@ -20,7 +20,7 @@ cannot be used for collaboration with non-government colleagues.
 
 Workshop participants continued to work in small groups on tasks from the
 previous day, including writing this report. The rosettafish R package continued
-to be developed and will be used for translating >200 full pages of 
+to be developed and will be used for translating more than 200 full pages of 
 figures in 'A reproducible data synopsis for over 100 species of British
 Columbia groundfish', a CSAS Working Paper that will be revised and finalised as
 a Research Document in 2019.
