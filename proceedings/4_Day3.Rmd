@@ -88,7 +88,7 @@ common figure annotations between English, French, and Inuktitut.
 \begin{figure}
 \begin{center}
   % {\centering{\includegraphics[width=4in, angle=270]{rosetta-genesis.jpg}}
-  \includegraphics[width=4in, angle=270]{rosetta-genesis.jpg}
+  \fbox{\includegraphics[width=4in, angle=270]{rosetta-genesis.jpg}}
 \end{center}
 \caption[Genesis of rosettafish]{The genesis of the rosettafish R package.}
 \label{fig:genesis}
