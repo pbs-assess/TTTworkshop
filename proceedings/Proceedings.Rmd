@@ -25,7 +25,11 @@ urlcolor: navyblue
 \newcommand{\trYear}{YYYY}
 \newcommand{\trReportNum}{NNNN}
 
-```{r authors, echo=FALSE}
+<!-- Wrangle author names -->
+```{r authors, warning=FALSE, message=FALSE, echo=FALSE}
+# Require packages
+require( tidyverse )
+
 # Paste strings nicely
 PasteNicely <- function( x, intChars=", ", nChar="and " ) {
   # Get the length of the vector
@@ -83,24 +87,23 @@ AuthorsNoMath <- gsub( pattern="\\$.*\\$", replacement="", x=Authors )
 
 # Function to convert "First M. Last"" to "Last, F.M." for citations
 Convert2Cite <- function( names ) {
-  # Get last names (list)
-  fam <- as.list( sub(pattern=".* ", replacement="", x=names) )
+  # Get last names, and make a list
+  fam <- sub( pattern=".* ", replacement="", x=names ) %>%
+    as.list( )
   # Pattern to search for initials
   regex <- '(?<=^|\\s)[[:alpha:]]' 
-  # Get initials
-  initials <- regmatches( x=names, 
-    m=gregexpr(pattern=regex, text=names, perl=TRUE) )
-  # Omit last initial
-  inits <- lapply( X=initials, FUN=function(x) head(x, -1) )
-  # Combine initials
-  init <- lapply( X=inits, FUN=function(x) paste(x, collapse=".") )
+  # Get initials, drop the last one (family name), and collapse
+  inits <- regmatches( x=names, 
+    m=gregexpr(pattern=regex, text=names, perl=TRUE) ) %>%
+    lapply( FUN=function(x) head(x, -1) ) %>%
+    lapply( FUN=function(x) paste(x, collapse=".") )
   # Error if these aren't the same length
-  if( length(fam) != length(init) )
+  if( length(fam) != length(inits) )
     stop( "Different length for family names and initials" )
-  # Combine last name and initials
-  famInit <- paste( fam, init, sep=", ")
-  # Add a period
-  res <- paste( famInit, ".", sep="" )
+  # Combine last name and initials, and add a trailing dot
+  res <- fam %>%
+    paste( inits, sep=", ") %>%
+    paste( ".", sep="" )
   # Return the results
   return( res )
 }  # End Convert2Cite function
