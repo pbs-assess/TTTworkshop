@@ -46,6 +46,7 @@ packages). Several international data sharing initiatives such as OBIS are
 exchanging data using this format. Canada has committed to contributing to
 these efforts, and DFO has already participated to some degree. Patten proposed 
 that DFO Science put some effort towards mapping existing databases to the 
+OBIS-ENV-DATA schema with the idea of developing data sets in this format for 
 use by analysts.
 
 ## DEFENSIBLE SCIENCE ADVICE (KRONLUND)
