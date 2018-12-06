@@ -18,7 +18,7 @@ bookdown and thesisdown) to help authors write Research Documents formatted for
 CSAS.
 
 Sean Anderson showed how a template document can be produced using the following 
-R code:
+R code:   
 
 ```{r create-draft-csas-doc, eval=FALSE, echo=TRUE}
 # devtools::install_github("pbs-assess/csasdown")
@@ -44,11 +44,9 @@ several online repositories for biological data that use Darwin Core data
 standards including OBIS and related R tools (RODBC, robis, and obistools R
 packages). Several international data sharing initiatives such as OBIS are
 exchanging data using this format. Canada has committed to contributing to
-these efforts, and DFO has already participated to some degree. There are some
-R packages available that provide the user with tools for interacting with data
-in the OBIS format of DWC. Patten proposes that DFO Science put some effort
-towards mapping existing databases to the OBIS-ENV-DATA schema with the idea of
-developing data sets in this format for use by analysts.
+these efforts, and DFO has already participated to some degree. Patten proposed 
+that DFO Science put some effort towards mapping existing databases to the 
+use by analysts.
 
 ## DEFENSIBLE SCIENCE ADVICE (KRONLUND)
 
