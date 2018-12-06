@@ -4,7 +4,7 @@
 
 The third day of the TTT workshop started with a presentation by Sean Anderson on R
 package development. Anderson used materials from presentations by Hadley
-Wickam (senior scientist at [RStudio](https://www.rstudio.com/)) to get
+Wickham (senior scientist at [RStudio](https://www.rstudio.com/)) to get
 participants started with developing
 R packages. The development of R packages is greatly simplified by using an
 RStudio project, and taking advantage of its many available tools related to
@@ -59,9 +59,9 @@ translation process.
 ### Translation databases
 
 Mariscak mentioned the existence of a Government of Canada database called
-[Termimum
+[Termium
 Plus](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng).
-Termimum Plus is an invaluable tool used for the translation of technical
+Termium Plus is an invaluable tool used for the translation of technical
 terminology. The quality of the translation is perpetually being improved
 through expert-user feedback and contribution. Ricard made mention of another
 translation document native to DFO called the [DFO Bilingual

@@ -143,7 +143,7 @@ $^7$Centennial Towers, Fisheries and Oceans Canada, 200~Kent Street, 9th~floor, 
 
 <!-- Abstract -->
 \newcommand{\trAbstract}{
-A four-day workshop was held in Nanaimo, British Colubmia, from 27--30
+A four-day workshop was held in Nanaimo, British Columbia, from 27--30
 November 2018. The aim was to foster a
 common understanding of modern computational methods and tools among stock
 assessment scientists in Fisheries and
