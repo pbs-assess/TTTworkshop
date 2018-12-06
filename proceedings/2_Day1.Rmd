@@ -76,9 +76,9 @@ analysts within a working group.
 Git and GitHub, together with some of the other TTT tools discussed below, have
 been successfully used in recent stock assessments of 
 Pacific Herring [@DFO],
-Pacific Cod [@Forrest], and
+Pacific Cod (@Forrest, under revision), and
 Pacific Hake [@Edwards2018hake],
-as well as a data synopsis of over 100 species of groundfish [@Anderson].
+as well as a data synopsis of over 100 species of groundfish (@Anderson, under revision).
 
 ## INTERACTIVE INTRODUCTION TO Git (EDWARDS AND GRANDIN)
 
