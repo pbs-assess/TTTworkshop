@@ -1,6 +1,7 @@
 ---
 output:
   bookdown::pdf_book:
+    keep_tex: true
     toc: no
 fontsize: 12pt
 bibliography: references.bib
