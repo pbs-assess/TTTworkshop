@@ -24,7 +24,7 @@ urlcolor: navyblue
  (TESA) national workshop on `Tools for transparent, traceable, and transferable
  assessments,' 27\textendash{}30 November 2018 in Nanaimo, British Columbia}
 \newcommand{\trYear}{YYYY}
-\newcommand{\trReportNum}{NNNN}
+\newcommand{\trReportNum}{3290}
 
 <!-- Wrangle author names -->
 ```{r authors, warning=FALSE, message=FALSE, echo=FALSE}
