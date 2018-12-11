@@ -9,6 +9,8 @@ csl: ./tr-style/csas.csl
 link-citations: true
 header-includes:
   \usepackage{./tr-style/TechReport}
+  \usepackage{lineno}
+  \linenumbers
 urlcolor: navyblue
 ---
 
