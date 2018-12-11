@@ -25,7 +25,7 @@ urlcolor: navyblue
  assessments,' 27\textendash{}30 November 2018 in Nanaimo, British Columbia}
 \newcommand{\trYear}{YYYY}
 \newcommand{\trReportNum}{3290}
-\newcommand{\trISBNprint}{978-0-660-28901-4}  % Issued by Communications Officer
+\newcommand{\trISBNprint}{978-0-660-28901-4}
 \newcommand{\trISBNpdf}{978-0-660-28902-1}
 
 <!-- Wrangle author names -->
