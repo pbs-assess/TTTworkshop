@@ -8,7 +8,7 @@ elegantly converted into HTML, PDF, or Word formats using the knitr and
 rmarkdown R packages and pandoc (a universal document converter). R Markdown is
 a markup language that is compatible with LaTeX, but much simpler to learn.
 Basic formatting options were presented. Some recommendations included naming
-code chunks using unique and useful descriptions (to aid in using caches and
+code chunks using unique and useful identifiers (to aid in using caches and
 finding errors), and that caches are useful when working with large calculations.
 
 ## INTRODUCTION TO csasdown (ANDERSON)
@@ -17,14 +17,12 @@ Pacific Region has written an R package called csasdown (based on the R packages
 bookdown and thesisdown) to help authors write Research Documents formatted for
 CSAS.
 
-Sean Anderson showed how a template document can be produced using the following 
-R code:   
+Sean Anderson showed how a template document can be produced using the following
+R code:
 
 ```{r create-draft-csas-doc, eval=FALSE, echo=TRUE}
 # devtools::install_github("pbs-assess/csasdown")
-library(csasdown)
-rmarkdown::draft("index.Rmd", template = "resdoc", package = "csasdown",
- create_dir = FALSE, edit = FALSE)
+rmarkdown::draft("index.Rmd", template = "resdoc", package = "csasdown")
 ```
 
 Using this draft document, participants explored how to produce and link

@@ -8,8 +8,8 @@ This workshop was motivated by several recent developments:
 introduced many DFO assessment scientists to tools such as GitHub and the
 advantages of a strong versioning system, centralised methods repositories, and
 the ability to share code. Git and GitHub were already well used at the Pacific
-Biological Station but not so much in other DFO labs, and the national
-advantages of this became clearer after the TMB course.
+Biological Station but not as widely in other DFO labs, and the national
+advantages of such an approach became clearer after the TMB course.
 
 (2) The International Council for the Exploration of the Sea (ICES)
 has developed an initiative called the [Transparent Assessment
@@ -33,7 +33,7 @@ factor to work clearly in a TTT framework.
 (5) The need to develop bilingual documentation for DFO CSAS documents
 motivates the
 development of translation tools for tables and graphics that can be done
-consistently, relatively instantly, and across all regions. The fourth and
+consistently, quickly, and across all regions. The fourth and
 appropriately silent T in TTT can be considered translation, but in reality
 Translation is no less important than the others.
 
@@ -65,9 +65,9 @@ collaborating on code. By using branches, individual developers can
 simultaneously work on the same project without worrying about overwriting each
 others' work. Git merges versions of the document edited by different users, and
 highlights lines with conflicts that need to be resolved. Git also tracks who
-made which changes, which can be viewed using the `blame` button. During
+made which changes, which can be viewed using the 'blame' button. During
 development (or post-development), Git also allows analysts to easily reference
-pieces of code and/or changes in code easily when posing questions or issues,
+pieces of code and/or changes in code when posing questions or issues,
 using remote repositories. Issues can be easily tracked on the GitHub site and
 used as a continuously updated to-do list, with a permanently recorded history.
 Individual issues that need to be addressed can also be assigned to specific
@@ -93,7 +93,7 @@ functions:
 - editing files
 - staging and committing changes to update the document
 - pushing to the remote repository and
-- referencing previous commits using their `HASH` code.
+- referencing previous commits using their 'hash' code.
 
 A `.gitconfig` file was shared that includes useful keyboard shortcuts.
 

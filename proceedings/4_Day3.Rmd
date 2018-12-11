@@ -12,13 +12,12 @@ package development. For example, one can create a project in RStudio and
 define it as an R package, and the software will create the necessary backbone
 of an R package. Anderson covered the development of an R package, the
 generation of its documentation using roxygen2, unit testing of the package, and
-package testing.
+checking of the package against common standards using `R CMD check`.
 
 Participants performed exercises to learn how to alter an example package.
-Anderson demonstrated how to create a new file in an R package environment
-employing the `usethis::use_r("file-name")` function. He also provided tips on
-how to edit the user's R profile to load key packages. Anderson presented
-resources from Hadley Wickham such as *Advanced R* [@Wickham2014], *R Packages*
+Anderson demonstrated a number of useful functions for package development in
+the R packages devtools and usethis. Anderson presented resources from
+Hadley Wickham such as *Advanced R* [@Wickham2014], *R Packages*
 [@Wickham2015], and *R for Data Science* [@Wickham2017]. These resources are
 available on-line as well as in print form.
 
@@ -35,7 +34,7 @@ csasdown may be able to assist, and thereby shorten the time and
 reduce the cost to produce fully translated and accessible documents. 
 
 A big problem is
-translation of figures (which are usually PNG 'images' in PDF documents) into the other
+translation of figures into the other
 official language. It was suggested that it might be possible for an automated
 translation of frequently used words such as "Age" or "Fork length."
 Mariscak mentioned a recent example of having to manually replace all the words 
@@ -97,7 +96,7 @@ assessments.}
 
 The remaining three groups worked on collaboratively writing text for this
 workshop's Proceedings document using GitHub, with each group tasked with
-summarising one day of the workshop. A proceedings template document that met
+summarising one day of the workshop. A Proceedings template document that met
 the format requirements for a 'Canadian Technical Report of Fisheries and
 Aquatic Sciences' was compiled ahead of time by Matthew Grinnell.
 The three report-writing groups
