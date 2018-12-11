@@ -73,7 +73,7 @@ the [csasdown repository](https://github.com/pbs-assess/csasdown).
 <!-- Classroom picture -->
 \begin{figure}
 \fbox{\includegraphics[width=\linewidth]{Classroom1.jpg}}
-\caption[Interactive classroom setting]{Sean Anderson giving an introduction to R package development in the interactive classroom setting for the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments.}
+\caption[Interactive classroom setting]{Sean Anderson introducing R package development at the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments.}
 \label{fig:classroom}
 \end{figure}
 
