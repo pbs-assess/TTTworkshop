@@ -17,8 +17,8 @@ Framework (TAF)](https://github.com/ices-taf) that works towards TTT goals.
 ICES representatives gave a webinar to TESA in the Spring of 2017 on this
 initiative, which was a source of inspiration in developing this TTT workshop.
 
-(3) There has been a desire in DFO to create a common look and feel in DFO
-science advice in assessment. Previous experience has shown that this does not
+(3) There has been a desire in DFO to create a common look and feel for
+science advice arising from stock assessments. Previous experience has shown that this does not
 work well when pushed from the top down, but use of these modern sharing tools
 should help create some common looking outputs as emergent products of this way
 of working.
