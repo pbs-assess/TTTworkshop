@@ -37,6 +37,32 @@ consistently, quickly, and across all regions. The fourth and
 appropriately silent T in TTT can be considered translation, but in reality
 Translation is no less important than the others.
 
+<!-- Load participants table -->
+```{r participants, echo=FALSE, results='asis', warning=FALSE}
+# Caption <- 
+kCap <- "Participants in the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments."
+kCapShort <- "Workshop participants"
+# Import participant table
+participants <- readr::read_csv( file="./Participants.txt", col_names=TRUE,
+  col_types=readr::cols(), na=" " ) %>%
+  mutate( 
+    `1`=ifelse(`1`=="", "", "\\checkmark"),
+    `2`=ifelse(`2`=="", "", "\\checkmark"),
+    `3`=ifelse(`3`=="", "", "\\checkmark"),
+    `4`=ifelse(`4`=="", "", "\\checkmark") ) %>%
+  arrange( Region, Name ) %>%
+  knitr::kable( booktabs=TRUE, linesep="", format="latex", escape=FALSE,
+    align=c("l", "l", "c", "c", "c", "c"), caption=kCap, 
+    caption.short=kCapShort ) %>%
+  # kableExtra::kable_styling( latex_options=c("striped","hold_position") ) %>%
+  kableExtra::row_spec( row=0, bold=TRUE ) %>%
+  kableExtra::kable_styling(latex_options = "HOLD_position") %>% 
+  kableExtra::add_header_above( header=c(" ", " ", "Day"=4), bold=TRUE ) %>%
+  print( )
+```
+
+\clearpage
+
 ## ADVANTAGES OF USING A TTT APPROACH
 
 Assessment staff work collaboratively and previous methods for collaboration

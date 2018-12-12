@@ -10,6 +10,7 @@ link-citations: true
 header-includes:
   \usepackage{./tr-style/TechReport}
   \usepackage{lineno}
+  \usepackage{float}
   \linenumbers
 urlcolor: navyblue
 ---
