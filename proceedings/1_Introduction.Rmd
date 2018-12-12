@@ -62,8 +62,8 @@ into a more TTT-type framework.
 
 The workshop took place at the Coast Bastion Hotel in Nanaimo, British Columbia
 in an interactive
-classroom setting (Figure \ref{fig:classroom}).  Workshop participants are
-listed in Table \@ref(tab:participants).  Workshop materials specific to this
+classroom setting (Figure \ref{fig:classroom}). Workshop participants are
+listed in Table \@ref(tab:participants). Workshop materials specific to this
 workshop are on the [TTT GitHub
 repository](https://github.com/pbs-assess/TTTworkshop), with further training
 materials and examples on the [git-course
@@ -76,4 +76,3 @@ the [csasdown repository](https://github.com/pbs-assess/csasdown).
 \caption[Interactive classroom setting]{Sean Anderson introducing R package development at the four-day {TESA} workshop on tools for transparent, traceable, and transferable assessments.}
 \label{fig:classroom}
 \end{figure}
-
