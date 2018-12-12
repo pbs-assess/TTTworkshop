@@ -12,7 +12,7 @@ Canada and therefore has no privacy concerns that may arise from using a
 publicly available system such as GitHub (although GitHub does provide private
 repositories, and GitHub is not used to share data).
 The downside is that the Git server
-can only be access from your office or from a VPN (Virtual Private Network), and
+can only be accessed from your office or from a VPN (Virtual Private Network), and
 thus
 cannot be used for collaboration with non-government colleagues.
 

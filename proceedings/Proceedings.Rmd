@@ -166,15 +166,14 @@ graphs in an assessment document).
 reproduce an assessment and build upon it with a minimal
 learning curve. A fourth T could be
 \emph{Translatable} in the sense that with two official languages, it is
-important to ensure consistent translations
-between official languages. 
+important to ensure consistent and efficient translations
+between official languages.
 
-Software demonstrations were given of Git, GitHub, R Markdown, knitr, LaTeX, 
-and creation of R packages. For example, the csasdown R package was introduced 
-to show how properly formatted documents produced for Canadian Science Advisory 
-Secretariat (CSAS) processes can be built and elegantly updated with new assessment 
+Software demonstrations were given of Git, GitHub, R Markdown, knitr, LaTeX,
+and creation of R packages. For example, the csasdown R package was introduced
+to show how properly formatted documents produced for Canadian Science Advisory
+Secretariat (CSAS) processes can be built and elegantly updated with new assessment
 model results.
-
 Presentations were given on
 open data standards, on CSAS formatting and accessibility constraints, and on
 GitLab (a Git service available to Government of Canada employees). Anticipated
@@ -183,9 +182,9 @@ limit reference points, were discussed with respect to how TTT tools could
 support the operationalisation of providing science advice in DFO.
 Participants formed several breakout groups to practice using these tools,
 creating, for example, an automated report from a multispecies survey, and an
-R package to facilitate fast, cheap, and efficient translation of figures appearing in 
-CSAS documents. This proceedings document was written collectively during the 
-workshop using the TTT tools as a testament to the efficiency of this way of 
+R package to facilitate efficient translation of figures appearing in
+CSAS documents. This proceedings document was written collectively during the
+workshop using the TTT tools as a testament to the efficiency of this way of
 collaborative working.
 }
 

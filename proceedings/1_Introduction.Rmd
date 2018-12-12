@@ -39,8 +39,8 @@ learning curve.
 
 A fourth T could be \emph{Translatable} in the sense that with two official
 languages, it is
-important to ensure consistent translations
 between official languages. 
+important to ensure consistent and efficient translations
 
 This document briefly summarises each day's presentations and activities. 
 Various software demonstrations were given, and participants later split into 
@@ -50,14 +50,14 @@ One group created an R package to produce an automated report
 from a multispecies survey (that they intend to be used in real-time so that
 the report can be produced during the survey). A second group created
 [rosettafish](https://github.com/pbs-assess/rosettafish/), an
-R package to facilitate fast, cheap, and efficient translation of text (e.g., axes
-labels) within figures of [Canadian Science Advice Secretariat (CSAS)](http://www.dfo-mpo.gc.ca/csas-sccs/index-eng.htm) documents. It contains an expanding list of
+R package to facilitate efficient translation of text (e.g., axes
+labels) within figures of [Canadian Science Advice Secretariat (CSAS)](http://www.dfo-mpo.gc.ca/csas-sccs/index-eng.htm) documents. The package contains an expanding list of
 translated technical terms (that users can help update), and also allows for
 translation into Inuktitut.
 A third group commenced writing this Proceedings document (using a template
-by Matthew Grinnell), which was finished up in the week after the workshop.
+by Matthew Grinnell), which was completed in the week after the workshop.
 This demonstrates the efficiency of using these tools to work collaboratively.
-Other groups worked on smaller projects, such as organising their existing code
+Other groups worked on a variety of other projects, such as organising their existing code
 into a more TTT-type framework.
 
 The workshop took place at the Coast Bastion Hotel in Nanaimo, British Columbia
