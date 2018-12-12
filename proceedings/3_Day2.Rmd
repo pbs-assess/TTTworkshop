@@ -28,7 +28,7 @@ rmarkdown::draft("index.Rmd", template = "resdoc", package = "csasdown")
 Using this draft document, participants explored how to produce and link
 figures, tables, and references within a Research Document.
 
-## OPEN DATA PROTOCOLS (BRUCE PATTEN)
+## OPEN DATA PROTOCOLS (PATTEN)
 
 Bruce Patten (Pacific Biological Station) came to present 
 an overview of the Darwin Core (DWC) observational data model,

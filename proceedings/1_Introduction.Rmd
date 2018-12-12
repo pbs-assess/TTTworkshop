@@ -39,8 +39,8 @@ learning curve.
 
 A fourth T could be \emph{Translatable} in the sense that with two official
 languages, it is
-between official languages. 
 important to ensure consistent and efficient translations
+between official languages.
 
 This document briefly summarises each day's presentations and activities. 
 Various software demonstrations were given, and participants later split into 
