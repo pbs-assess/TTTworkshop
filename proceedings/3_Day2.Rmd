@@ -6,8 +6,8 @@ Andrew Edwards presented an introduction to the basics of R Markdown. R Markdown
 allows analysts to intersperse text and R code in a single file. The text and
 results of the R code are then
 elegantly converted into HTML, PDF, or Word formats using the knitr and
-rmarkdown R packages and pandoc (a universal document converter). R Markdown is
-a markup language that is compatible with LaTeX, but much simpler to learn.
+rmarkdown R packages, and pandoc (a universal document converter). R Markdown is
+a markup language that is compatible with LaTeX, but easier to learn.
 Basic formatting options were presented. Some recommendations included naming
 code chunks using unique and useful identifiers (to aid in using caches and
 finding errors), and that caches are useful when working with large calculations.
@@ -17,7 +17,6 @@ finding errors), and that caches are useful when working with large calculations
 Pacific Region has written an R package called csasdown (based on the R packages
 bookdown and thesisdown) to help authors write Research Documents formatted for
 CSAS.
-
 Sean Anderson showed how a template document can be produced using the following
 R code:
 
@@ -38,8 +37,8 @@ model provides a standard for representing survey data in a consistent format
 that allows for integration of data sets from multiple sources. The DWC model
 has been extended by the [Ocean Biogeographic Information System
 (OBIS)](http://www.iobis.org) initiative to be more useful for marine biological
-and oceanographic survey data and is called the OBIS-ENV-DATA schema. He listed
-several online repositories for biological data that use Darwin Core data
+and oceanographic survey data; this is called the OBIS-ENV-DATA schema. He listed
+several online repositories for biological data that use DWC data
 standards including OBIS and related R tools (RODBC, robis, and obistools R
 packages). Several international data sharing initiatives such as OBIS are
 exchanging data using this format. Canada has committed to contributing to
@@ -56,8 +55,8 @@ in the context of the DFO Precautionary Approach (PA) Framework [@DFO2013].
 Proposed language in Bill C-68 implies
 there will be legislative imperatives for evidence to support management
 measures to maintain stocks at or above sustainable levels (Provision 6.1(1)),
-maintain stocks above the Limit Reference Point (Provision 6.1(2)), and rebuild
-stocks above the Limit Reference Point in the specified time periods (Provision
+maintain stocks above Limit Reference Points (Provision 6.1(2)), and rebuild
+stocks above Limit Reference Points within specified time periods (Provision
 6.2). The provisions require taking into account the biology of the fish and
 environmental conditions affecting the stock. Fish stocks currently tracked by
 the [Sustainability Survey for

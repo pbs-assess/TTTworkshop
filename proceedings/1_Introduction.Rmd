@@ -6,7 +6,7 @@ promote stock assessment excellence through organizing national activities that
 contribute to the development of expertise in stock assessment across Fisheries
 and Oceans Canada (DFO).
 
-In 2009, TESA was created in response to a loss of stock assessment expertise in 
+TESA was created in 2009, in response to a loss of stock assessment expertise in 
 DFO owing to retirements. Each year, TESA organises three or four training courses
 and one or two topical workshops on stock assessment issues. TESA is a national
 program with one or two representatives in each region -- for more details see
@@ -47,7 +47,7 @@ Various software demonstrations were given, and participants later split into
 breakout groups to work on various
 projects and practice the techniques.
 One group created an R package to produce an automated report
-from a multispecies survey (that they intend to be used in real-time so that
+from a multispecies survey (that they intend to use in real-time so that
 the report can be produced during the survey). A second group created
 [rosettafish](https://github.com/pbs-assess/rosettafish/), an
 R package to facilitate efficient translation of text (e.g., axes
@@ -64,7 +64,6 @@ The workshop took place at the Coast Bastion Hotel in Nanaimo, British Columbia
 in an interactive
 classroom setting (Figure \ref{fig:classroom}). Workshop participants are
 listed in Table \@ref(tab:participants). Workshop materials specific to this
-workshop are on the [TTT GitHub
 repository](https://github.com/pbs-assess/TTTworkshop), with further training
 materials and examples on the [git-course
 repository](https://github.com/pbs-assess/git-course) and

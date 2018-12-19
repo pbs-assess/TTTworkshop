@@ -27,7 +27,7 @@ Ann Mariscak (Pacific Region CSAS office) spoke regarding
 new policies for generating CSAS documents. As a
 legal requirement, DFO must ensure that all CSAS documents are
 available in both official languages. Also, all
-CSAS documents be accessible for persons with disabilities and be compatible with
+CSAS documents must be accessible for persons with disabilities and be compatible with
 tools such as screen readers. It was noted that translation of text will slow
 the final output of documents and increase their cost. Tools such as LaTeX and
 csasdown may be able to assist, and thereby shorten the time and
@@ -62,7 +62,7 @@ Mariscak mentioned the existence of a Government of Canada database called
 Plus](https://www.btb.termiumplus.gc.ca/tpv2alpha/alpha-eng.html?lang=eng).
 Termium Plus is an invaluable tool used for the translation of technical
 terminology. The quality of the translation is perpetually being improved
-through expert-user feedback and contribution. Ricard made mention of another
+through expert-user feedback and contribution. Daniel Ricard mentioned another
 translation document native to DFO called the [DFO Bilingual
 Lexicon](http://intra.dfo-mpo.gc.ca/IntraCom/toolbox/pdf/lexicon-lexique-bil-2018.pdf), 
 part of the [Writing and Publishing Tools](http://intra.dfo-mpo.gc.ca/IntraCom/toolbox/writing-tools-eng.htm) 
@@ -74,8 +74,7 @@ Workshop participants separated into five break-out groups. Workshop
 participants were able to self-select which group they went to, which worked
 well.
 
-The first group worked on an applied example, in which they worked
-together to compose a trip report for the Newfoundland and Labrador Region using
+The first group worked on an applied example, in which they developed a trip report for the Newfoundland and Labrador Region using
 R Markdown (see below).
 
 The second group focused on a brainstorming session about the

@@ -20,7 +20,7 @@ initiative, which was a source of inspiration in developing this TTT workshop.
 (3) There has been a desire in DFO to create a common look-and-feel for
 science advice arising from stock assessments. Previous experience has shown 
 that such desires do not readily get met
-when pushed from the top down, but use of these modern sharing tools
+when pushed from the top down, but using these modern sharing tools
 should help create some common looking outputs as emergent products of this way
 of working.
 
@@ -67,7 +67,7 @@ participants <- readr::read_csv( file="./Participants.txt", col_names=TRUE,
 ## ADVANTAGES OF USING A TTT APPROACH
 
 Assessment staff work collaboratively and previous methods for collaboration
-(e.g., email) are inefficient and prone to errors while a structured sharing
+(e.g., email) are inefficient and prone to errors, while a structured sharing
 system with versioning and update notifications is much more efficient.
 Assessment models generally need to be updated every time a new assessment is
 scheduled, rather than built from the ground up, but the technical team
@@ -84,7 +84,7 @@ transparent manner.
 Emailing individual files between an assessment team does not preserve folder structure, which is important
 for code functionality, particularly when building complicated models with
 nested functions. Using Git and GitHub is more efficient and less prone to errors by
-preserving folder structure and allows analysts to work on code simultaneously.
+preserving folder structure, and allows analysts to work on code simultaneously.
 
 Git tracks changes to files and keeps all previous changes, so that
 previous versions are never lost. GitHub is a web-based service for sharing and
