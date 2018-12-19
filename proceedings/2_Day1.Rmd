@@ -27,13 +27,13 @@ of working.
 (4) [Bill C-68](http://www.parl.ca/DocumentViewer/en/42-1/bill/C-68/third-reading)
 (changes to the Fisheries Act) is
 currently in the Senate. Bill C-68 contains specific wording around the need to
-develop limit reference points and recovery plans. The legislated need for
-these products that come from assessment scientists' workbenches is a motivating
+develop, for example, limit reference points and recovery plans. The legislated need for
+such products that come from assessment scientists' workbenches is a motivating
 factor to work clearly in a TTT framework.
 
 (5) The need to develop bilingual documentation for DFO CSAS documents
 motivates the
-development of translation tools for tables and graphics that can be done
+development of translation tools for tables and graphics that can be applied
 consistently, quickly, and across all regions. The fourth and
 appropriately silent T in TTT can be considered translation, but in reality
 Translation is no less important than the others.
@@ -91,8 +91,8 @@ previous versions are never lost. GitHub is a web-based service for sharing and
 collaborating on code. By using branches, individual developers can
 simultaneously work on the same project without worrying about overwriting each
 others' work. Git merges versions of the document edited by different users, and
-highlights lines with conflicts that need to be resolved. Git also tracks who
-made which changes, which can be viewed using the 'blame' button. During
+highlights lines with conflicts that need to be resolved. Git also tracks the
+authors of changes, which can be viewed using the 'blame' button. During
 development (or post-development), Git also allows analysts to easily reference
 pieces of code and/or changes in code when posing questions or issues,
 using remote repositories. Issues can be easily tracked on the GitHub site and
@@ -124,7 +124,7 @@ functions:
 
 A `.gitconfig` file was shared that includes useful keyboard shortcuts.
 
-Next Andrew addressed a family of Git functions that are more likely to be used
+Next, Edwards addressed a family of Git functions that are more likely to be used
 during a collaboration:
 
 - making a new branch separate from the master

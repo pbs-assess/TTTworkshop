@@ -26,8 +26,8 @@ available on-line as well as in print form.
 Ann Mariscak (Pacific Region CSAS office) spoke regarding
 new policies for generating CSAS documents. As a
 legal requirement, DFO must ensure that all CSAS documents are
-available in both official languages. Also, it is required that
-documents be accessible for persons with disabilities and be compatible with
+available in both official languages. Also, all
+CSAS documents be accessible for persons with disabilities and be compatible with
 tools such as screen readers. It was noted that translation of text will slow
 the final output of documents and increase their cost. Tools such as LaTeX and
 csasdown may be able to assist, and thereby shorten the time and
@@ -39,8 +39,8 @@ official language. It was suggested that it might be possible for an automated
 translation of frequently used words such as "Age" or "Fork length."
 Mariscak mentioned a recent example of having to manually replace all the words 
 by their translated versions in
-all the figures in a lengthy Research Document. It took someone 35 hours to do
-this, excluding the time and expense of actually getting the words translated. 
+all the figures in a lengthy Research Document; this took someone 35 hours,
+excluding the time and expense of actually getting the words translated. 
 This motivated participants' development of the rosettafish package (see below),
 such that authors should somewhat easily be able to create figures in both 
 languages.
@@ -48,10 +48,10 @@ Mariscak also noted that manual editing (through Photoshop and other tools) ofte
 
 ### Editing vs. translation
 
-There was a suggestion that documents can be translated to French using Google
+There was a suggestion that documents can be translated using Google
 Docs, and then sent for 'editing' as opposed to 'translation.' If editing is
 a less expensive service than translation, this could be an option worth
-considering in some situations. Authors choosing to do this would have to
+considering in some situations. Authors choosing to follow this approach would have to
 ensure the integrity of the text was correctly maintained through the
 translation process.
 
@@ -70,15 +70,15 @@ of the [DFO Communications Toolbox](http://intra.dfo-mpo.gc.ca/IntraCom/toolbox/
 
 ## BREAK-OUT GROUPS
 
-Workshop participants separated out into five break-out groups. Workshop
+Workshop participants separated into five break-out groups. Workshop
 participants were able to self-select which group they went to, which worked
 well.
 
-The first of these groups worked on an applied example, in which they worked
+The first group worked on an applied example, in which they worked
 together to compose a trip report for the Newfoundland and Labrador Region using
 R Markdown (see below).
 
-The second of these groups focused on a brainstorming session about the
+The second group focused on a brainstorming session about the
 development of tools to automate language translation of figures in CSAS
 documents (Figure \ref{fig:genesis}). This resulted in the creation of a new R package
 [rosettafish](https://github.com/pbs-assess/rosettafish), which translates

@@ -12,7 +12,7 @@ should aid the communication of science work, advice, and uncertainties.
 Using tools that facilitate traceability and transferability (such as
 GitHub, R packages, and R Markdown) for documenting and disseminating
 assessment code, is a means of promoting a transparent line of work. This
-includes the decisions,
+transparency includes the decisions,
 assumptions, and known issues which are key components of defensible science
 advice.
 Assessment and advice conforming to TTT can provide strong support for
@@ -23,7 +23,7 @@ process to better deal with staff changes and absences (e.g., owing to parental
 leave). Furthermore, such transferability can reduce the stress on any one 
 individual assessor,
 since they know that the assessment can be completed by the rest of the team
-if, for example, they get sick. This is not the case if much of the code only
+if, for example, they get sick. This transferability is not the case if much of the code only
 exists on their computer (in which case the assessment may not get completed).
 
 It is important to be aware that
