@@ -29,7 +29,7 @@ exists on their computer (in which case the assessment may not get completed).
 It is important to be aware that
 some of these tools require considerable
 expertise, and can sometimes be difficult to set up due to minor technical
-issues. If these tools are to be used going forward, dedicated staff and/or
+issues. If they are going to be used, dedicated staff and/or
 training needs to be integrated into the stock assessment-advice workflow and
 not simply as a side activity. In addition, using these tools in DFO assessment
 work can promote greater within- and between-region collaboration that can
