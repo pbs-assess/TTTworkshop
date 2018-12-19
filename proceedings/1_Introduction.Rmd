@@ -9,8 +9,8 @@ and Oceans Canada (DFO).
 In 2009, TESA was created in response to a loss of stock assessment expertise in 
 DFO owing to retirements. Each year, TESA organises three or four training courses
 and one or two topical workshops on stock assessment issues. TESA is a national
-program with one or two representatives in each region. There is an internal
-[GCpedia website](http://www.gcpedia.gc.ca/wiki/DFO_Science_TESA_ETES) 
+program with one or two representatives in each region -- for more details see
+the [GCpedia website](http://www.gcpedia.gc.ca/wiki/DFO_Science_TESA_ETES) 
 (only accessible from the DFO network).
 
 <!-- Adapting from updated abstract -->
