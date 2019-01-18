@@ -5,6 +5,8 @@ The Proceedings for the workshop were written using the techniques covered in th
 
 Example code plus the writing of the Proceedings document are available in this repository. The repository for the introduction to git and GitHub is [available here](https://github.com/pbs-assess/git-course).
 
+The fishrosetta R package that we started developing in the workshop is [available here](https://github.com/pbs-assess/rosettafish). It is for translating fish- and fisheries-related words or short phrases between languages (e.g. French to English, English to French, English to Inuktitut). Primarily designed for figure labels to produce separate figures in two languages, or a single figure with labels in two languages. It can also be used for other text (such as table headings), but is not intended for translation of complete sentences.
+
 ## Logistics
 
 **When:** Tuesday 27th to Friday 30th November 2018 (note that these dates changed from the original announcement a while back).
