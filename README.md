@@ -1,6 +1,10 @@
 # TTTworkshop
 TESA workshop on tools for transparent, traceable and transferable assessments
 
+The Proceedings for the workshop were written using the techniques covered in the workshop, and were published in the month after the workshop as a Canadian Technical Report of Fisheries and Aquatic Sciences [available here](http://waves-vagues.dfo-mpo.gc.ca/Library/40750152.pdf).
+
+Example code plus the writing of the Proceedings document are available in this repository. The repository for the introduction to git and GitHub is [available here](https://github.com/pbs-assess/git-course).
+
 ## Logistics
 
 **When:** Tuesday 27th to Friday 30th November 2018 (note that these dates changed from the original announcement a while back).
